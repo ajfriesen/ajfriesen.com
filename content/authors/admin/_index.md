@@ -41,14 +41,17 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
-  icon_pack: fas
+  icon_pack: fa
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/mr_ajfriesen
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/andrej-friesen/
+- icon: xing-square
+  icon_pack: fab
+  link: https://www.xing.com/profile/Andrej_Friesen3
 - icon: github
   icon_pack: fab
   link: https://github.com/ajfriesen
@@ -68,17 +71,7 @@ email: ""
 # - Visitors
 ---
 
-{{% alert note %}}
-I am open for job offers for remote only positions in remote first companies.
-
-Also would like to work with Golang in a professional way.
-{{% /alert %}}
-
-Hi,
-
-I am Andrej Friesen.
-I am currently living and working in Colgone (Germany) as a Systems Architect.
-
+I am living and working in Colgone (Germany) as a Systems Architect.
 At work I am creating high available infrastructure with technoligies like Kubernets, AWS, Terraform and a lot more.
 
 When not working I am using my free time to learn Golang which is powering all these awesome tools.
@@ -89,3 +82,12 @@ You can find me on several local (Cologne) Meetup groups:
 * [Kubernetes Meetup Cologne](https://www.meetup.com/de-DE/Kubernetes-Meetup-Cologne/)
 * [Cologne AWS User Group #AWSUGCGN](https://www.meetup.com/de-DE/aws-cologne/)
 
+
+{{% alert note %}}
+To Recruiters:
+
+My next goal is to work with Golang in a professional way.
+The position should also be a remote only position in a remote first company.
+
+If you have something meeting this requirements feel free to contact me.
+{{% /alert %}}
