@@ -82,12 +82,13 @@ You can find me on several local (Cologne) Meetup groups:
 * [Kubernetes Meetup Cologne](https://www.meetup.com/de-DE/Kubernetes-Meetup-Cologne/)
 * [Cologne AWS User Group #AWSUGCGN](https://www.meetup.com/de-DE/aws-cologne/)
 
-
 {{% alert note %}}
-To Recruiters:
+Mid term career goal:
 
-My next goal is to work with Golang in a professional way.
-The position should also be a remote only position in a remote first company.
+I really like the context of infrastructure and automation.
+I am already using modern tools and the tools are more often written in Go.
+That is also my personal next objective, to learn Go and using the language in a professional way.
+Also I am really interested in working remote in a remote first company.
 
 If you have something meeting this requirements feel free to contact me.
 {{% /alert %}}
