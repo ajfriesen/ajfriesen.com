@@ -1,5 +1,6 @@
 # [Personal Website](https://sourcethemes.com/academic/)
 
+![github pages](https://github.com/ajfriesen/ajfriesen.com/workflows/github%20pages/badge.svg)
 
 ## Used Tech
 
