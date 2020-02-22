@@ -15,3 +15,4 @@
 ## Update instructions
 
 https://sourcethemes.com/academic/docs/update/#if-you-installed-by-git-cloning-hugoacademic
+
