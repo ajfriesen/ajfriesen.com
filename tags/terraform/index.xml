@@ -198,12 +198,12 @@ From creating the network in AWS up to the cluster in Rancher.&lt;/p>
 &lt;h2 id="rke-terraform-provider">RKE Terraform Provider&lt;/h2>
 &lt;p>There was a terraform provider made by
 &lt;a href="https://github.com/yamamoto-febc" target="_blank" rel="noopener">Kazumichi Yamamoto&lt;/a> which I have used in version v0.14.1 to automate the creation of the rancher management cluster.
-But I think Rancher has taken over development of that project and the repository moved to the rancher organization.&lt;/p>
+But I think Rancher has taken over the development of that project and the repository moved to the rancher organization.&lt;/p>
 &lt;p>&lt;a href="https://github.com/rancher/terraform-provider-rke">https://github.com/rancher/terraform-provider-rke&lt;/a>&lt;/p>
 &lt;p>Rancher Labs is pretty fast in developing these tools.
 It will take some time and then the terraform rke provider will move to the official terraform providers organization.&lt;/p>
 &lt;p>Until then you have to download the provider by yourself at
 &lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">rancher(terraform-provider-rke&lt;/a>.
-Only official HasiCorp provders listed
+Only official HashiCorp providers listed
 &lt;a href="https://www.terraform.io/docs/providers/index.html" target="_blank" rel="noopener">here&lt;/a> in the
 &lt;a href="https://github.com/terraform-providers" target="_blank" rel="noopener">terraform-providers github organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p></description></item></channel></rss>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>aws | ajfriesen</title><link>https://www.ajfriesen.com/tags/aws/</link><atom:link href="https://www.ajfriesen.com/tags/aws/index.xml" rel="self" type="application/rss+xml"/><description>aws</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Mon, 13 Apr 2020 12:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>aws</title><link>https://www.ajfriesen.com/tags/aws/</link></image><item><title>Notes about Kubernetes in Production</title><link>https://www.ajfriesen.com/project/notes-about-kubernetes-in-production/</link><pubDate>Mon, 13 Apr 2020 12:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/project/notes-about-kubernetes-in-production/</guid><description>&lt;p>I have worked with Kubernetes the last 2 years on AWS with Rancher2 and just want to jot down some notes.
-Kuberntes is not the only thing you need.
+Kubernetes is not the only thing you need.
 It is a whole ecosystem of tools.&lt;br>
-I would have found this kind of ressource helpful when I started so maybe this will be to you.&lt;/p>
+I would have found this kind of resource helpful when I started so maybe this will be to you.&lt;/p>
 &lt;p>My experience is based mostly on AWS and Rancher2 since at that time EKS was not around.
 So I will focus on the tools I know but maybe mention other alternatives.&lt;/p>
 &lt;p>Topics I consider to write about:&lt;/p>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox">Rancher&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">Helm&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox">Chartmuseum&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">nginx-ingress controller&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">cert-manager&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">kube2iam&lt;/li>
@@ -18,7 +19,7 @@ So I will focus on the tools I know but maybe mention other alternatives.&lt;/p>
 &lt;li>&lt;input disabled="" type="checkbox">fluentd-cloudwatch&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">kube-state metrics&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">metric-server&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Tools (kubens &amp;amp; kubectx)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox">Tools (kubens &amp;amp; kubectx, kubetail)&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">Docker&lt;/li>
 &lt;/ul>
 &lt;!-- dockler log rotation --></description></item><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;h2>Table of Contents&lt;/h2>
@@ -221,12 +222,12 @@ From creating the network in AWS up to the cluster in Rancher.&lt;/p>
 &lt;h2 id="rke-terraform-provider">RKE Terraform Provider&lt;/h2>
 &lt;p>There was a terraform provider made by
 &lt;a href="https://github.com/yamamoto-febc" target="_blank" rel="noopener">Kazumichi Yamamoto&lt;/a> which I have used in version v0.14.1 to automate the creation of the rancher management cluster.
-But I think Rancher has taken over development of that project and the repository moved to the rancher organization.&lt;/p>
+But I think Rancher has taken over the development of that project and the repository moved to the rancher organization.&lt;/p>
 &lt;p>&lt;a href="https://github.com/rancher/terraform-provider-rke">https://github.com/rancher/terraform-provider-rke&lt;/a>&lt;/p>
 &lt;p>Rancher Labs is pretty fast in developing these tools.
 It will take some time and then the terraform rke provider will move to the official terraform providers organization.&lt;/p>
 &lt;p>Until then you have to download the provider by yourself at
 &lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">rancher(terraform-provider-rke&lt;/a>.
-Only official HasiCorp provders listed
+Only official HashiCorp providers listed
 &lt;a href="https://www.terraform.io/docs/providers/index.html" target="_blank" rel="noopener">here&lt;/a> in the
 &lt;a href="https://github.com/terraform-providers" target="_blank" rel="noopener">terraform-providers github organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p></description></item></channel></rss>
