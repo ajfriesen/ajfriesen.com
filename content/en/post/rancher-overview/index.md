@@ -2,8 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Rancher Overview"
-subtitle: ""
-summary: ""
+subtitle: "A brief introduction"
+summary: "A brief introduction into Rancher, rke and explaination of Rancher specific terms with. Also directing you to the right resources. Based on my experience running Rancher Management Cluster and Rancher User Cluster on AWS EC2."
 authors: [Andrej Friesen]
 tags:
 - kubernetes
@@ -21,7 +21,7 @@ draft: false
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: ""
+  focal_point: Smart
   preview_only: false
 
 # Projects (optional).
@@ -223,7 +223,7 @@ But I think Rancher has taken over the development of that project and the repos
 https://github.com/rancher/terraform-provider-rke
 
 Rancher Labs is pretty fast in developing these tools.
-It will take some time and then the terraform rke provider will move to the officiall terraform providers organization.
+It will take some time and then the terraform rke provider will move to the official terraform providers organization.
 
 Until then you have to download the provider by yourself at [rancher(terraform-provider-rke](https://github.com/rancher/terraform-provider-rke).
-Only officiall HashiCorp providers listed [here](https://www.terraform.io/docs/providers/index.html) in the [terraform-providers github organization](https://github.com/terraform-providers) will be downloaded for you when running `terraform init`.
+Only official HashiCorp providers listed [here](https://www.terraform.io/docs/providers/index.html) in the [terraform-providers github organization](https://github.com/terraform-providers) will be downloaded for you when running `terraform init`.
