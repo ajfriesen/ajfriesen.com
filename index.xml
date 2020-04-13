@@ -22,7 +22,23 @@ So I will focus on the tools I know but maybe mention other alternatives.&lt;/p>
 &lt;li>&lt;input disabled="" type="checkbox">Docker&lt;/li>
 &lt;/ul>
 &lt;!-- dockler log rotation --></description></item><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;h2>Table of Contents&lt;/h2>
-HAHAHUGOSHORTCODE-TOC0-HBHB
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#rancher">Rancher&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rke---rancher-kubernetes-engine">rke - Rancher Kubernetes Engine&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rancher2">Rancher2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rancher-vocabulary">Rancher vocabulary&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#rancher-management-cluster-and-user-cluster-networking">Rancher Management Cluster and user cluster networking&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#cloud-credentials">Cloud Credentials&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#node-templates">Node Templates&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#kubernetes-cluster-with-node-pools">Kubernetes Cluster with Node Pools&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#rancher-terraform-provider">Rancher Terraform Provider&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rke-terraform-provider">RKE Terraform Provider&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
 &lt;h2 id="rancher">Rancher&lt;/h2>
 &lt;p>Rancher is a Kubernetes distribution build by Rancher Labs.
 There are some others like OpenShift from Red Hat with different features.&lt;/p>
@@ -47,37 +63,49 @@ Mayne you just need to dig a little deeper into the configuration options that d
 I just want you to know, that all this is taken care of and that is the real reason to choose a Kubernetes distribution.
 This is basic and importand stuff which you would need to implement by yourself.
 Pick your flavour and go with it like Linux distributions 😉.&lt;/p>
-&lt;h2 id="rke--rancher-kubernetes-engine">rke - Rancher Kubernetes Engine&lt;/h2>
+&lt;h2 id="rke---rancher-kubernetes-engine">rke - Rancher Kubernetes Engine&lt;/h2>
 &lt;p>Rancher2 is not the tool which creates the User Clusters.
 It is rke which will run in Rancher.
 Rancher is packed with a certain version of rke.
 If you just want a Kubernetes Cluster to play with you can use several tools like:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://github.com/kubernetes/kops">kops&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/">kubeadm&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubicorn/kubicorn">kubicorn&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/kubernetes/minikube">minikube&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/rancher/rke">rke (Rancher Kubernetes Engine)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/kubernetes/kops" target="_blank" rel="noopener">kops&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/" target="_blank" rel="noopener">kubeadm&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/kubicorn/kubicorn" target="_blank" rel="noopener">kubicorn&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/kubernetes/minikube" target="_blank" rel="noopener">minikube&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/rancher/rke" target="_blank" rel="noopener">rke (Rancher Kubernetes Engine)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>rke is just another method to install and maintain you Kubernetes cluster in the rancher opinionated way.
 There are a lot of configuration options.
-Check the rancher &lt;a href="https://rancher.com/docs/rke/latest/en/">rke docs&lt;/a> for more information.&lt;/p>
+Check the rancher
+&lt;a href="https://rancher.com/docs/rke/latest/en/" target="_blank" rel="noopener">rke docs&lt;/a> for more information.&lt;/p>
 &lt;p>rke will give you a kubernetes cluster to work with and not the rancher webinterface!
 This is somewhat confusing, when you just start.&lt;/p>
-&lt;p>You can always see which Rancher version uses which rke version and therefore the support of the kubernetes version in the &lt;a href="https://github.com/rancher/rancher/releases/">rancher/rancher repo&lt;/a>&lt;/p>
+&lt;p>You can always see which Rancher version uses which rke version and therefore the support of the kubernetes version in the
+&lt;a href="https://github.com/rancher/rancher/releases/" target="_blank" rel="noopener">rancher/rancher repo&lt;/a>&lt;/p>
 &lt;p>&lt;img src="rancher-release.png" alt="rancher release page">&lt;/p>
-&lt;p>Here you can see that &lt;a href="https://github.com/rancher/rancher/releases/tag/v2.2.11">rancher v2.2.11&lt;/a> uses &lt;a href="https://github.com/rancher/rke/releases/tag/v0.2.10">rke v0.2.10&lt;/a> and supports up to these kubernetres versoin:&lt;/p>
+&lt;p>Here you can see that
+&lt;a href="https://github.com/rancher/rancher/releases/tag/v2.2.11" target="_blank" rel="noopener">rancher v2.2.11&lt;/a> uses
+&lt;a href="https://github.com/rancher/rke/releases/tag/v0.2.10" target="_blank" rel="noopener">rke v0.2.10&lt;/a> and supports up to these kubernetres versoin:&lt;/p>
 &lt;ul>
 &lt;li>1.13.12&lt;/li>
 &lt;li>1.14.10&lt;/li>
 &lt;li>1.15.11&lt;/li>
 &lt;/ul>
-&lt;p>A good overview for support and all the versions about rancher can be found in their docs: &lt;a href="https://rancher.com/support-maintenance-terms/all-supported-versions/rancher-v2.3.2/">Rancher Support Matrix&lt;/a>&lt;/p>
+&lt;p>A good overview for support and all the versions about rancher can be found in their docs:
+&lt;a href="https://rancher.com/support-maintenance-terms/all-supported-versions/rancher-v2.3.2/" target="_blank" rel="noopener">Rancher Support Matrix&lt;/a>&lt;/p>
 &lt;h2 id="rancher2">Rancher2&lt;/h2>
 &lt;p>Rancher itself is the Rancher API and Webinterface which you often see on the internet when someone is referring to rancher.&lt;/p>
 &lt;p>Rancher will run on top of your Kubernetes cluster created by rke.
 You can depoly rancher via helm to that first rke cluster you created.&lt;/p>
-&lt;p>Here is the &lt;a href="https://github.com/rancher/rancher/tree/master/chart">Rancher Helm Chart&lt;/a> and the according documentation on the rancher website &lt;a href="https://rancher.com/docs/rancher/v2.x/en/installation/k8s-install/helm-rancher/">Install Rancher on the Kubernete Cluster&lt;/a>&lt;/p>
+&lt;p>Here is the
+&lt;a href="https://github.com/rancher/rancher/tree/master/chart" target="_blank" rel="noopener">Rancher Helm Chart&lt;/a> and the according documentation on the rancher website
+&lt;a href="https://rancher.com/docs/rancher/v2.x/en/installation/k8s-install/helm-rancher/" target="_blank" rel="noopener">Install Rancher on the Kubernete Cluster&lt;/a>&lt;/p>
 &lt;p>So now you have a Kubernets cluster with the rancher 2 helm chart deplyed on to.
 This Cluster should not be used as a Cluster for workloads.
 Since Rancher comes with rke you can now deploy as many cluster as you like to what location you like.&lt;/p>
@@ -191,13 +219,17 @@ From creating the network in AWS up to the cluster in Rancher.&lt;/p>
 &lt;p>Rancher2 terraform Provider source at github :&lt;br>
 &lt;a href="https://github.com/terraform-providers/terraform-provider-rancher2">https://github.com/terraform-providers/terraform-provider-rancher2&lt;/a>&lt;/p>
 &lt;h2 id="rke-terraform-provider">RKE Terraform Provider&lt;/h2>
-&lt;p>There was a terraform provider made by &lt;a href="https://github.com/yamamoto-febc">Kazumichi Yamamoto&lt;/a> which I have used in version v0.14.1 to automate the creation of the rancher management cluster.
+&lt;p>There was a terraform provider made by
+&lt;a href="https://github.com/yamamoto-febc" target="_blank" rel="noopener">Kazumichi Yamamoto&lt;/a> which I have used in version v0.14.1 to automate the creation of the rancher management cluster.
 But I think Rancher has taken over development of that project and the repository moved to the rancher organization.&lt;/p>
 &lt;p>&lt;a href="https://github.com/rancher/terraform-provider-rke">https://github.com/rancher/terraform-provider-rke&lt;/a>&lt;/p>
 &lt;p>Rancher Labs is pretty fast in developing this tools.
 It will take some time and then the terraform rke provider will move to the offical terraform providers organization.&lt;/p>
-&lt;p>Until then you have to download the provider by yourself at &lt;a href="https://github.com/rancher/terraform-provider-rke">rancher(terraform-provider-rke&lt;/a>.
-Only offical hasicorp provders listed &lt;a href="https://www.terraform.io/docs/providers/index.html">here&lt;/a> in the &lt;a href="https://github.com/terraform-providers">terraform-providers github organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p></description></item><item><title>Decrypt and Mount LUKS Volume in Grub Rescue Mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch linux on my server with LUKS disc encryption.
+&lt;p>Until then you have to download the provider by yourself at
+&lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">rancher(terraform-provider-rke&lt;/a>.
+Only offical hasicorp provders listed
+&lt;a href="https://www.terraform.io/docs/providers/index.html" target="_blank" rel="noopener">here&lt;/a> in the
+&lt;a href="https://github.com/terraform-providers" target="_blank" rel="noopener">terraform-providers github organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p></description></item><item><title>Decrypt and Mount LUKS Volume in Grub Rescue Mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch linux on my server with LUKS disc encryption.
 I do need to type in my password every time I reboot the machine.
 Sometimes I have a typo and this happens:&lt;/p>
 &lt;pre>&lt;code>Welcome to GRUB!
@@ -224,7 +256,8 @@ Entering rescue mode...
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
-&lt;p>&lt;a href="https://www.gnu.org/software/grub/manual/grub/html_node/cryptomount.html#cryptomount">cryptomount&lt;/a>&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#8617;&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://www.gnu.org/software/grub/manual/grub/html_node/cryptomount.html#cryptomount" target="_blank" rel="noopener">cryptomount&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item></channel></rss>
