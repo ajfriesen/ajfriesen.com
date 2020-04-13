@@ -39,31 +39,31 @@ projects: ["notes-about-kubernetes-in-production "]
 Rancher is a Kubernetes distribution build by Rancher Labs.
 There are some others like OpenShift from Red Hat with different features.
 
-This distributions will run Kubernetes in a opinioated way so you do not have to think of ervery detail.
+The distribution will run Kubernetes in an opinionated way so you do not have to think of every detail.
 
 Example:
 
-Kubernetes does not come with a user mangement system.
+Kubernetes does not come with a user management system.
 You could implement this your own or just pick a distribution which has done all the work for you.
 Rancher comes with different authentication providers like Github, Azure AD and others.
 It is baked in.
 Just configure the authentication in Rancher, OpenShift or your Kubernetes distribution of choice and that is it.
 
-Since it is opinioated it may not fit your usecase.
+Since it is opinionated it may not fit your use case.
 Mayne you just need to dig a little deeper into the configuration options that depends on your needs.
 
 Features Rancher will give you:
 
 - User management, since Kubernetes does not have user management backed in
-- A neat webinterface to browse your clusters (yes, I mean several clusters!)
+- A neat web interface to browse your clusters (yes, I mean several clusters!)
 - Provision to major cloud providers (AWS, Google, Azure), bare metal, vmware vSphere etc.
 - Kubernetes Cluster backups, upgrades, etc
 - One place to manage a lot
 
 Listing all features of Rancher does not make sense and I am not saying to use Rancher.
 I just want you to know, that all this is taken care of and that is the real reason to choose a Kubernetes distribution.
-This is basic and importand stuff which you would need to implement by yourself.
-Pick your flavour and go with it like Linux distributions :wink:.
+This is basic and important stuff which you would need to implement by yourself.
+Pick your flavor and go with it like Linux distributions :wink:.
 
 ## rke - Rancher Kubernetes Engine
 
@@ -82,14 +82,14 @@ rke is just another method to install and maintain you Kubernetes cluster in the
 There are a lot of configuration options.
 Check the rancher [rke docs](https://rancher.com/docs/rke/latest/en/) for more information.
 
-rke will give you a kubernetes cluster to work with and not the rancher webinterface!
+rke will give you a Kubernetes cluster to work with and not the rancher web interface!
 This is somewhat confusing, when you just start.
 
-You can always see which Rancher version uses which rke version and therefore the support of the kubernetes version in the [rancher/rancher repo](https://github.com/rancher/rancher/releases/)
+You can always see which Rancher version uses which rke version and therefore the support of the Kubernetes version in the [rancher/rancher repo](https://github.com/rancher/rancher/releases/)
 
 ![rancher release page](rancher-release.png)
 
-Here you can see that [rancher v2.2.11](https://github.com/rancher/rancher/releases/tag/v2.2.11) uses [rke v0.2.10](https://github.com/rancher/rke/releases/tag/v0.2.10) and supports up to these kubernetres versoin:
+Here you can see that [rancher v2.2.11](https://github.com/rancher/rancher/releases/tag/v2.2.11) uses [rke v0.2.10](https://github.com/rancher/rke/releases/tag/v0.2.10) and supports up to these Kubernetres version:
 
 - 1.13.12
 - 1.14.10
@@ -99,14 +99,14 @@ A good overview for support and all the versions about rancher can be found in t
 
 ## Rancher2
 
-Rancher itself is the Rancher API and Webinterface which you often see on the internet when someone is referring to rancher.
+Rancher itself is the Rancher API and web interface which you often see on the internet when someone is referring to Rancher.
 
 Rancher will run on top of your Kubernetes cluster created by rke.
-You can depoly rancher via helm to that first rke cluster you created.
+You can deploy rancher via helm to that first rke cluster you created.
 
 Here is the [Rancher Helm Chart](https://github.com/rancher/rancher/tree/master/chart) and the according documentation on the rancher website [Install Rancher on the Kubernete Cluster](https://rancher.com/docs/rancher/v2.x/en/installation/k8s-install/helm-rancher/)
 
-So now you have a Kubernets cluster with the rancher 2 helm chart deplyed on to.
+So now you have a Kubernetes cluster with the rancher 2 helm chart deployed on to.
 This Cluster should not be used as a Cluster for workloads.
 Since Rancher comes with rke you can now deploy as many cluster as you like to what location you like.
 
@@ -119,8 +119,8 @@ But this vocabulary is more or less the same for every other provider.
 
 | Word                | Description                                                                        |
 |---------------------|------------------------------------------------------------------------------------|
-| `rke`               | rancher kubernetes engine. Tool to deploy a kubernetes cluster in the rancher way. |
-| `rancher`           | Rancher API and Webinterface..                                                     |
+| `rke`               | rancher kubernetes engine. A tool to deploy a Kubernetes cluster in the rancher way. |
+| `rancher`           | Rancher API and web interface..                                                     |
 | `Cloud Credentials` | Credentials to your provider (AWS, Google, Azure, etc.).                           |
 | `Node Templates`    | Definition of Node. Networking, Instance Type, Image, etc.                         |
 | `Node Pool`         | Mapping between Node Role and Node Template when creating a User Cluster.          |
@@ -130,7 +130,7 @@ But this vocabulary is more or less the same for every other provider.
 
 ### Rancher Management Cluster and user cluster networking
 
-Rancher will not take care of your general AWS infrastrucutre like netoworking.
+Rancher will not take care of your general AWS infrastructure like networking.
 This needs to be taken care of by yourself.
 I would recommend to go with terraform but AWS Cloudformation and the AWS Console will work as well.
 
@@ -143,13 +143,13 @@ You can create the requirement network infrastructure with the AWS Console but I
 
 What you need:
 
-- VPC for rancher mangement cluster
-- VPC for rancher created kubernetes cluster
+- VPC for Rancher management cluster
+- VPC for Rancher created Kubernetes cluster
 - VPC peering between those 2 VPS
 
 Why do you need the peering?
 Rancher will ssh into each node and will do the provisioning for each Kubernetes node.
-Also the created Kubernetes cluster will ping back to rancher for health checks.
+Also the created Kubernetes cluster will ping back to Rancher for health checks.
 
 
 ### Cloud Credentials
@@ -157,11 +157,11 @@ Also the created Kubernetes cluster will ping back to rancher for health checks.
 Cloud Credentials is just an AWS Access Key and Access Secret.  
 **Do not use your user bound AWS credentials!**
 
-What will happen, when you deploy your Kubernetes Cluster with the credials from a user and they leave the company?
+What will happen, when you deploy your Kubernetes Cluster with the credentials from a user and they leave the company?
 
-1. You will deactiavate the aws account because of offboarding
+1. You will deactivate the AWS account because of offboarding
 2. Suddenly the cluster does not have proper credentials to interact with the AWS API anymore
-3. Finding out will take you some time and can have bad effects like nodes not comming up in AWS
+3. Finding out will take you some time and can have bad effects like nodes not coming up in AWS
 
 Why do I know that?
 It is called experience ;-)
@@ -178,12 +178,12 @@ You define values like:
 - ssh user
 - etc.
 
-As you can see you need a Node Template for every availability zone since subnet in a AWS VPC are bound to an availabilty zone.
+As you can see you need a Node Template for every availability zone since subnet in a AWS VPC are bound to an availability zone.
 
-You also can use different EC2 instance types for Kubernetes Worker and etc and controleplane.
+You also can use different EC2 instance types for Kubernetes Worker and etc and control plane.
 
-If you are testing out the provisioning and you encounter error, check that the instnace itself is not too small.
-That happend to me and I could not figure out what was wrong.
+If you are testing out the provisioning and you encounter errors, check that the instance itself is not too small.
+I did run into it myself and could not figure out what was wrong.
 Increasing the EC2 instance type to a more performant machine did resolve that issue.
 
 ### Kubernetes Cluster with Node Pools
@@ -200,7 +200,7 @@ The role can be one of the following:
 Then you can configure the cluster itself with the right Cloud Provider.
 This will allow you to use the `serviceType LoadBalancer` and AWS or other vendors will spawn a LoadBalancer for your particular service.
 
-Also you can confiugre your network driver, snapshots and much more
+Also you can configure your network driver, snapshots and much more
 
 ## Rancher Terraform Provider
 
@@ -212,7 +212,7 @@ From creating the network in AWS up to the cluster in Rancher.
 Rancher2 Terraform Provider on the Terraform Website:  
 https://www.terraform.io/docs/providers/rancher2/index.html
 
-Rancher2 terraform Provider source at github :  
+Rancher2 terraform Provider source at Github :  
 https://github.com/terraform-providers/terraform-provider-rancher2
 
 ## RKE Terraform Provider
@@ -222,8 +222,8 @@ But I think Rancher has taken over development of that project and the repositor
 
 https://github.com/rancher/terraform-provider-rke
 
-Rancher Labs is pretty fast in developing this tools.
-It will take some time and then the terraform rke provider will move to the offical terraform providers organization.
+Rancher Labs is pretty fast in developing these tools.
+It will take some time and then the terraform rke provider will move to the official terraform providers organization.
 
 Until then you have to download the provider by yourself at [rancher(terraform-provider-rke](https://github.com/rancher/terraform-provider-rke).
-Only offical hasicorp provders listed [here](https://www.terraform.io/docs/providers/index.html) in the [terraform-providers github organization](https://github.com/terraform-providers) will be downloaded for you when running `terraform init`.
+Only official HasiCorp provders listed [here](https://www.terraform.io/docs/providers/index.html) in the [terraform-providers github organization](https://github.com/terraform-providers) will be downloaded for you when running `terraform init`.
