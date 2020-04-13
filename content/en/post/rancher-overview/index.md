@@ -9,6 +9,7 @@ tags:
 - kubernetes
 - rancher
 - aws
+- terraform
 categories: []
 date: 2020-04-13T12:46:44+02:00
 lastmod: 2020-04-13T12:46:44+02:00
