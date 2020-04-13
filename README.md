@@ -11,9 +11,23 @@
 
 ## Hugo Acedmic version
 
-**v4.7.0**
+**v4.8.0**
 
 ## Update instructions
 
-https://sourcethemes.com/academic/docs/update/#if-you-installed-by-git-cloning-hugoacademic
+https://sourcethemes.com/academic/docs/update/#if-you-installed-academic-kickstart
 
+```
+git submodule update --remote --merge
+cd themes/academic
+git checkout <VERSION>
+
+```
+
+## Add post
+
+[Create a blog post](https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post)
+
+```
+hugo new  --kind post post/my-article-name
+```
