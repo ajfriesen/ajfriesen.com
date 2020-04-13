@@ -19,27 +19,27 @@
 &lt;h2 id="rancher">Rancher&lt;/h2>
 &lt;p>Rancher is a Kubernetes distribution build by Rancher Labs.
 There are some others like OpenShift from Red Hat with different features.&lt;/p>
-&lt;p>This distributions will run Kubernetes in a opinioated way so you do not have to think of ervery detail.&lt;/p>
+&lt;p>The distribution will run Kubernetes in an opinionated way so you do not have to think of every detail.&lt;/p>
 &lt;p>Example:&lt;/p>
-&lt;p>Kubernetes does not come with a user mangement system.
+&lt;p>Kubernetes does not come with a user management system.
 You could implement this your own or just pick a distribution which has done all the work for you.
 Rancher comes with different authentication providers like Github, Azure AD and others.
 It is baked in.
 Just configure the authentication in Rancher, OpenShift or your Kubernetes distribution of choice and that is it.&lt;/p>
-&lt;p>Since it is opinioated it may not fit your usecase.
+&lt;p>Since it is opinionated it may not fit your use case.
 Mayne you just need to dig a little deeper into the configuration options that depends on your needs.&lt;/p>
 &lt;p>Features Rancher will give you:&lt;/p>
 &lt;ul>
 &lt;li>User management, since Kubernetes does not have user management backed in&lt;/li>
-&lt;li>A neat webinterface to browse your clusters (yes, I mean several clusters!)&lt;/li>
+&lt;li>A neat web interface to browse your clusters (yes, I mean several clusters!)&lt;/li>
 &lt;li>Provision to major cloud providers (AWS, Google, Azure), bare metal, vmware vSphere etc.&lt;/li>
 &lt;li>Kubernetes Cluster backups, upgrades, etc&lt;/li>
 &lt;li>One place to manage a lot&lt;/li>
 &lt;/ul>
 &lt;p>Listing all features of Rancher does not make sense and I am not saying to use Rancher.
 I just want you to know, that all this is taken care of and that is the real reason to choose a Kubernetes distribution.
-This is basic and importand stuff which you would need to implement by yourself.
-Pick your flavour and go with it like Linux distributions 😉.&lt;/p>
+This is basic and important stuff which you would need to implement by yourself.
+Pick your flavor and go with it like Linux distributions 😉.&lt;/p>
 &lt;h2 id="rke---rancher-kubernetes-engine">rke - Rancher Kubernetes Engine&lt;/h2>
 &lt;p>Rancher2 is not the tool which creates the User Clusters.
 It is rke which will run in Rancher.
@@ -61,14 +61,14 @@ If you just want a Kubernetes Cluster to play with you can use several tools lik
 There are a lot of configuration options.
 Check the rancher
 &lt;a href="https://rancher.com/docs/rke/latest/en/" target="_blank" rel="noopener">rke docs&lt;/a> for more information.&lt;/p>
-&lt;p>rke will give you a kubernetes cluster to work with and not the rancher webinterface!
+&lt;p>rke will give you a Kubernetes cluster to work with and not the rancher web interface!
 This is somewhat confusing, when you just start.&lt;/p>
-&lt;p>You can always see which Rancher version uses which rke version and therefore the support of the kubernetes version in the
+&lt;p>You can always see which Rancher version uses which rke version and therefore the support of the Kubernetes version in the
 &lt;a href="https://github.com/rancher/rancher/releases/" target="_blank" rel="noopener">rancher/rancher repo&lt;/a>&lt;/p>
 &lt;p>&lt;img src="rancher-release.png" alt="rancher release page">&lt;/p>
 &lt;p>Here you can see that
 &lt;a href="https://github.com/rancher/rancher/releases/tag/v2.2.11" target="_blank" rel="noopener">rancher v2.2.11&lt;/a> uses
-&lt;a href="https://github.com/rancher/rke/releases/tag/v0.2.10" target="_blank" rel="noopener">rke v0.2.10&lt;/a> and supports up to these kubernetres versoin:&lt;/p>
+&lt;a href="https://github.com/rancher/rke/releases/tag/v0.2.10" target="_blank" rel="noopener">rke v0.2.10&lt;/a> and supports up to these Kubernetres version:&lt;/p>
 &lt;ul>
 &lt;li>1.13.12&lt;/li>
 &lt;li>1.14.10&lt;/li>
@@ -77,13 +77,13 @@ This is somewhat confusing, when you just start.&lt;/p>
 &lt;p>A good overview for support and all the versions about rancher can be found in their docs:
 &lt;a href="https://rancher.com/support-maintenance-terms/all-supported-versions/rancher-v2.3.2/" target="_blank" rel="noopener">Rancher Support Matrix&lt;/a>&lt;/p>
 &lt;h2 id="rancher2">Rancher2&lt;/h2>
-&lt;p>Rancher itself is the Rancher API and Webinterface which you often see on the internet when someone is referring to rancher.&lt;/p>
+&lt;p>Rancher itself is the Rancher API and web interface which you often see on the internet when someone is referring to Rancher.&lt;/p>
 &lt;p>Rancher will run on top of your Kubernetes cluster created by rke.
-You can depoly rancher via helm to that first rke cluster you created.&lt;/p>
+You can deploy rancher via helm to that first rke cluster you created.&lt;/p>
 &lt;p>Here is the
 &lt;a href="https://github.com/rancher/rancher/tree/master/chart" target="_blank" rel="noopener">Rancher Helm Chart&lt;/a> and the according documentation on the rancher website
 &lt;a href="https://rancher.com/docs/rancher/v2.x/en/installation/k8s-install/helm-rancher/" target="_blank" rel="noopener">Install Rancher on the Kubernete Cluster&lt;/a>&lt;/p>
-&lt;p>So now you have a Kubernets cluster with the rancher 2 helm chart deplyed on to.
+&lt;p>So now you have a Kubernetes cluster with the rancher 2 helm chart deployed on to.
 This Cluster should not be used as a Cluster for workloads.
 Since Rancher comes with rke you can now deploy as many cluster as you like to what location you like.&lt;/p>
 &lt;h2 id="rancher-vocabulary">Rancher vocabulary&lt;/h2>
@@ -100,11 +100,11 @@ But this vocabulary is more or less the same for every other provider.&lt;/p>
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;code>rke&lt;/code>&lt;/td>
-&lt;td>rancher kubernetes engine. Tool to deploy a kubernetes cluster in the rancher way.&lt;/td>
+&lt;td>rancher kubernetes engine. A tool to deploy a Kubernetes cluster in the rancher way.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>rancher&lt;/code>&lt;/td>
-&lt;td>Rancher API and Webinterface..&lt;/td>
+&lt;td>Rancher API and web interface..&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>Cloud Credentials&lt;/code>&lt;/td>
@@ -130,7 +130,7 @@ But this vocabulary is more or less the same for every other provider.&lt;/p>
 &lt;/table>
 &lt;hr>
 &lt;h3 id="rancher-management-cluster-and-user-cluster-networking">Rancher Management Cluster and user cluster networking&lt;/h3>
-&lt;p>Rancher will not take care of your general AWS infrastrucutre like netoworking.
+&lt;p>Rancher will not take care of your general AWS infrastructure like networking.
 This needs to be taken care of by yourself.
 I would recommend to go with terraform but AWS Cloudformation and the AWS Console will work as well.&lt;/p>
 &lt;p>The rancher management cluster is running in a VPC.
@@ -140,21 +140,21 @@ Rancher will not create the networking for you.&lt;/p>
 &lt;p>You can create the requirement network infrastructure with the AWS Console but I would recommend to go with AWS Cloudformation or terraform.&lt;/p>
 &lt;p>What you need:&lt;/p>
 &lt;ul>
-&lt;li>VPC for rancher mangement cluster&lt;/li>
-&lt;li>VPC for rancher created kubernetes cluster&lt;/li>
+&lt;li>VPC for Rancher management cluster&lt;/li>
+&lt;li>VPC for Rancher created Kubernetes cluster&lt;/li>
 &lt;li>VPC peering between those 2 VPS&lt;/li>
 &lt;/ul>
 &lt;p>Why do you need the peering?
 Rancher will ssh into each node and will do the provisioning for each Kubernetes node.
-Also the created Kubernetes cluster will ping back to rancher for health checks.&lt;/p>
+Also the created Kubernetes cluster will ping back to Rancher for health checks.&lt;/p>
 &lt;h3 id="cloud-credentials">Cloud Credentials&lt;/h3>
 &lt;p>Cloud Credentials is just an AWS Access Key and Access Secret.&lt;br>
 &lt;strong>Do not use your user bound AWS credentials!&lt;/strong>&lt;/p>
-&lt;p>What will happen, when you deploy your Kubernetes Cluster with the credials from a user and they leave the company?&lt;/p>
+&lt;p>What will happen, when you deploy your Kubernetes Cluster with the credentials from a user and they leave the company?&lt;/p>
 &lt;ol>
-&lt;li>You will deactiavate the aws account because of offboarding&lt;/li>
+&lt;li>You will deactivate the AWS account because of offboarding&lt;/li>
 &lt;li>Suddenly the cluster does not have proper credentials to interact with the AWS API anymore&lt;/li>
-&lt;li>Finding out will take you some time and can have bad effects like nodes not comming up in AWS&lt;/li>
+&lt;li>Finding out will take you some time and can have bad effects like nodes not coming up in AWS&lt;/li>
 &lt;/ol>
 &lt;p>Why do I know that?
 It is called experience ;-)&lt;/p>
@@ -169,10 +169,10 @@ You define values like:&lt;/p>
 &lt;li>ssh user&lt;/li>
 &lt;li>etc.&lt;/li>
 &lt;/ul>
-&lt;p>As you can see you need a Node Template for every availability zone since subnet in a AWS VPC are bound to an availabilty zone.&lt;/p>
-&lt;p>You also can use different EC2 instance types for Kubernetes Worker and etc and controleplane.&lt;/p>
-&lt;p>If you are testing out the provisioning and you encounter error, check that the instnace itself is not too small.
-That happend to me and I could not figure out what was wrong.
+&lt;p>As you can see you need a Node Template for every availability zone since subnet in a AWS VPC are bound to an availability zone.&lt;/p>
+&lt;p>You also can use different EC2 instance types for Kubernetes Worker and etc and control plane.&lt;/p>
+&lt;p>If you are testing out the provisioning and you encounter errors, check that the instance itself is not too small.
+I did run into it myself and could not figure out what was wrong.
 Increasing the EC2 instance type to a more performant machine did resolve that issue.&lt;/p>
 &lt;h3 id="kubernetes-cluster-with-node-pools">Kubernetes Cluster with Node Pools&lt;/h3>
 &lt;p>A Kubernetes cluster in Rancher is made of Node Pools.
@@ -185,7 +185,7 @@ The Node Pool is just a mapping between the Node Templates and the role in the c
 &lt;/ul>
 &lt;p>Then you can configure the cluster itself with the right Cloud Provider.
 This will allow you to use the &lt;code>serviceType LoadBalancer&lt;/code> and AWS or other vendors will spawn a LoadBalancer for your particular service.&lt;/p>
-&lt;p>Also you can confiugre your network driver, snapshots and much more&lt;/p>
+&lt;p>Also you can configure your network driver, snapshots and much more&lt;/p>
 &lt;h2 id="rancher-terraform-provider">Rancher Terraform Provider&lt;/h2>
 &lt;p>Rancher Labs is also providing an official Rancher2 Terraform Provider.
 You can create most resources specific to Rancher with that provider.
@@ -193,20 +193,20 @@ Now you can automate everything with terraform.
 From creating the network in AWS up to the cluster in Rancher.&lt;/p>
 &lt;p>Rancher2 Terraform Provider on the Terraform Website:&lt;br>
 &lt;a href="https://www.terraform.io/docs/providers/rancher2/index.html">https://www.terraform.io/docs/providers/rancher2/index.html&lt;/a>&lt;/p>
-&lt;p>Rancher2 terraform Provider source at github :&lt;br>
+&lt;p>Rancher2 terraform Provider source at Github :&lt;br>
 &lt;a href="https://github.com/terraform-providers/terraform-provider-rancher2">https://github.com/terraform-providers/terraform-provider-rancher2&lt;/a>&lt;/p>
 &lt;h2 id="rke-terraform-provider">RKE Terraform Provider&lt;/h2>
 &lt;p>There was a terraform provider made by
 &lt;a href="https://github.com/yamamoto-febc" target="_blank" rel="noopener">Kazumichi Yamamoto&lt;/a> which I have used in version v0.14.1 to automate the creation of the rancher management cluster.
 But I think Rancher has taken over development of that project and the repository moved to the rancher organization.&lt;/p>
 &lt;p>&lt;a href="https://github.com/rancher/terraform-provider-rke">https://github.com/rancher/terraform-provider-rke&lt;/a>&lt;/p>
-&lt;p>Rancher Labs is pretty fast in developing this tools.
-It will take some time and then the terraform rke provider will move to the offical terraform providers organization.&lt;/p>
+&lt;p>Rancher Labs is pretty fast in developing these tools.
+It will take some time and then the terraform rke provider will move to the official terraform providers organization.&lt;/p>
 &lt;p>Until then you have to download the provider by yourself at
 &lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">rancher(terraform-provider-rke&lt;/a>.
-Only offical hasicorp provders listed
+Only official HasiCorp provders listed
 &lt;a href="https://www.terraform.io/docs/providers/index.html" target="_blank" rel="noopener">here&lt;/a> in the
-&lt;a href="https://github.com/terraform-providers" target="_blank" rel="noopener">terraform-providers github organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p></description></item><item><title>Decrypt and Mount LUKS Volume in Grub Rescue Mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch linux on my server with LUKS disc encryption.
+&lt;a href="https://github.com/terraform-providers" target="_blank" rel="noopener">terraform-providers github organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p></description></item><item><title>Decrypt and Mount LUKS Volume in Grub Rescue Mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch Linux on my server with LUKS disc encryption.
 I do need to type in my password every time I reboot the machine.
 Sometimes I have a typo and this happens:&lt;/p>
 &lt;pre>&lt;code>Welcome to GRUB!
@@ -228,7 +228,7 @@ Entering rescue mode...
 &lt;p>Boot:&lt;/p>
 &lt;pre>&lt;code>normal
 &lt;/code>&lt;/pre>
-&lt;p>Now you shoul get forwarded to the grub boot manager as you typed the password correct the first time.&lt;/p>
+&lt;p>Now you should get forwarded to the grub boot manager as you typed the password correct the first time.&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>

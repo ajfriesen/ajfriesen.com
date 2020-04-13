@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>grub | ajfriesen</title><link>https://www.ajfriesen.com/tags/grub/</link><atom:link href="https://www.ajfriesen.com/tags/grub/index.xml" rel="self" type="application/rss+xml"/><description>grub</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Mon, 13 Apr 2020 01:26:15 +0200</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>grub</title><link>https://www.ajfriesen.com/tags/grub/</link></image><item><title>Decrypt and Mount LUKS Volume in Grub Rescue Mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch linux on my server with LUKS disc encryption.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>grub | ajfriesen</title><link>https://www.ajfriesen.com/tags/grub/</link><atom:link href="https://www.ajfriesen.com/tags/grub/index.xml" rel="self" type="application/rss+xml"/><description>grub</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Mon, 13 Apr 2020 01:26:15 +0200</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>grub</title><link>https://www.ajfriesen.com/tags/grub/</link></image><item><title>Decrypt and Mount LUKS Volume in Grub Rescue Mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch Linux on my server with LUKS disc encryption.
 I do need to type in my password every time I reboot the machine.
 Sometimes I have a typo and this happens:&lt;/p>
 &lt;pre>&lt;code>Welcome to GRUB!
@@ -20,7 +20,7 @@ Entering rescue mode...
 &lt;p>Boot:&lt;/p>
 &lt;pre>&lt;code>normal
 &lt;/code>&lt;/pre>
-&lt;p>Now you shoul get forwarded to the grub boot manager as you typed the password correct the first time.&lt;/p>
+&lt;p>Now you should get forwarded to the grub boot manager as you typed the password correct the first time.&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
