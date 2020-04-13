@@ -48,8 +48,8 @@ date_format = "Jan 2006"
 
   * Elaborate a way to run Kubernetes on AWS (Rancher2 with rke)
   * Lift legacy application to Kubernetes and AWS from VM based datacenter
-  * Loadtest internal application,  tune metrics and change design in the helm-chart accordingly
-  * Implement tools and software around the K8s ecosystem: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK,cluodwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
+  * Load test internal application,  tune metrics and change design in the helm-chart accordingly
+  * Implement tools and software around the K8s ecosystem: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK,cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
   """
 
 
@@ -85,6 +85,6 @@ date_format = "Jan 2006"
   * Consulting customers how to implement processes and management documentation with the product (Q.wiki) developed by Modell Aachen GmbH (On sight training)
   * Creating content for Q.wiki demo system
   * Automating Laptop Deployment
-  * Implementing company wide password management software
+  * Implementing company-wide password management software
   """
 +++

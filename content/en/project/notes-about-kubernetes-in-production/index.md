@@ -33,9 +33,9 @@ slides: ""
 ---
 
 I have worked with Kubernetes the last 2 years on AWS with Rancher2 and just want to jot down some notes.
-Kuberntes is not the only thing you need.
+Kubernetes is not the only thing you need.
 It is a whole ecosystem of tools.  
-I would have found this kind of ressource helpful when I started so maybe this will be to you.
+I would have found this kind of resource helpful when I started so maybe this will be to you.
 
 My experience is based mostly on AWS and Rancher2 since at that time EKS was not around.
 So I will focus on the tools I know but maybe mention other alternatives.
@@ -43,6 +43,7 @@ So I will focus on the tools I know but maybe mention other alternatives.
 Topics I consider to write about:
 - [x] Rancher
 - [ ] Helm
+- [ ] Chartmuseum
 - [ ] nginx-ingress controller
 - [ ] cert-manager
 - [ ] kube2iam
@@ -53,6 +54,6 @@ Topics I consider to write about:
 - [ ] fluentd-cloudwatch
 - [ ] kube-state metrics
 - [ ] metric-server
-- [ ] Tools (kubens & kubectx)
+- [ ] Tools (kubens & kubectx, kubetail)
 - [ ] Docker
 <!-- dockler log rotation -->

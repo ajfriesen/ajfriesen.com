@@ -15,7 +15,7 @@ role: Systems Architect
 # Organizations/Affiliations
 organizations:
 - name: Questback GmbH
-  url: ""
+  url: "https://www.questback.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -71,8 +71,8 @@ email: ""
 # - Visitors
 ---
 
-I am living and working in Colgone (Germany) as a Systems Architect.
-At work I am creating high available infrastructure with technoligies like Kubernets, AWS, Terraform and a lot more.
+I am living and working in Cologne (Germany) as a Systems Architect.
+At work I am creating high available infrastructure with technologies like Kubernetes, AWS, Terraform and a lot more.
 
 When not working I am using my free time to learn Golang which is powering all these awesome tools.
 
@@ -88,7 +88,7 @@ Mid term career goal:
 I really like the context of infrastructure and automation.
 I am already using modern tools and the tools are more often written in Go.
 That is also my personal next objective, to learn Go and using the language in a professional way.
-Also I am really interested in working remote in a remote first company.
+Also I am really interested in working remote in a remote-first company.
 
-If you have something meeting this requirements feel free to contact me.
+If you have something meeting these requirements feel free to contact me.
 {{% /alert %}}

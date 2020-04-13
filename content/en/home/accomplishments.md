@@ -46,8 +46,8 @@ date_format = "Jan 2006"
   description = """
   A small introduction into Golang in german.
   Did meet the tutor (Andreas Schröpfer) at the local Golang meetup in cologne.
-  It was a short and precise and well explained.
-  Can definitely reccomend this. 
+  It was short, precise and well explained.
+  Can definitely recommend this. 
   """
 
 [[item]]

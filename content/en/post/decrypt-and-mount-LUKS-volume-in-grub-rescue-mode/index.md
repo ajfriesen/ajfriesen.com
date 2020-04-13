@@ -28,7 +28,7 @@ image:
 projects: []
 ---
 
-I am running arch linux on my server with LUKS disc encryption.
+I am running arch Linux on my server with LUKS disc encryption.
 I do need to type in my password every time I reboot the machine.
 Sometimes I have a typo and this happens:
 
@@ -65,6 +65,6 @@ Boot:
 normal
 ```
 
-Now you shoul get forwarded to the grub boot manager as you typed the password correct the first time.
+Now you should get forwarded to the grub boot manager as you typed the password correct the first time.
 
 [^1]: [cryptomount](https://www.gnu.org/software/grub/manual/grub/html_node/cryptomount.html#cryptomount)
