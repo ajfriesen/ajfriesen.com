@@ -4,9 +4,9 @@
 &lt;li>&lt;a href="#rancher">Rancher&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#rke---rancher-kubernetes-engine">rke - Rancher Kubernetes Engine&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#rancher2">Rancher2&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#rancher-management-cluster-and-user-cluster-example">Rancher Management Cluster and User Cluster Example&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#rancher-vocabulary">Rancher vocabulary&lt;/a>
 &lt;ul>
-&lt;li>&lt;a href="#rancher-management-cluster-and-user-cluster-networking">Rancher Management Cluster and user cluster networking&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#cloud-credentials">Cloud Credentials&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#node-templates">Node Templates&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#kubernetes-cluster-with-node-pools">Kubernetes Cluster with Node Pools&lt;/a>&lt;/li>
@@ -27,7 +27,7 @@ Rancher comes with different authentication providers like Github, Azure AD and 
 It is baked in.
 Just configure the authentication in Rancher, OpenShift or your Kubernetes distribution of choice and that is it.&lt;/p>
 &lt;p>Since it is opinionated it may not fit your use case.
-Mayne you just need to dig a little deeper into the configuration options that depends on your needs.&lt;/p>
+Maybe you just need to dig a little deeper into the configuration options that depends on your needs.&lt;/p>
 &lt;p>Features Rancher will give you:&lt;/p>
 &lt;ul>
 &lt;li>User management, since Kubernetes does not have user management backed in&lt;/li>
@@ -36,13 +36,14 @@ Mayne you just need to dig a little deeper into the configuration options that d
 &lt;li>Kubernetes Cluster backups, upgrades, etc&lt;/li>
 &lt;li>One place to manage a lot&lt;/li>
 &lt;/ul>
-&lt;p>Listing all features of Rancher does not make sense and I am not saying to use Rancher.
-I just want you to know, that all this is taken care of and that is the real reason to choose a Kubernetes distribution.
+&lt;p>Listing all features of Rancher does not make sense here.&lt;br>
+I just want you to know, that all lot is taken care of and that is the real reason to choose a Kubernetes distribution.
 This is basic and important stuff which you would need to implement by yourself.
 Pick your flavor and go with it like Linux distributions 😉.&lt;/p>
 &lt;h2 id="rke---rancher-kubernetes-engine">rke - Rancher Kubernetes Engine&lt;/h2>
-&lt;p>Rancher2 is not the tool which creates the User Clusters.
-It is rke which will run in Rancher.
+&lt;p>Rancher2 is the shiny web interface and API everybody talks about.
+rke is the Kuerbetes installer which you use to create Kubernetes clusters with when using Rancher.&lt;/p>
+&lt;p>It is rke which does the magic in Rancher.
 Rancher is packed with a certain version of rke.
 If you just want a Kubernetes Cluster to play with you can use several tools like:&lt;/p>
 &lt;ul>
@@ -61,7 +62,7 @@ If you just want a Kubernetes Cluster to play with you can use several tools lik
 There are a lot of configuration options.
 Check the rancher
 &lt;a href="https://rancher.com/docs/rke/latest/en/" target="_blank" rel="noopener">rke docs&lt;/a> for more information.&lt;/p>
-&lt;p>rke will give you a Kubernetes cluster to work with and not the rancher web interface!
+&lt;p>rke will give you a Kubernetes cluster to work with but not the rancher web interface!
 This is somewhat confusing, when you just start.&lt;/p>
 &lt;p>You can always see which Rancher version uses which rke version and therefore the support of the Kubernetes version in the
 &lt;a href="https://github.com/rancher/rancher/releases/" target="_blank" rel="noopener">rancher/rancher repo&lt;/a>&lt;/p>
@@ -86,10 +87,46 @@ You can deploy rancher via helm to that first rke cluster you created.&lt;/p>
 &lt;p>So now you have a Kubernetes cluster with the rancher 2 helm chart deployed on to.
 This Cluster should not be used as a Cluster for workloads.
 Since Rancher comes with rke you can now deploy as many cluster as you like to what location you like.&lt;/p>
+&lt;h2 id="rancher-management-cluster-and-user-cluster-example">Rancher Management Cluster and User Cluster Example&lt;/h2>
+&lt;p>Rancher/rke will not take care of your general AWS infrastructure like networking.
+This needs to be taken care of by yourself.
+I would recommend to go with terraform but AWS Cloudformation and the AWS Console will work as well.&lt;/p>
+&lt;p>The first thing you need is a network and nodes to install a Kubernetes cluster with rke.
+It would look like Figure 1:&lt;/p>
+&lt;figure id="figure-example-rancher-vpc-setup">
+&lt;a data-fancybox="" href="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_2000x2000_fit_lanczos_2.png" data-caption="Example Rancher VPC Setup">
+&lt;img data-src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="683" height="732">
+&lt;/a>
+&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+Example Rancher VPC Setup
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>There is a lot missing like Internet Gateways, NAT Gatways, routing tables, routes and you could use an Application LoadBalancer instead the Network LoadBalancer.
+But you get the idea.&lt;/p>
+&lt;p>Next you would need to install Rancher to that Kubernetes cluster which is running on the 3 Rancher nodes.
+After some DNS configuraton and certificates you have have a Rancher 2 web interface and API reday to go.&lt;/p>
+&lt;p>Easy right?
+Yeah I know it is a lot of work.
+So let´s go on.&lt;/p>
+&lt;p>Now you can use the Rancher2 web interface to create your cluster right?&lt;/p>
+&lt;p>&lt;strong>Wrong!&lt;/strong>&lt;/p>
+&lt;p>We first need another VPC to deploy the Rancher user cluster into.
+It is mostly the same setup as before but you need a VPC Perring (VPC Gateway is also possible) and you do not need to place EC2 nodes into the cluster.
+That will be taken care of Rancher.&lt;/p>
+&lt;figure id="figure-example-rancher-vpc-setup-with-user-cluster">
+&lt;a data-fancybox="" href="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_2000x2000_fit_lanczos_2.png" data-caption="Example Rancher VPC Setup with User Cluster">
+&lt;img data-src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1362" height="731">
+&lt;/a>
+&lt;figcaption>
+Example Rancher VPC Setup with User Cluster
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Why do you need the peering?
+Rancher will ssh into each node and will do the provisioning for each Kubernetes node.
+Also the created Kubernetes cluster will ping back to Rancher for health checks.&lt;/p>
 &lt;h2 id="rancher-vocabulary">Rancher vocabulary&lt;/h2>
-&lt;p>Now you have your rancher management cluster running you are ready to go to create you clusters with your cloud provider of choice and which is supported.&lt;/p>
-&lt;p>I will focus on AWS and on EC2 based clusters since that is what I have experience with.
-But this vocabulary is more or less the same for every other provider.&lt;/p>
+&lt;p>To create the actual user cluster you need to know how Rancher will create those.
+For that I will explain briefly what Rancher resources you need for the user cluster:&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -100,7 +137,7 @@ But this vocabulary is more or less the same for every other provider.&lt;/p>
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;code>rke&lt;/code>&lt;/td>
-&lt;td>rancher kubernetes engine. A tool to deploy a Kubernetes cluster in the rancher way.&lt;/td>
+&lt;td>rancher kubernetes engine. A tKubernetes installer in the rancher way.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>rancher&lt;/code>&lt;/td>
@@ -129,24 +166,6 @@ But this vocabulary is more or less the same for every other provider.&lt;/p>
 &lt;/tbody>
 &lt;/table>
 &lt;hr>
-&lt;h3 id="rancher-management-cluster-and-user-cluster-networking">Rancher Management Cluster and user cluster networking&lt;/h3>
-&lt;p>Rancher will not take care of your general AWS infrastructure like networking.
-This needs to be taken care of by yourself.
-I would recommend to go with terraform but AWS Cloudformation and the AWS Console will work as well.&lt;/p>
-&lt;p>The rancher management cluster is running in a VPC.
-The cluster you want to create needs another VPC.
-That is something you have to take care of by yourself.
-Rancher will not create the networking for you.&lt;/p>
-&lt;p>You can create the requirement network infrastructure with the AWS Console but I would recommend to go with AWS Cloudformation or terraform.&lt;/p>
-&lt;p>What you need:&lt;/p>
-&lt;ul>
-&lt;li>VPC for Rancher management cluster&lt;/li>
-&lt;li>VPC for Rancher created Kubernetes cluster&lt;/li>
-&lt;li>VPC peering between those 2 VPS&lt;/li>
-&lt;/ul>
-&lt;p>Why do you need the peering?
-Rancher will ssh into each node and will do the provisioning for each Kubernetes node.
-Also the created Kubernetes cluster will ping back to Rancher for health checks.&lt;/p>
 &lt;h3 id="cloud-credentials">Cloud Credentials&lt;/h3>
 &lt;p>Cloud Credentials is just an AWS Access Key and Access Secret.&lt;br>
 &lt;strong>Do not use your user bound AWS credentials!&lt;/strong>&lt;/p>
