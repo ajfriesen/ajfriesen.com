@@ -101,10 +101,10 @@ It would look like Figure 1:&lt;/p>
 Example Rancher VPC Setup
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>There is a lot missing like Internet Gateways, NAT Gatways, routing tables, routes and you could use an Application LoadBalancer instead the Network LoadBalancer.
+&lt;p>There is a lot missing like Internet Gateways, NAT Gateways, routing tables, routes and you could use an Application LoadBalancer instead the Network LoadBalancer.
 But you get the idea.&lt;/p>
 &lt;p>Next you would need to install Rancher to that Kubernetes cluster which is running on the 3 Rancher nodes.
-After some DNS configuraton and certificates you have have a Rancher 2 web interface and API reday to go.&lt;/p>
+After some DNS configuration and certificates management you have a Rancher 2 web interface and API ready to go.&lt;/p>
 &lt;p>Easy right?
 Yeah I know it is a lot of work.
 So let´s go on.&lt;/p>
