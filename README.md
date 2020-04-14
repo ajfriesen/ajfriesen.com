@@ -13,7 +13,15 @@
 
 **v4.8.0**
 
-## Update instructions
+## Get latest git submodule
+
+When switching devices and meanwhile I have updated to a newer academic version
+
+```
+git submodule update --init --recursive
+```
+
+## Update instructions to update academic theme
 
 https://sourcethemes.com/academic/docs/update/#if-you-installed-academic-kickstart
 
