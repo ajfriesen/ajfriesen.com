@@ -137,7 +137,7 @@ For that I will explain briefly what Rancher resources you need for the user clu
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;code>rke&lt;/code>&lt;/td>
-&lt;td>rancher kubernetes engine. A tKubernetes installer in the rancher way.&lt;/td>
+&lt;td>rancher kubernetes engine. A Kubernetes installer in the rancher way.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;code>rancher&lt;/code>&lt;/td>
