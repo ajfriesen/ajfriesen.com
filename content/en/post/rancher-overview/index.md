@@ -6,10 +6,10 @@ subtitle: "A brief introduction"
 summary: "A brief introduction into Rancher, rke and explaination of Rancher specific terms with. Also directing you to the right resources. Based on my experience running Rancher Management Cluster and Rancher User Cluster on AWS EC2."
 authors: [Andrej Friesen]
 tags:
-- kubernetes
-- rancher
-- aws
-- terraform
+- Kubernetes
+- Rancher
+- AWS
+- Terraform
 categories: []
 date: 2020-04-13T12:46:44+02:00
 lastmod: 2020-04-13T12:46:44+02:00
