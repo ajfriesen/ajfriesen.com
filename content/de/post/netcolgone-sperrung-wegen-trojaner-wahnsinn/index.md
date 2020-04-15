@@ -28,11 +28,17 @@ image:
 projects: []
 ---
 
-Internet Sperrungen
 
-20.03.2020 
 
-Freitag kam die Sperr SMS
+# Internet Sperrungen 20.03.2020
+
+Am 20.03.2020 sitzte ich im Home Office und halte gerade eine kleine Team interne Schulung.
+Plötzlich flieg ich aus Microsoft Teams raus.
+Dachte mir nichts.
+Der Linux Client ist alles andere als knorke und hab gewartet.
+Bis ich dann verstanden hab, dass mir Netcologne schon wieder das Internet gesperrt hat!
+Die Sperr SMS kamm dann auch um 13:40.
+
 Ich habe sofort die IP bei abuse@netcologne.de angefragt.
 Die IP Adresse mit dem Timestamp kam sofort.
 
@@ -53,5 +59,8 @@ Die IP Adresse mit dem Timestamp kam sofort.
 > 
 > NetCologne Abuse Team <abuse@netcologne.de>
 
+Durch den Zeitstempel und der Destination IP konnte ich dann das Gerät ausfinding machen.
+Es handelt sich um das Nokia 6.1 meiner Freundin.
+Aktuelles Android 10 mit aktuellem Patch Level.
+Kein root oder andere Appstores installiert.
 
-Ich konnte nach der Destination IP 
