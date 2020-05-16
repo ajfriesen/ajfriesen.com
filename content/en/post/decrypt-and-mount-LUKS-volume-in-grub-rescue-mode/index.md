@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Decrypt and Mount LUKS Volume in Grub Rescue Mode"
-subtitle: "How to boot when you entered the wrong password in grub for LUKS"
-summary: ""
+title: "Decrypt and mount LUKS volume in GRUB rescue mode"
+subtitle: ""
+summary: "How to boot when you entered the wrong password for LUKS in GRUB the first time."
 authors: [Andrej Friesen]
 tags: [grub, luks]
 categories: []
