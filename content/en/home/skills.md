@@ -65,12 +65,6 @@ subtitle = ""
 [[feature]]
   icon = ""
   icon_pack = ""
-  name = "ELK"
-  description = ""
-
-[[feature]]
-  icon = ""
-  icon_pack = ""
   name = "Ansible"
   description = ""
 
