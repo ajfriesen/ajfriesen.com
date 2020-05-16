@@ -21,10 +21,13 @@ organizations:
 bio: 
 
 interests:
-- Golang
 - Cloud Native Software/Infrastructure
 - Infrastructure as Code
 - Automation
+- Home Automation with Home Assistant
+- Linux
+- Programming
+- Books (Business, IT and Fantasy)
 
 education:
   courses:
@@ -74,21 +77,4 @@ email: ""
 I am living and working in Cologne (Germany) as a Systems Architect.
 At work I am creating high available infrastructure with technologies like Kubernetes, AWS, Terraform and a lot more.
 
-When not working I am using my free time to learn Golang which is powering all these awesome tools.
-
-You can find me on several local (Cologne) Meetup groups:
-
-* [Golang Colgone/Bonn](https://www.meetup.com/de-DE/Golang-Cologne/)
-* [Kubernetes Meetup Cologne](https://www.meetup.com/de-DE/Kubernetes-Meetup-Cologne/)
-* [Cologne AWS User Group #AWSUGCGN](https://www.meetup.com/de-DE/aws-cologne/)
-
-{{% alert note %}}
-Mid term career goal:
-
-I really like the context of infrastructure and automation.
-I am already using modern tools and the tools are more often written in Go.
-That is also my personal next objective, to learn Go and using the language in a professional way.
-Also I am really interested in working remote in a remote-first company.
-
-If you have something meeting these requirements feel free to contact me.
-{{% /alert %}}
+Feel free to have a look around.
