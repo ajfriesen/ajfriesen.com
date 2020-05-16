@@ -258,7 +258,7 @@ Only official HashiCorp providers listed
 Put Rancher specific terms to that pile you have even more material to go through.
 We only did scratch the surface.
 For this to build you anyway need to learn AWS basics, Kubernetes basics and Rancher basics.&lt;/p>
-&lt;p>I hope that helped to understand Rancher running on AWS a little bit better.&lt;/p></description></item><item><title>Decrypt and Mount LUKS Volume in Grub Rescue Mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch Linux on my server with LUKS disc encryption.
+&lt;p>I hope that helped to understand Rancher running on AWS a little bit better.&lt;/p></description></item><item><title>Decrypt and mount LUKS volume in GRUB rescue mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch Linux on my server with LUKS disc encryption.
 I do need to type in my password every time I reboot the machine.
 Sometimes I have a typo and this happens:&lt;/p>
 &lt;pre>&lt;code>Welcome to GRUB!
