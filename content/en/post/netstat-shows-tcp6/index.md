@@ -36,7 +36,7 @@ The other day I was building an AWS AMI (Amazon Machine Image) with packer which
 The software itself does not matter.
 
 While testing something I just wanted to check for the ports with netstat.
-I got this output and was wondering why the ports where of  type tcp6.
+I got this output and was wondering why the ports where of type tcp6.
 This was in AWS within a VPC which did not have ipv6 enabled.
 
 ```bash
