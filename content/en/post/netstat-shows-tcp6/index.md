@@ -54,7 +54,8 @@ If you wanted ipv4 server to speak with ipv6 and vice versa you need NAT64[^1], 
 
 I was confused...
 
-It turns out the socket itself is an ipv6 socket. I also did not know that there is a special ipv6 address range which maps to ipv4 addresses.[^2]
+It turns out the socket itself is an ipv6 socket.
+I also did not know that there is a special ipv6 address range which maps to ipv4 addresses.[^2]
 That means all ipv4 adresses are also ipv6 adresses.[^3]
 
 So these sockets work with ipv4 but since they are really ipv6 sockets they are listed as tcp6 in netstat.
