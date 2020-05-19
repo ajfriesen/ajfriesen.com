@@ -4,7 +4,7 @@
 title: "Rancher Overview"
 subtitle: "A brief introduction into Rancher on AWS"
 summary: "A brief introduction into Rancher, rke and explanation of Rancher specific terms with. Also directing you to the right resources. Based on my experience running Rancher Management Cluster and Rancher User Cluster on AWS EC2."
-authors: [Andrej Friesen]
+authors: [admin]
 tags:
 - Kubernetes
 - Rancher

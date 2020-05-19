@@ -4,8 +4,8 @@
 title: "Netstat shows tcp6 on ipv4 only host"
 subtitle: ""
 summary: ""
-authors: []
 tags: [netstat, tcp6, ipv6]
+authors: [admin]
 categories: []
 date: 2020-05-19T08:28:59+02:00
 lastmod: 2020-05-19T08:28:59+02:00
