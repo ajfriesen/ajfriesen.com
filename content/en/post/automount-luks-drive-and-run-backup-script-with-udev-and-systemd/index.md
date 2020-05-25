@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Automount LUKS drive and run a backup script with udev and systemd"
+title: "Automount a LUKS encrypted drive and run a backup script with udev and systemd"
 subtitle: ""
 summary: ""
 authors: []
@@ -30,40 +30,42 @@ projects: []
 
 I have on of these handy dandy little HDD toasters.
 I just wanted to create some cold backups.
-As everybody, I never used that thing.
+Never used that thing as almost everybody (I know you did not :wink:)
 
 Why?
-I to lazy to do that, since it was always a manuall process.
-That changes now with automount a LUKS drive with udev and systemd to back up my data.
+I am to lazy, since it was always a manuall process.
+That changes now with automounting the LUKS drive with udev and systemd and run a backup script.
+Flipping a switch once in a while should be doable even for me.
 
 <!--more-->
 
 ## The goal
 
-1. Flip the power switch on that toaster (the HDDs is always inside one of the slots)
+1. Flip the power switch on that toaster (the HDDs is always inside in on of the slots)
 2. Automatlicy decrypt the LUKS device
 3. Mount the btrfs filesystem
 4. Copy some data with a backup script
 5. Unmount after the backup has finished
-6. Encrypt again
-7. Maybe some sort of notification so that I know, that I safly swich off the hdd toaster (Not done yet)
+6. Encrypt the disk again
+7. Maybe some sort of notification so that I know, that I can safely swich off the HDD toaster (Not done yet)
 
 The drive already is encrypted with LUKS2 and has a btrfs filesystem.
-This will not be covered here.
+This will not be covered.
 
 ## Create the udev rule for the specifc device
 
 The udev documentation is not that pleasant to read and somehow I feel the information is gathered all over the palce.
 So I started on the arch wik about udev [^1].
-This got me to writing udev rules [^3] articel which is good for understanding the conecpt.
+This got me to the *writing udev rules* articel[^3] which is good for understanding the conecpt.  
 Please be carefull since some information on that article is outdated.
-An example is that in thies article he is using `udevinfo` to gather information about the device.
+An example: In the article `udevinfo` is used to gather information about the device.
 This tool is no longer available at least in arch linux and I think the succsessor is `udevadm`.
 
-I also found a german blog post [^2] about some simliar usecase.
+I also found a german blog post [^2] about some simliar usecase where somebody wants to mount an encrypted SD card with udev.
+Maybe this is worth a read.
 
-I tried to gather some specific information for my HDD but the information I got with the follwing output were not working with udev.
-I am still not sure why.
+So let us start with my device.
+Gather some specific information for my HDD:
 
 ```bash
 udevadm info -q all -n /dev/sdk
@@ -121,7 +123,20 @@ E: DEVLINKS=/dev/disk/by-id/wwn-0x5000c500a1f3eab8 /dev/disk/by-id/ata-ST8000AS0
 E: TAGS=:systemd:
 ```
 
-Then I found this command:
+I would like to use these two fields since those look specifc enogh for my device.
+```
+E: ID_SERIAL=ST8000AS0002-1NA17Z_Z840YC3T
+E: ID_SERIAL_SHORT=Z840YC3T
+```
+
+I tried using them in my udev rule like this:  
+`ATTRS{ID_SERIAL}=="ST8000AS0002-1NA17Z_Z840YC3T"`  
+`ATTRS{ID_SERIAL_SHORT}=="Z840YC3T"`
+
+Unforunatly this did not work.
+I am still not sure why.
+
+After some research I found this command:
 
 ```bash
 udevadm info -a -p $(udevadm info -q path -n /dev/sdk)
@@ -192,38 +207,51 @@ With this I could find at least the **ATTRS{vendor}=="ST8000AS"** which is kind 
 If you search for this string on the internet you get the model number for my HDD.
 Since I only have this one it is okay for my usecase right now.  
 When I happen to buy another one of these I have to be carefull not to automaticly use the wrong HDD.
+Good that my LUKS encryption will not allow that unless I am using the same LUKS key.
 
 So with that I did write the follwing udev rule:
 
 {{< gist ajfriesen 1e4519efa809db4b452543bcf89950fe "10-local.rules" >}}
 
-This will start the configured systemd service when the drive with that specific attributes is added added to the system.
+This will start the configured systemd service when the drive with that specific attributes is added to the system.
 
 {{% alert note %}}
-When testing udev rule change one thing at a time.
-At best, you just test with something really safe and easy:
+When testing udev rule start as simple as possible.
+Something like this:
 ```
 KERNEL=="sd*", ACTION=="add", SUBSYSTEM=="block", ENV{SYSTEMD_WANTS}="backup-decrypt-mount.service"
-So that you know something will happen.
 ```
+So that you know something will happen.  
+Going further only change one thing at a time.
+Otherwise you will go nuts on the debugging process.
 {{% /alert %}}
 
 {{% alert warning %}}
-Also be carefull with systemd version!
+systemd version!
 
 My version:
 ```bash
 systemctl --version
 systemd 245 (245.5-2-arch)
 ```
-Some distros do have a way older systemd version and systemd has a lot of breaking changes.
-Like this ENV statement I am using for calling a systemd service.
-To check which option you can use you have to check man systemd.
+Some distros do have a way older systemd version installed and systemd has a lot of breaking changes.
+Sometimes a option has just changed by name.
+The systemd documentation is really bad at giving you a specific version.
+I believe it is always showing you the latest release.  
+You can always use `man systemd` on your host to check what is valid for your system.
 {{% /alert %}}
 
 So let´s move to systemd then.
 
 ## Create a systemd service
+
+Why systemd, when all the decrpytion and mounting logik could be handeld by the backup script below?
+You do not have to think about logging since everything in stdout and stderr is in journalctl.
+The setup is easier to understand than a complex bash script which grows beyond understanding.
+I like the KISS principle here because my future self will thank me for the easy to understand way rather than for the geniuis complex one.
+
+With `Type=oneshot` we just run this service once without creating a daemon or some background process.
+With `	RemainAfterExit=no` the service will stop itself with the ExecStop commands.
 
 {{< gist ajfriesen 1e4519efa809db4b452543bcf89950fe "backup-to-hdd.service" >}}
 
@@ -232,19 +260,60 @@ Do not forget to enable the systemd service with:
 systemctl enable backup-to-hdd.service
 ```
 
-## backup script
+## Backup script
 
-This script is really just a small rsync command for now.
+My arch linux is running on a SSD.
+All my docker applications like nextcloud run on the same SSD as the system.
+The server also has some Western Digital Reds used as a btrfs raid which is mostly used for media.
+Since there is still a lot of space left I also want to copy my data (like nextcloud) to that raid.
+In case something happens to my system SSD.
+And that is what `home/andrej/raidpool/backup` is for (`"${SOURCE}"`).
+
+The raid is part of that server and therefore always online.
+The HDD in the toaster on the other hand is only available to the system when the backup job is running.
+
+With a really simple script which is easy to customize and understand we can copy the data to my HDD.
 
 {{< gist ajfriesen 1e4519efa809db4b452543bcf89950fe "backup-to-hdd.sh" >}}
 
-The source is my raid where I have a backup directory.
-Everything which is in this directory shall be copied over to the HDD in the toaster.
-How that data goes there may be covered in a later post.
-
-The destination is the mountpoint and folder for my HDD in that toaster.
+The "${DESTINATION}" is the mountpoint and folder for my HDD in that toaster.
 The idea behind that is having a cold storage which is not always connected to the server and also may be stored in another building.
 (Good luck with that when working from home :wink:)
+
+
+## Putting everything together
+
+
+
+```bash
+sudo systemctl status backup-to-hdd.service
+● backup-to-hdd.service - Automount encrypted backup device
+     Loaded: loaded (/etc/systemd/system/backup-to-hdd.service; enabled; vendor preset: disabled)
+     Active: inactive (dead) since Tue 2020-05-26 00:27:52 CEST; 5s ago
+    Process: 1207183 ExecStart=/usr/bin/cryptsetup --key-file=/etc/backupkey luksOpen /dev/disk/by-uuid/02d4c98c-f174-49ee-a686-a813b5695bf0 backup (code=exited, status=0/SUCCESS)
+    Process: 1207380 ExecStart=/usr/bin/mount /dev/mapper/backup /backup (code=exited, status=0/SUCCESS)
+    Process: 1207401 ExecStart=/usr/bin/bash /usr/local/bin/backup-to-hdd.sh (code=exited, status=0/SUCCESS)
+    Process: 1207606 ExecStop=/usr/bin/umount /backup (code=exited, status=0/SUCCESS)
+    Process: 1207611 ExecStop=/usr/bin/cryptsetup close /dev/mapper/backup (code=exited, status=0/SUCCESS)
+   Main PID: 1207401 (code=exited, status=0/SUCCESS)
+
+May 26 00:27:32 arch-server bash[1207402]: File list transfer time: 0.000 seconds
+May 26 00:27:32 arch-server bash[1207402]: Total bytes sent: 437
+May 26 00:27:32 arch-server bash[1207402]: Total bytes received: 26
+May 26 00:27:32 arch-server bash[1207402]: sent 437 bytes  received 26 bytes  926.00 bytes/sec
+May 26 00:27:32 arch-server bash[1207402]: total size is 100.97G  speedup is 218,078,597.30
+May 26 00:27:32 arch-server bash[1207401]: real        0m0.045s
+May 26 00:27:32 arch-server bash[1207401]: user        0m0.004s
+May 26 00:27:32 arch-server bash[1207401]: sys        0m0.007s
+May 26 00:27:52 arch-server systemd[1]: backup-to-hdd.service: Succeeded.
+May 26 00:27:52 arch-server systemd[1]: Finished Automount encrypted backup device.
+
+```
+## Conclusion
+
+With this setup there is no way I am missing the weekly or montly backup for my offline device.
+I hope this gives you the courage to get out that toast and put your HDD toaster into proper useage.
+Have fun and have a backup!
 
 [^1]: [Arch Wiki - udev](https://wiki.archlinux.org/index.php/Udev)
 [^2]: [Arch: Automount encrypted sdcard – udev + systemd](https://technik.blogbasis.net/arch-automount-encrypted-sdcard-udev-systemd-09-10-2015)
