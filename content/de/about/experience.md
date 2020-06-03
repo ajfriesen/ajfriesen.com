@@ -17,6 +17,7 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
 [[experience]]
   title = "Systems Architect"
   company = "Questback GmbH"
@@ -28,10 +29,11 @@ date_format = "Jan 2006"
   
   Responsibilities include:
   
-  * Automating infrastructure setup with terraform
-  * Create CI/CD pipeline for automatic deployment to Kubernetes environment
-  * Work close with development and product management  on requirements for modernization of legacy application
-  * Work remote with a consultancy in India for ~ 10 months (experience the pros and cons of remote work)
+  * Automating infrastructure setup with terraform (AWS infrastructure and network, Rancher Management Cluster, downstream Kubernetes Clusters, Azure Authentication, etc.)
+  * Create CI/CD pipeline to deploy applications to Kubernetes clusters
+  * Use packer to create AWS AMI for applicaion deployment outside of Kubernetes Clusters
+  * Work close with development and product management on requirements for modernization of legacy application
+  * Work remote with a consultancy from India for ~ 10 months (experience the pros and cons of remote work)
 
   """
 
@@ -48,10 +50,11 @@ date_format = "Jan 2006"
 
   * Elaborate a way to run Kubernetes on AWS (Rancher2 with rke)
   * Lift legacy application to Kubernetes and AWS from VM based datacenter
-  * Load test internal application,  tune metrics and change design in the helm-chart accordingly
-  * Implement tools and software around the K8s ecosystem: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK,cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
-  """
+  * Create helm chart for legacy application
+  * Load test internal application, tune metrics and change design in the helm-chart accordingly
+  * Implement tools and software around the K8s ecosystem: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK, cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
 
+  """
 
 [[experience]]
   title = "IT Service Management/Operations"
@@ -69,6 +72,7 @@ date_format = "Jan 2006"
   * Implementing KANBAN based ticket system for internal Office IT
   * Optimizing internal IT processes
   * Supervising student trainee
+
   """
 
 [[experience]]
@@ -86,5 +90,6 @@ date_format = "Jan 2006"
   * Creating content for Q.wiki demo system
   * Automating Laptop Deployment
   * Implementing company-wide password management software
+
   """
 +++
