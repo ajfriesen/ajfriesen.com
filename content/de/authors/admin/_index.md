@@ -24,18 +24,18 @@ interests:
 - Cloud Native Software/Infrastructure
 - Infrastructure as Code
 - Automation
-- Home Automation with Home Assistant
+- Home Automation mit Home Assistant
 - Linux
-- Programming
-- Books (Business, IT and Fantasy)
+- Programmierung
+- Bücher (Business, IT and Fantasy)
 
 education:
   courses:
-  - course: Master of Science in Quality Engineering
-    institution: University of Wuppertal
+  - course: Master of Science in Qualitätsingenieurwesen
+    institution: Bergische Univerität Wuppertal
     year: 2016
-  - course: Bachelor of Engineering in Rescue Engineering
-    institution: Cologne University of Applied Sciences
+  - course: Bachelor of Engineering in Rettungsingenieurwesen
+    institution: Fachhochschule Köln
     year: 2013
 
 # Social/Academic Networking
@@ -74,7 +74,7 @@ email: ""
 # - Visitors
 ---
 
-I am living and working in Cologne (Germany) as a Systems Architect.
-At work I am creating high available infrastructure with technologies like Kubernetes, AWS, Terraform and a lot more.
+Ich lebe und arbeite in Köln als Systems Architect.
+Auf der Arbeit erstelle ich hochverfügbare Infrastruktur mit den neusten Technonogien wie Kubernetes, AWS, Terraform und mehr.
 
-Feel free to have a look around.
+Schaut euch einfach um.
