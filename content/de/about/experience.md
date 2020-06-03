@@ -22,18 +22,18 @@ date_format = "Jan 2006"
   title = "Systems Architect"
   company = "Questback GmbH"
   company_url = "https://www.questback.com/"
-  location = "Cologne, Germany"
+  location = "Köln, Deutschland"
   date_start = "2019-04-01"
   date_end = ""
   description = """
   
-  Responsibilities include:
+  Verantwortlichkeiten behinalteten unter anderem:
   
-  * Automating infrastructure setup with terraform (AWS infrastructure and network, Rancher Management Cluster, downstream Kubernetes Clusters, Azure Authentication, etc.)
-  * Create CI/CD pipeline to deploy applications to Kubernetes clusters
-  * Use packer to create AWS AMI for applicaion deployment outside of Kubernetes Clusters
-  * Work close with development and product management on requirements for modernization of legacy application
-  * Work remote with a consultancy from India for ~ 10 months (experience the pros and cons of remote work)
+  * Automatisierung der Infraktruktur mit terraform (AWS Infrasturktur und Netzwerk, Rancher Management Cluster, downstream Kubernetes Clusters, Azure Authentication, etc.))
+  * Erstellen von CI/CD piplines für das Deployment von Applikationen auf Kubernetes Clustern
+  * Erstellen von AWS AMI mit packer für Applikationen, die nicht auf Kubernetes laufen
+  * Enge Zusammenarbeit mit Entwicklung und Produktmanagement für die Modernisierung der legacy Applikation
+  * Gemeinsame remote Arbeit mit einer Beratungsfirma aus Indien für ~ 10 Monate (Erfahrung über Vor- und Nachteile von Remote Work)
 
   """
 
@@ -41,18 +41,18 @@ date_format = "Jan 2006"
   title = "Systems Engineer"
   company = "Questback GmbH"
   company_url = "https://www.questback.com/"
-  location = "Cologne, Germany"
+  location = "Köln, Deutschland"
   date_start = "2018-02-01"
   date_end = "2019-03-31"
   description = """
 
-  Responsibilities include:
+  Verantwortlichkeiten behinalteten unter anderem:
 
-  * Elaborate a way to run Kubernetes on AWS (Rancher2 with rke)
-  * Lift legacy application to Kubernetes and AWS from VM based datacenter
-  * Create helm chart for legacy application
-  * Load test internal application, tune metrics and change design in the helm-chart accordingly
-  * Implement tools and software around the K8s ecosystem: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK, cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
+  * Planung und Umsetzung von Kubernetes Clustern auf AWS mit Rancher 2 und rke
+  * Migration von legacy Applikation von VM basiertem Rechenzentrum auf Kubernetes auf AWS
+  * Erstelle helm chart für die legacy Applikation
+  * Last test der internen legacy Applikation, anpassen von Metriken und Design des helm chart anhand der Ergebnisse
+  * Implementierung notwendiger Tools für eine Produktive Kubernetes Umgebung: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK, cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
 
   """
 
@@ -60,36 +60,36 @@ date_format = "Jan 2006"
   title = "IT Service Management/Operations"
   company = "Modell Aachen GmbH"
   company_url = "https://www.modell-aachen.de/"
-  location = "Aachen, Germany"
+  location = "Aachen, Deutschland"
   date_start = "2017-02-01"
   date_end = "2018-01-31"
   description = """
 
-  Responsibilities include:
+  Verantwortlichkeiten behinalteten unter anderem:
 
-  * Automating infrastructure deployment with puppet and ansible
-  * Implementing processes for internal IT needs
-  * Implementing KANBAN based ticket system for internal Office IT
-  * Optimizing internal IT processes
-  * Supervising student trainee
+  * Automatisierung der Infrastruktur mit puppet und ansible
+  * Design und Implementieren von allen Prozess zugehörig zur IT
+  * Implementierung eines internen Ticketssystems mittels Kanban für die Office/Client IT mit Targetprocess
+  * Optimierung der internen IT Prozesse
+  * Einarbeitung und Betreuung studentischer Hilfskräfte
 
   """
 
 [[experience]]
-  title = "Student Worker"
+  title = "Studentischer Mitarbeiter"
   company = "Modell Aachen GmbH"
   company_url = "https://www.modell-aachen.de/"
-  location = "Aachen, Germany"
+  location = "Aachen, Deutschland"
   date_start = "2015-04-01"
   date_end = "2016-01-31"
   description = """
 
-  Responsibilities include:
+  Verantwortlichkeiten behinalteten unter anderem:
 
-  * Consulting customers how to implement processes and management documentation with the product (Q.wiki) developed by Modell Aachen GmbH (On sight training)
-  * Creating content for Q.wiki demo system
-  * Automating Laptop Deployment
-  * Implementing company-wide password management software
+  * Kunden Beratung wie Prozesse und Dokumenatation mit der intern entwickelten Tool (Q.wiki) implementiert (Vor Ort beim Kunden)
+  * Pflege des Q.wiki demo Systems
+  * Automatisierung vom Laptop Deployment
+  * Implementierung einer Unternehmensweiten Passwortverwaltung
 
   """
 +++
