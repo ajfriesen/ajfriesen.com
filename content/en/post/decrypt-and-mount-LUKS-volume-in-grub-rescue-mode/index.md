@@ -4,7 +4,7 @@
 title: "Decrypt and mount LUKS volume in GRUB rescue mode"
 subtitle: ""
 summary: "How to boot when you entered the wrong password for LUKS in GRUB the first time."
-authors: [andrej]
+authors: [admin]
 tags: [grub, luks, linux]
 categories: []
 date: 2020-04-13T01:26:15+02:00
