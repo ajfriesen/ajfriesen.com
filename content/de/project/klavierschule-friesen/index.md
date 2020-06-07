@@ -45,7 +45,7 @@ Hier könnt ihr euch die Seite anschauen: https://www.klavierschule-friesen.de/
 
 ## Die nächsten Schritte
 
-*  Migration zu einer Hugo Seite mit dem Academic Theme
+* [ ] Migration zu einer Hugo Seite mit dem Academic Theme
   * Bessere SEO (Suchmaschinenoptimierung)
 * [ ] Netlify CMS einrichten
   * Der Inhalt kann dann selbst editiert werden, trotz statischem HTML
