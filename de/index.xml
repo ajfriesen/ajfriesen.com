@@ -7,8 +7,11 @@ Mit ein paar kleinen Anpassungen war die Seite schnell fertig.&lt;/p>
 &lt;p>Hier könnt ihr euch die Seite anschauen: &lt;a href="https://www.klavierschule-friesen.de/">https://www.klavierschule-friesen.de/&lt;/a>&lt;/p>
 &lt;h2 id="die-nächsten-schritte">Die nächsten Schritte&lt;/h2>
 &lt;ul>
-&lt;li>Migration zu einer Hugo Seite mit dem Academic Theme&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox">Migration zu einer Hugo Seite mit dem Academic Theme
+&lt;ul>
 &lt;li>Bessere SEO (Suchmaschinenoptimierung)&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox">Netlify CMS einrichten
 &lt;ul>
 &lt;li>Der Inhalt kann dann selbst editiert werden, trotz statischem HTML&lt;/li>
