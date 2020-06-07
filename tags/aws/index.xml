@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AWS | ajfriesen</title><link>https://www.ajfriesen.com/tags/aws/</link><atom:link href="https://www.ajfriesen.com/tags/aws/index.xml" rel="self" type="application/rss+xml"/><description>AWS</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Mon, 13 Apr 2020 12:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>AWS</title><link>https://www.ajfriesen.com/tags/aws/</link></image><item><title>Notes about Kubernetes in Production</title><link>https://www.ajfriesen.com/project/notes-about-kubernetes-in-production/</link><pubDate>Mon, 13 Apr 2020 12:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/project/notes-about-kubernetes-in-production/</guid><description>&lt;p>I have worked with Kubernetes the last 2 years on AWS with Rancher2 and just want to jot down some notes.
-Kubernetes is not the only thing you need.
-It is a whole ecosystem of tools.&lt;br>
-I would have found this kind of resource helpful when I started so maybe this will be to you.&lt;/p>
-&lt;p>My experience is based mostly on AWS and Rancher2 since at that time EKS was not around.
-So I will focus on the tools I know but maybe mention other alternatives.&lt;/p>
-&lt;p>Topics I consider to write about:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">Rancher&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Helm&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Chartmuseum&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">nginx-ingress controller&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">cert-manager&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">kube2iam&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Grafana&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">prometheus&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">alertmanager&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">cloudwatch-exporter&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">fluentd-cloudwatch&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">kube-state metrics&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">metric-server&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Tools (kubens &amp;amp; kubectx, kubetail)&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Docker&lt;/li>
-&lt;/ul>
-&lt;!-- dockler log rotation --></description></item><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;h2>Table of Contents&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AWS | ajfriesen</title><link>https://www.ajfriesen.com/tags/aws/</link><atom:link href="https://www.ajfriesen.com/tags/aws/index.xml" rel="self" type="application/rss+xml"/><description>AWS</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Mon, 13 Apr 2020 12:46:44 +0200</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>AWS</title><link>https://www.ajfriesen.com/tags/aws/</link></image><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;h2>Table of Contents&lt;/h2>
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#rancher">Rancher&lt;/a>&lt;/li>

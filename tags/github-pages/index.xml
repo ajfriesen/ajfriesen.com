@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github Pages | ajfriesen</title><link>https://www.ajfriesen.com/tags/github-pages/</link><atom:link href="https://www.ajfriesen.com/tags/github-pages/index.xml" rel="self" type="application/rss+xml"/><description>Github Pages</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Github Pages</title><link>https://www.ajfriesen.com/tags/github-pages/</link></image><item><title>Hosting a local piano teacher business website</title><link>https://www.ajfriesen.com/project/klavierschule-friesen/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/project/klavierschule-friesen/</guid><description>&lt;p>Simple website for my mothers local business in German.
+I am not a web developer therefore I am using a
+&lt;a href="https://startbootstrap.com/themes/creative" target="_blank" rel="noopener">simple onepage theme&lt;/a>.
+With just a few changes the website was done.&lt;/p>
+&lt;p>I also adminstrate the google maps entry which helps for google searches as well.&lt;/p>
+&lt;p>Since the website and google maps entry she get´s more potential students interested in piaono lessons.&lt;/p>
+&lt;p>Have a look here: &lt;a href="https://www.klavierschule-friesen.de/">https://www.klavierschule-friesen.de/&lt;/a>&lt;/p>
+&lt;h2 id="next-steps">Next steps&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox">Migrate to a hugo hosted side.
+&lt;ul>
+&lt;li>Better SEO (Search Engine Optimization)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox">Enable Netlify CMS
+&lt;ul>
+&lt;li>Enable editing the content by the client itself.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
