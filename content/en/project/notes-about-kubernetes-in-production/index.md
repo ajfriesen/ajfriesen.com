@@ -6,6 +6,7 @@ tags:
 - AWS
 - Rancher
 date: "2020-04-13T12:00:00Z"
+draft: true
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
