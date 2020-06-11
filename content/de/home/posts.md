@@ -8,14 +8,14 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Neuste Beiträge"
-subtitle = "Blog Posts übersetzte ich nicht.[Hier sind ide englischen zu finden](/#post)"
+subtitle = "Blog Posts werden nicht übersetzt. [Hier sind die englischen zu finden](/#post)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "post"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 3
   
   # Choose how many pages you would like to offset by
   offset = 0
