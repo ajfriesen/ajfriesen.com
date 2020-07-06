@@ -28,6 +28,10 @@ subtitle = "Some side projects."
   [[content.filter_button]]
     name = "Webhosting"
     tag = "Webhosting"
+
+  [[content.filter_button]]
+    name = "Content Creation"
+    tag = "Content Creation"
   
   # [[content.filter_button]]
   #   name = "Other"
