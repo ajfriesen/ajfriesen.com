@@ -24,14 +24,19 @@ date_format = "Jan 2006"
   company_url = "https://www.questback.com/"
   location = "Cologne, Germany"
   date_start = "2019-04-01"
-  date_end = ""
+  date_end = "2020-07-31"
   description = """
   
   Responsibilities include:
   
-  * Automating infrastructure setup with terraform (AWS infrastructure and network, Rancher Management Cluster, downstream Kubernetes Clusters, Azure Authentication, etc.)
+  * Develope Terraform modules
   * Create CI/CD pipeline to deploy applications to Kubernetes clusters
-  * Use packer to create AWS AMI for applicaion deployment outside of Kubernetes Clusters
+  * Implement company wide user management in AWS
+  * Implement company wide user management in Rancher2 and all Kubernetes clusters
+  * Build AMI images with packer for services running on AWS EC2 rather than Kubernetes
+  * Project lead for infrastructure related projects
+  * Introduce Infrastrucutre as Code into the team
+  * Run knowledge transfare sessions about Kubernetes, Rancher2, Helm, AWS, Terraform, Packer, systemd, etc.
   * Work close with development and product management on requirements for modernization of legacy application
   * Work remote with a consultancy from India for ~ 10 months (experience the pros and cons of remote work)
 
@@ -48,11 +53,13 @@ date_format = "Jan 2006"
 
   Responsibilities include:
 
+  * Introduce git into the team
   * Elaborate a way to run Kubernetes on AWS (Rancher2 with rke)
   * Lift legacy application to Kubernetes and AWS from VM based datacenter
+  * Create Docker container for legacy application
   * Create helm chart for legacy application
   * Load test internal application, tune metrics and change design in the helm-chart accordingly
-  * Implement tools and software around the K8s ecosystem: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK, cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
+  * Implement tools and software around the K8s ecosystem: helm, chartmuseum, nginx-ingress-controller, cert-manager, Prometheus, Grafana, EFK, cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
 
   """
 

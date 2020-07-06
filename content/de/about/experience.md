@@ -24,16 +24,21 @@ date_format = "Jan 2006"
   company_url = "https://www.questback.com/"
   location = "Köln, Deutschland"
   date_start = "2019-04-01"
-  date_end = ""
+  date_end = "2020-07-31"
   description = """
   
   Verantwortlichkeiten behinalteten unter anderem:
   
-  * Automatisierung der Infraktruktur mit terraform (AWS Infrasturktur und Netzwerk, Rancher Management Cluster, downstream Kubernetes Clusters, Azure Authentication, etc.))
+  * Entwicklung von Terraform Modulen
   * Erstellen von CI/CD piplines für das Deployment von Applikationen auf Kubernetes Clustern
-  * Erstellen von AWS AMI mit packer für Applikationen, die nicht auf Kubernetes laufen
-  * Enge Zusammenarbeit mit Entwicklung und Produktmanagement für die Modernisierung der legacy Applikation
+  * Implemetierung eines unternehmensweiten Usermanagement in AWS
+  * Implemetierung eines unternehmensweiten Usermanagement in Rancher2 und allen Kubernetes Clustern
+  * Erstellen von AWS AMI mit Packer für Services, die als AWS EC2 laufen und nicht Kubernetes
+  * Projekt Ansprechpartner für Infrastruktur Projekte
+  * Einführung von Infrastrucutre as Code im Team
+  * Wissenstransfer über Themen wie, Kubernetes, Rancher2, Helm, AWS, Terraform, Packer, systemd, etc.
   * Gemeinsame remote Arbeit mit einer Beratungsfirma aus Indien für ~ 10 Monate (Erfahrung über Vor- und Nachteile von Remote Work)
+  * Enge Zusammenarbeit mit Entwicklung und Produktmanagement für die Modernisierung der legacy Applikation
 
   """
 
@@ -48,11 +53,13 @@ date_format = "Jan 2006"
 
   Verantwortlichkeiten behinalteten unter anderem:
 
+  * Einführung von git im Team
   * Planung und Umsetzung von Kubernetes Clustern auf AWS mit Rancher 2 und rke
   * Migration von legacy Applikation von VM basiertem Rechenzentrum auf Kubernetes auf AWS
+  * Erstellen von Docker Containern für die legacy Applikation
   * Erstelle helm chart für die legacy Applikation
   * Last test der internen legacy Applikation, anpassen von Metriken und Design des helm chart anhand der Ergebnisse
-  * Implementierung notwendiger Tools für eine Produktive Kubernetes Umgebung: helm, chartmuseum, nginx-ingress controller, cert-manager, Prometheus, Grafana, EFK, cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
+  * Implementierung notwendiger Tools für eine Produktive Kubernetes Umgebung: helm, chartmuseum, nginx-ingress-controller, cert-manager, Prometheus, Grafana, EFK, cloudwatch-exporter, Prometheus Adapter for K8s Metrics, etc.
 
   """
 
