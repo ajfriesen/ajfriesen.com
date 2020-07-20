@@ -31,8 +31,8 @@ date_format = "Jan 2006"
   
   * Entwicklung von Terraform Modulen
   * Erstellen von CI/CD piplines für das Deployment von Applikationen auf Kubernetes Clustern
-  * Implemetierung eines unternehmensweiten Usermanagement in AWS
-  * Implemetierung eines unternehmensweiten Usermanagement in Rancher2 und allen Kubernetes Clustern
+  * Implementierung eines unternehmensweiten Usermanagement in AWS
+  * Implementierung eines unternehmensweiten Usermanagement in Rancher2 und allen Kubernetes Clustern
   * Erstellen von AWS AMI mit Packer für Services, die als AWS EC2 laufen und nicht Kubernetes
   * Projekt Ansprechpartner für Infrastruktur Projekte
   * Einführung von Infrastrucutre as Code im Team
