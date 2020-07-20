@@ -93,8 +93,8 @@ date_format = "Jan 2006"
 
   Verantwortlichkeiten behinalteten unter anderem:
 
-  * Kunden Beratung wie Prozesse und Dokumenatation mit der intern entwickelten Tool (Q.wiki) implementiert (Vor Ort beim Kunden)
-  * Pflege des Q.wiki demo Systems
+  * Kunden-Beratung: Prozesse und Dokumentation mit dem intern entwickelten Tool (Q.wiki) abbilden (Vor Ort beim Kunden)
+  * Pflege des Q.wiki Demo Systems
   * Automatisierung vom Laptop Deployment
   * Implementierung einer Unternehmensweiten Passwortverwaltung
 
