@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Software & Systems Engineer"
-  company = "Quesgridscale GmbH"
+  company = "gridscale GmbH"
   company_url = "https://gridscale.io/"
   location = "Cologne, Germany (Remote)"
   date_start = "2020-08-01"
