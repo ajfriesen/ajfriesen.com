@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Systems Architect
+role: Software & Systems Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: Questback GmbH
-  url: "https://www.questback.com/"
+- name: gridscale GmbH
+  url: "https://gridscale.io/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Andrej Friesen ist ein mehr oder weniger klassischer Ingenieur der seinen Weg in die IT, seiner Leidenschaft, gegangen ist.
 
 interests:
 - Cloud Native Software/Infrastructure
@@ -28,6 +28,9 @@ interests:
 - Linux
 - Programmierung
 - Bücher (Business, IT and Fantasy)
+- Lehren, Unterrichten und Wissen verteilen
+- Remote Work (Unternehmen ohne Bürogebäude)
+- Unternehmenskultur
 
 education:
   courses:
@@ -58,11 +61,15 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/ajfriesen
+- icon: goodreads
+  icon_pack: fab
+  link: https://goodreads.com/andrej_friesen
+# Link to a PDF of your resume/CV from the About widget.
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-- icon: cv
-  icon_pack: ai
-  link: files/cv.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -74,7 +81,12 @@ email: ""
 # - Visitors
 ---
 
-Ich lebe und arbeite in Köln als Systems Architect.
-Auf der Arbeit erstelle ich hochverfügbare Infrastruktur mit den neusten Technonogien wie Kubernetes, AWS, Terraform und mehr.
+Ich lebe und arbeite in Köln.
 
-Schaut euch einfach um.
+Ich habe gerade einen neuen Job und dort die Möglichkeit mich in die Software Entwicklung einzuarbeiten. Natürlich bleiben Server und Infrastrutkur nicht auf der Strecke, dafür mag ich das zu sehr! :smiley:
+
+Momentan interessiere ich mich auch für kleinere nebenberufliche Tätigkeiten.
+Schaut euch bei Interesse die [Erfahrung]({{< ref "experience" >}}), [Freelance]({{< ref "freelance" >}}) und [Projekt]({{< ref "my_projects" >}}) Seiten an.  
+**Eventuell wollt ihr mich beim nächsten Projekt dabei haben.**
+
+Außerdem schreibe ich ab und zu etwas in meinem [Blog]({{< ref "blog" >}}) zu Themen die mich nteressieren.

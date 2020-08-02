@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Systems Architect
+role: Software & Systems Engineer
 
 # Organizations/Affiliations
 organizations:
-- name: Questback GmbH
-  url: "https://www.questback.com/"
+- name: gridscale GmbH
+  url: "https://gridscale.io/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Andrej Friesen is a more or less classical engineer who followed his passion to IT.
 
 interests:
 - Cloud Native Software/Infrastructure
@@ -28,6 +28,9 @@ interests:
 - Linux
 - Programming
 - Books (Business, IT and Fantasy)
+- Teaching
+- Remote Work (Companys without offices)
+- Company Culture
 
 education:
   courses:
@@ -58,11 +61,14 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/ajfriesen
+- icon: goodreads
+  icon_pack: fab
+  link: https://goodreads.com/andrej_friesen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-- icon: cv
-  icon_pack: ai
-  link: files/cv.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -74,7 +80,12 @@ email: ""
 # - Visitors
 ---
 
-I am living and working in Cologne (Germany) as a Systems Architect.
-At work I am creating high available infrastructure with technologies like Kubernetes, AWS, Terraform and a lot more.
+I am living and working in Cologne (Germany).
 
-Feel free to have a look around.
+I just got a new job in which I get the opportunity to get into software development and of course, server and infrastructure stuff, which I just love :smiley:
+
+I am also interested in some side business freelance work.
+Check out my [experience]({{< ref "experience" >}}), the [freelance]({{< ref "freelance" >}}) and [projects]({{< ref "my_projects" >}}) section.  
+**Maybe you want me in your next project.**
+
+Also, I like to write occasionally about things which interest me [writing]({{< ref "blog" >}}).
