@@ -19,6 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Software & Systems Engineer"
+  company = "Quesgridscale GmbH"
+  company_url = "https://gridscale.io/"
+  location = "Cologne, Germany (Remote)"
+  date_start = "2020-08-01"
+  date_end = ""
+  description = """
+  
+  Responsibilities include:
+  
+  * comming soon
+  """
+
+[[experience]]
   title = "Systems Architect"
   company = "Questback GmbH"
   company_url = "https://www.questback.com/"
@@ -38,7 +52,7 @@ date_format = "Jan 2006"
   * Introduce Infrastrucutre as Code into the team
   * Run knowledge transfare sessions about Kubernetes, Rancher2, Helm, AWS, Terraform, Packer, systemd, etc.
   * Work close with development and product management on requirements for modernization of legacy application
-  * Work remote with a consultancy from India for ~ 10 months (experience the pros and cons of remote work)
+  * Work remote with a consultancy from India for ~ 10 months (experienced the pros and cons of remote work)
 
   """
 

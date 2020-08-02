@@ -19,6 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Software & Systems Engineer"
+  company = "Quesgridscale GmbH"
+  company_url = "https://gridscale.io/"
+  location = "Köln, Deutschland (Remote)"
+  date_start = "2020-08-01"
+  date_end = ""
+  description = """
+  
+  Verantwortlichkeiten behinalteten unter anderem:
+  
+  * Bald kommt mehr
+  """
+
+[[experience]]
   title = "Systems Architect"
   company = "Questback GmbH"
   company_url = "https://www.questback.com/"
