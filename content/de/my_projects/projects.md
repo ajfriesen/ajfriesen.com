@@ -22,12 +22,16 @@ subtitle = "Einige Nebenprojekte"
   filter_default = 0
   
   [[content.filter_button]]
-    name = "All"
+    name = "Alle"
     tag = "*"
   
   [[content.filter_button]]
-    name = "Webhosting"
-    tag = "Webhosting"
+    name = "Webseiten"
+    tag = "Webseite"
+  
+  [[content.filter_button]]
+    name = "Schreiben"
+    tag = "Schreiben"
   
   # [[content.filter_button]]
   #   name = "Other"

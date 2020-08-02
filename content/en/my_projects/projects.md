@@ -26,12 +26,12 @@ subtitle = "Some side projects."
     tag = "*"
   
   [[content.filter_button]]
-    name = "Webhosting"
-    tag = "Webhosting"
+    name = "Websites"
+    tag = "Website"
 
   [[content.filter_button]]
-    name = "Content Creation"
-    tag = "Content Creation"
+    name = "Writing"
+    tag = "Writing"
   
   # [[content.filter_button]]
   #   name = "Other"
