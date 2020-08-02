@@ -89,4 +89,4 @@ Momentan interessiere ich mich auch für kleinere nebenberufliche Tätigkeiten.
 Schaut euch bei Interesse die [Erfahrung]({{< ref "experience" >}}), [Freelance]({{< ref "freelance" >}}) und [Projekt]({{< ref "my_projects" >}}) Seiten an.  
 **Eventuell wollt ihr mich beim nächsten Projekt dabei haben.**
 
-Außerdem schreibe ich ab und zu etwas in meinem [Blog]({{< ref "blog" >}}) zu Themen die mich nteressieren.
+Außerdem schreibe ich ab und zu etwas in meinem [Blog]({{< ref "blog" >}}) zu Themen die mich interessieren.
