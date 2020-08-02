@@ -1,17 +1,14 @@
 ---
-title: Writing content for Technik-Tip
-summary: A website in German explaining common IT problems for everybody.
+title: EliOra Tanzania - Hand in Hand e.V.
+summary: A website for EliOra Tanzania - Hand in Hand e.V.
 tags:
 - static HTML
 - Webhosting
 - Github Pages
 - Hugo
 - Github Actions
-- Content Creation
 - Website
-- Writing
-date: "2020-08-01T21:45:12Z0200"
-# 2020-08-02 21:45:12
+date: "2020-07-05T00:00:00Z"
 draft: false
 
 # Optional external URL for project (replaces project detail page).
@@ -25,8 +22,8 @@ links:
 - icon: "external-link-alt"
   icon_pack: fas
   name: Website
-  url: https://www.technik-tip.de
-url_code: "https://github.com/ajfriesen/technik-tip"
+  url: https://www.eliora-tanzania.org
+url_code: "https://github.com/ajfriesen/elimu-bora"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -39,10 +36,13 @@ url_video: ""
 slides: ""
 ---
 
-Simple website for my small passion project.
+Simple website for EliOra Tanzania - Hand in Hand e.V.
 
-The main goal is to write content about daily IT problems and explain them for everybody.
-The project is inpired by the German project [www.finanztip.de](https://www.finanztip.de/) which explains every financial topic for the normal consumer.
+This is an organizations which is helping people in Tanzania.
+The project is based on donations and volunters.
+
+Since the money and time should not spend on expensive web hosting.
+With the static website I build with hugo and the academic theme the only cost are the domain itself.
 
 ## Techstack
 

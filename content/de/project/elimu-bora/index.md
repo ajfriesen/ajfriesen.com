@@ -1,15 +1,13 @@
 ---
-title: Technik-Tip
-summary: Erstellen von Inhalten und alles drum herum für eine Webseite die, die tägliche IT Probleme für jedermann erklärt.
+title: EliOra Tanzania - Hand in Hand e.V.
+summary: Eine einfache Webseite für den Verein EliOra Tanzania - Hand in Hand e.V.
 tags:
-- statisches HTML
+- static HTML
 - Webhosting
 - Github Pages
 - Hugo
 - Github Actions
-- Content Creation
 - Webseite
-- Schreiben
 date: "2020-07-05T00:00:00Z"
 draft: false
 
@@ -23,9 +21,9 @@ image:
 links:
 - icon: "external-link-alt"
   icon_pack: fas
-  name: Webseite
-  url: https://www.technik-tip.de
-url_code: "https://github.com/ajfriesen/technik-tip"
+  name: Website
+  url: https://www.eliora-tanzania.org
+url_code: "https://github.com/ajfriesen/elimu-bora"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -38,10 +36,13 @@ url_video: ""
 slides: ""
 ---
 
-Eine simple kleine Webseite für mein kleines Nebenprojekt.
+Der Verein kümmert sich um Hilfsprojekte in Tanzania.
+Das funktionert durch spenden, Mitgliedsbeiträgen und ehrenamtliche Arbeit, also Zeit.
 
-Das Ziel ist es tägliche IT Probleme für jederman einfach zu erklären.
-Ein ähnliches Projekt im Bereich der Finanzen gibt es schon mit [www.finanztip.de](https://www.finanztip.de/) welches dieses hier bestimmt auch ein wenig geprägt hat.
+Ich finde, dass so viel Zeit und Geld für das eigentliche Projekt genutzt werden soll.
+Daher helfe ich ehrenamtlich mit bei Gestaltung und Hosting der Webseite.
+
+Mit hugo und dem hugo Academic Theme liegen die kosten nur bei der Domain die sehr gering sind.
 
 ## Techstack
 
