@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Andrej Friesen</title><link>https://www.ajfriesen.com/de/</link><atom:link href="https://www.ajfriesen.com/de/index.xml" rel="self" type="application/rss+xml"/><description>Andrej Friesen</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>Andrej Friesen</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Andrej Friesen</title><link>https://www.ajfriesen.com/de/</link></image><item><title>Webseite Hosting für eine private Klavierschule</title><link>https://www.ajfriesen.com/de/project/klavierschule-friesen/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/project/klavierschule-friesen/</guid><description>&lt;p>Eine einfache deutsche Seite für die Selbstständigkeit meiner Mutter.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Andrej Friesen</title><link>https://www.ajfriesen.com/de/</link><atom:link href="https://www.ajfriesen.com/de/index.xml" rel="self" type="application/rss+xml"/><description>Andrej Friesen</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>Andrej Friesen</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Andrej Friesen</title><link>https://www.ajfriesen.com/de/</link></image><item><title>EliOra Tanzania - Hand in Hand e.V.</title><link>https://www.ajfriesen.com/de/project/elimu-bora/</link><pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/project/elimu-bora/</guid><description>&lt;p>Der Verein kümmert sich um Hilfsprojekte in Tanzania.
+Das funktionert durch spenden, Mitgliedsbeiträgen und ehrenamtliche Arbeit, also Zeit.&lt;/p>
+&lt;p>Ich finde, dass so viel Zeit und Geld für das eigentliche Projekt genutzt werden soll.
+Daher helfe ich ehrenamtlich mit bei Gestaltung und Hosting der Webseite.&lt;/p>
+&lt;p>Mit hugo und dem hugo Academic Theme liegen die kosten nur bei der Domain die sehr gering sind.&lt;/p>
+&lt;h2 id="techstack">Techstack&lt;/h2>
+&lt;ul>
+&lt;li>Die Webseite wird mit dem statischem Webseiten Generator
+&lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> gebaut&lt;/li>
+&lt;li>Ich nutze das Hugo
+&lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">academic theme&lt;/a>&lt;/li>
+&lt;li>Für das Hosting nutze ich
+&lt;a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages&lt;/a>&lt;/li>
+&lt;li>Mit Github Actions habe ich das Deployment der Webseite komplett automatisiert&lt;/li>
+&lt;/ul>
+&lt;p>Schaut gerne mal vorbei: &lt;a href="https://www.technik-tip.de/">https://www.technik-tip.de/&lt;/a>&lt;/p></description></item><item><title>Technik-Tip</title><link>https://www.ajfriesen.com/de/project/technik-tip/</link><pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/project/technik-tip/</guid><description>&lt;p>Eine simple kleine Webseite für mein kleines Nebenprojekt.&lt;/p>
+&lt;p>Das Ziel ist es tägliche IT Probleme für jederman einfach zu erklären.
+Ein ähnliches Projekt im Bereich der Finanzen gibt es schon mit
+&lt;a href="https://www.finanztip.de/" target="_blank" rel="noopener">www.finanztip.de&lt;/a> welches dieses hier bestimmt auch ein wenig geprägt hat.&lt;/p>
+&lt;h2 id="techstack">Techstack&lt;/h2>
+&lt;ul>
+&lt;li>Die Webseite wird mit dem statischem Webseiten Generator
+&lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> gebaut&lt;/li>
+&lt;li>Ich nutze das Hugo
+&lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">academic theme&lt;/a>&lt;/li>
+&lt;li>Für das Hosting nutze ich
+&lt;a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages&lt;/a>&lt;/li>
+&lt;li>Mit Github Actions habe ich das Deployment der Webseite komplett automatisiert&lt;/li>
+&lt;/ul>
+&lt;p>Schaut gerne mal vorbei: &lt;a href="https://www.technik-tip.de/">https://www.technik-tip.de/&lt;/a>&lt;/p></description></item><item><title>Webseite Hosting für eine private Klavierschule</title><link>https://www.ajfriesen.com/de/project/klavierschule-friesen/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/project/klavierschule-friesen/</guid><description>&lt;p>Eine einfache deutsche Seite für die Selbstständigkeit meiner Mutter.
 Ich bin kein Webentwickler, daher hab ich mich einfach einem
 &lt;a href="https://startbootstrap.com/themes/creative" target="_blank" rel="noopener">Theme von startbootstrap bedient&lt;/a>.
 Mit ein paar kleinen Anpassungen war die Seite schnell fertig.&lt;/p>
@@ -17,7 +46,7 @@ Mit ein paar kleinen Anpassungen war die Seite schnell fertig.&lt;/p>
 &lt;li>Der Inhalt kann dann selbst editiert werden, trotz statischem HTML&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Blog</title><link>https://www.ajfriesen.com/de/blog/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/blog/</guid><description/></item><item><title>Impressum</title><link>https://www.ajfriesen.com/de/terms/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/de/terms/</guid><description>&lt;h2>Diensteanbieter&lt;/h2>
+&lt;/ul></description></item><item><title>Blog</title><link>https://www.ajfriesen.com/de/blog/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/blog/</guid><description/></item><item><title>Freelance</title><link>https://www.ajfriesen.com/de/freelance/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/freelance/</guid><description/></item><item><title>Landing Page</title><link>https://www.ajfriesen.com/de/my_projects/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/my_projects/</guid><description/></item><item><title>Impressum</title><link>https://www.ajfriesen.com/de/terms/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/de/terms/</guid><description>&lt;h2>Diensteanbieter&lt;/h2>
 &lt;p> Andrej Friesen&lt;/p>
 &lt;p> Ulitzkastr. 4&lt;/p>
 &lt;p> 51063 Köln&lt;/p>
@@ -29,7 +58,7 @@ Mit ein paar kleinen Anpassungen war die Seite schnell fertig.&lt;/p>
 &lt;p>&lt;strong>Links auf fremde Webseiten&lt;/strong>: Inhalte fremder Webseiten, auf die wir direkt oder indirekt verweisen, liegen außerhalb unseres Verantwortungsbereiches und machen wir uns nicht zu Eigen. Für alle Inhalte und insbesondere für Schäden, die aus der Nutzung der in den verlinkten Webseiten aufrufbaren Informationen entstehen, haftet allein der Anbieter der verlinkten Webseiten.&lt;/p>
 &lt;p>&lt;strong>Urheberrechte und Markenrechte&lt;/strong>: Alle auf dieser Website dargestellten Inhalte, wie Texte, Fotografien, Grafiken, Marken und Warenzeichen sind durch die jeweiligen Schutzrechte (Urheberrechte, Markenrechte) geschützt. Die Verwendung, Vervielfältigung usw. unterliegen unseren Rechten oder den Rechten der jeweiligen Urheber bzw. Rechteverwalter.&lt;/p>
 &lt;p>&lt;strong>Hinweise auf Rechtsverstöße&lt;/strong>: Sollten Sie innerhalb unseres Internetauftritts Rechtsverstöße bemerken, bitten wir Sie uns auf diese hinzuweisen. Wir werden rechtswidrige Inhalte und Links nach Kenntnisnahme unverzüglich entfernen.&lt;/p>
-&lt;p class="seal">&lt;a href="https://datenschutz-generator.de/?l=de" title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken." target="_blank" rel="noopener noreferrer nofollow">Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke&lt;/a>&lt;/p></description></item><item><title/><link>https://www.ajfriesen.com/de/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/about/</guid><description/></item><item><title>Impressum</title><link>https://www.ajfriesen.com/de/impressum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/impressum/</guid><description>&lt;h2>Diensteanbieter&lt;/h2>
+&lt;p class="seal">&lt;a href="https://datenschutz-generator.de/?l=de" title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken." target="_blank" rel="noopener noreferrer nofollow">Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke&lt;/a>&lt;/p></description></item><item><title/><link>https://www.ajfriesen.com/de/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/contact/</guid><description/></item><item><title/><link>https://www.ajfriesen.com/de/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/experience/</guid><description/></item><item><title>Impressum</title><link>https://www.ajfriesen.com/de/impressum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/impressum/</guid><description>&lt;h2>Diensteanbieter&lt;/h2>
 &lt;p> Andrej Friesen&lt;/p>
 &lt;p> Ulitzkastr. 4&lt;/p>
 &lt;p> 51063 Köln&lt;/p>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content Creation | Andrej Friesen</title><link>https://www.ajfriesen.com/de/tags/content-creation/</link><atom:link href="https://www.ajfriesen.com/de/tags/content-creation/index.xml" rel="self" type="application/rss+xml"/><description>Content Creation</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>de</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Content Creation</title><link>https://www.ajfriesen.com/de/tags/content-creation/</link></image><item><title>Technik-Tip</title><link>https://www.ajfriesen.com/de/project/technik-tip/</link><pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/project/technik-tip/</guid><description>&lt;p>Eine simple kleine Webseite für mein kleines Nebenprojekt.&lt;/p>
+&lt;p>Das Ziel ist es tägliche IT Probleme für jederman einfach zu erklären.
+Ein ähnliches Projekt im Bereich der Finanzen gibt es schon mit
+&lt;a href="https://www.finanztip.de/" target="_blank" rel="noopener">www.finanztip.de&lt;/a> welches dieses hier bestimmt auch ein wenig geprägt hat.&lt;/p>
+&lt;h2 id="techstack">Techstack&lt;/h2>
+&lt;ul>
+&lt;li>Die Webseite wird mit dem statischem Webseiten Generator
+&lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> gebaut&lt;/li>
+&lt;li>Ich nutze das Hugo
+&lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">academic theme&lt;/a>&lt;/li>
+&lt;li>Für das Hosting nutze ich
+&lt;a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages&lt;/a>&lt;/li>
+&lt;li>Mit Github Actions habe ich das Deployment der Webseite komplett automatisiert&lt;/li>
+&lt;/ul>
+&lt;p>Schaut gerne mal vorbei: &lt;a href="https://www.technik-tip.de/">https://www.technik-tip.de/&lt;/a>&lt;/p></description></item></channel></rss>
