@@ -7,10 +7,10 @@ summary: ""
 authors: [admin]
 tags: ["sport", "headphones", "audio"]
 categories: []
-date: 2020-07-14T22:52:08+02:00
-lastmod: 2020-07-14T22:52:08+02:00
+date: 2020-11-10T21:00:08+01:00
+date: 2020-11-10T21:00:08+01:00
 featured: false
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -69,8 +69,8 @@ I decided on the Bose SoundSport.
 
 {{< figure library="false" src="bose-soundsport-wireless.jpg" numbered="false" title="Bose SoundSport" lightbox="true" >}}
 
-* [x] Water resistence
-* [x] sweat resistence
+* [x] Water resistance
+* [x] sweat resistance
 * [x] light
 * [x] no pain
 * [x] Good sound (for me)
@@ -86,7 +86,7 @@ The ear is extremly sensitive to pressure when it is on a small spot and it was 
 
 ## The solution -- Custom ear-buds
 
-Custom ear-buds or sometimes custom ear-sleaves are just what it says.
+Custom ear-buds or sometimes custom ear-sleeves are just what it says.
 Custom made for your ear.
 
 I recommend you to go to your local hearing acoustics.
@@ -98,7 +98,7 @@ Process of getting them locally:
 
 1. The hearing technician will put some mould in your ears
 2. This silicone ear imprint will then send out to a contractor which does the 3D printing of your actual ear-buds
-3. (optional) When the contractor which does not have the headphones dimensions yet, you need to send the headpones in as well (I did not need to do this)
+3. (optional) When the contractor which does not have the headphones dimensions yet, you need to send the headphones in as well (I did not need to do this)
 4. Wait a few days
 5. Get them and enjoy!
 
@@ -130,7 +130,7 @@ You can click on one of the images and use the arrow keys fast to check the diff
 ## Considerations with custom ear-buds
 
 As with everything in technology there is alway an up- and downside of things.
-Be aware that using custom ear-buds may interfere with your microphon in 2 ways:
+Be aware that using custom ear-buds may interfere with your microphone in 2 ways:
 
 1. It may be that the earbud material itself needs to cover the microphone holes in order to fit to the ear bud itself
 
@@ -211,5 +211,5 @@ Everything has upsides and downsides.
 
 What is your experience with headphones especially for sport?
 
-**To all the big companys building true wireless headphones:** Please make true wireless headphones where I can put in my custom ear-buds.
+**To all the big companys building true wireless headphones:** Please make true wireless headphones where I can put in my custom ear-buds in the case as well.
 Just put some space into the charging case.
