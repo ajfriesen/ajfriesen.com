@@ -50,17 +50,4 @@ subtitle = ""
  css_class = ""
 +++
 
-I am open for some projects on the side.  
-I do not have experience as a freelancer yet and therefore like to experiment.
-
-I can offer a lot due to my background and interest:
-
-- Build and host your static Websites 
-- Automation
-- Documentation
-- Process automation
-- Process documentation
-- Process optimization
-- Digitalization
-- Teaching
-- Consulting
+I am open for some small projects on the side.  
