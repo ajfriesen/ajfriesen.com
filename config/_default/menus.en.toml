@@ -34,6 +34,11 @@
   weight = 20
 
 [[main]]
+  name = "Digital Garden"
+  url = "digital-garden"
+  weight = 25
+
+[[main]]
   name = "Projects"
   url = "my_projects"
   weight = 30
