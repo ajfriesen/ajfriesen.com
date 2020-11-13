@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link><atom:link href="https://www.ajfriesen.com/index.xml" rel="self" type="application/rss+xml"/><description>Andrej Friesen</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link></image><item><title>Custom ear-buds for headphones</title><link>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</link><pubDate>Tue, 10 Nov 2020 21:00:08 +0100</pubDate><guid>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</guid><description>&lt;p>A story of buying headphones and custom ear-buds for sports while over thinking every aspect 🧐&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link><atom:link href="https://www.ajfriesen.com/index.xml" rel="self" type="application/rss+xml"/><description>Andrej Friesen</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link></image><item><title>Good Reads</title><link>https://www.ajfriesen.com/digital-garden/wiki/good-reads/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/good-reads/</guid><description>&lt;p>Here is a list of handy links I often share at work or whereever:&lt;/p>
+&lt;h2 id="terraform-blog-posts-by-grundwork">Terraform Blog Posts by Grundwork&lt;/h2>
+&lt;h2 id="12-factor-app">12 Factor App&lt;/h2>
+&lt;h2 id="command-not-found">Command not found&lt;/h2>
+&lt;h2 id="changelog-format">Changelog format&lt;/h2>
+&lt;p>&lt;a href="https://keepachangelog.com/en/1.0.0/">https://keepachangelog.com/en/1.0.0/&lt;/a>&lt;/p>
+&lt;h2 id="readme-driven-development">Readme driven development&lt;/h2>
+&lt;p>&lt;a href="https://tom.preston-werner.com/2010/08/23/readme-driven-development.html">https://tom.preston-werner.com/2010/08/23/readme-driven-development.html&lt;/a>&lt;/p>
+&lt;h2 id="free-books-by-google-for-site-reliability">Free Books by Google for Site Reliability&lt;/h2>
+&lt;p>
+&lt;a href="https://landing.google.com/sre/books/" target="_blank" rel="noopener">SRE Books&lt;/a>&lt;/p>
+&lt;h2 id="commniuty-about-documentation">Commniuty about Documentation&lt;/h2>
+&lt;p>&lt;a href="https://www.writethedocs.org/">https://www.writethedocs.org/&lt;/a>&lt;/p>
+&lt;h2 id="semantic-versioning">Semantic Versioning&lt;/h2>
+&lt;p>I think most people know that and still everybody does it different.
+Also it is not always a good choice to force semantic versioning.&lt;/p>
+&lt;p>&lt;a href="https://semver.org/">https://semver.org/&lt;/a>&lt;/p>
+&lt;h2 id="philosophy-on-alerting-by-a-site-reliability-engineer-at-google">Philosophy on Alerting by a Site Reliability Engineer at Google&lt;/h2>
+&lt;p>&lt;a href="https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/mobilebasic">https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/mobilebasic&lt;/a>&lt;/p>
+&lt;h2 id="reactive-manifesto">Reactive Manifesto&lt;/h2>
+&lt;p>&lt;a href="https://www.reactivemanifesto.org/">https://www.reactivemanifesto.org/&lt;/a>&lt;/p>
+&lt;h2 id="cloud-computing-patterns">Cloud Computing Patterns&lt;/h2>
+&lt;p>&lt;a href="https://www.cloudcomputingpatterns.org/">https://www.cloudcomputingpatterns.org/&lt;/a>&lt;/p>
+&lt;h2 id="landscape-for-cloud-native-applications">Landscape for Cloud Native Applications&lt;/h2>
+&lt;p>&lt;a href="https://landscape.cncf.io/">https://landscape.cncf.io/&lt;/a>&lt;/p></description></item><item><title>Linux</title><link>https://www.ajfriesen.com/digital-garden/wiki/linux/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/linux/</guid><description>&lt;p>Here is a list of handy links I often share at work or whereever:&lt;/p>
+&lt;h2 id="a-really-nice-shell">A really nice shell&lt;/h2>
+&lt;p>&lt;a href="https://ohmyz.sh/">https://ohmyz.sh/&lt;/a>&lt;/p></description></item><item><title>Git</title><link>https://www.ajfriesen.com/digital-garden/wiki/git/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/git/</guid><description>&lt;p>Everything around git, because I keep googling the same stuff again and again:&lt;/p>
+&lt;h2 id="git-commit-messages">Git commit messages&lt;/h2>
+&lt;p>
+&lt;a href="https://chris.beams.io/posts/git-commit/" target="_blank" rel="noopener">How to Write a Git Commit Message
+&lt;/a>&lt;/p></description></item><item><title>Kubernetes</title><link>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</guid><description>&lt;p>Everything around Kubernetes and its ecosystem, because it is damn complex:&lt;/p>
+&lt;h2 id="kubeadm">kubeadm&lt;/h2>
+&lt;h2 id="prometheus">Prometheus&lt;/h2>
+&lt;h2 id="grafana">Grafana&lt;/h2>
+&lt;h2 id="prometheus-am-executor">prometheus-am-executor&lt;/h2>
+&lt;h2 id="nginx-ingress-controller">nginx-ingress-controller&lt;/h2>
+&lt;h2 id="helm-hub">Helm Hub&lt;/h2>
+&lt;h2 id="kubernetes-edx-course">Kubernetes edx course&lt;/h2>
+&lt;h2 id="kubernetes-course-udemy">Kubernetes course udemy&lt;/h2>
+&lt;h2 id="kubectx--kubens">kubectx &amp;amp; kubens&lt;/h2>
+&lt;h2 id="stern--kubetail">stern &amp;amp; kubetail&lt;/h2>
+&lt;h2 id="alertmanager">alertmanager&lt;/h2>
+&lt;h2 id="cert-manager">cert-manager&lt;/h2>
+&lt;h2 id="chartmuseum">Chartmuseum&lt;/h2></description></item><item><title>Custom ear-buds for headphones</title><link>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</link><pubDate>Tue, 10 Nov 2020 21:00:08 +0100</pubDate><guid>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</guid><description>&lt;p>A story of buying headphones and custom ear-buds for sports while over thinking every aspect 🧐&lt;/p>
 &lt;h2 id="some-context">Some context&lt;/h2>
 &lt;p>Headphones are a really personal and subjective thing.
 Audio in general is but I do not want to go the route of audio or Hi-Fi here.
