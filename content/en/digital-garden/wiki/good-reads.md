@@ -18,6 +18,12 @@ Here is a list of handy links I often share at work or whereever:
 
 ## Terraform Blog Posts by Grundwork
 
+## Terraform Remote State
+
+HashiCorp offers a free remote state for small teams and personal projects.
+
+https://www.hashicorp.com/products/terraform/pricing
+
 ## 12 Factor App
 
 ## Command not found
