@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Overview | Andrej Friesen</title><link>https://www.ajfriesen.com/digital-garden/wiki/</link><atom:link href="https://www.ajfriesen.com/digital-garden/wiki/index.xml" rel="self" type="application/rss+xml"/><description>Overview</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Overview</title><link>https://www.ajfriesen.com/digital-garden/wiki/</link></image><item><title>Good Reads</title><link>https://www.ajfriesen.com/digital-garden/wiki/good-reads/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/good-reads/</guid><description>&lt;p>Here is a list of handy links I often share at work or whereever:&lt;/p>
 &lt;h2 id="terraform-blog-posts-by-grundwork">Terraform Blog Posts by Grundwork&lt;/h2>
+&lt;h2 id="terraform-remote-state">Terraform Remote State&lt;/h2>
+&lt;p>HashiCorp offers a free remote state for small teams and personal projects.&lt;/p>
+&lt;p>&lt;a href="https://www.hashicorp.com/products/terraform/pricing">https://www.hashicorp.com/products/terraform/pricing&lt;/a>&lt;/p>
 &lt;h2 id="12-factor-app">12 Factor App&lt;/h2>
 &lt;h2 id="command-not-found">Command not found&lt;/h2>
 &lt;h2 id="changelog-format">Changelog format&lt;/h2>
