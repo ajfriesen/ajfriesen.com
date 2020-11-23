@@ -22,6 +22,7 @@ menu:
 ---
 
 Personal Wiki and notes which I am to lazy to write a blog article about.
+
 ## Handy Links and Resources
 
 Just a bunch of handy links I often share or refer to.
@@ -42,7 +43,7 @@ https://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
 [SRE Books](https://landing.google.com/sre/books/)
 
-### Commniuty about Documentation
+### Community about Documentation
 
 https://www.writethedocs.org/
 
@@ -53,10 +54,9 @@ Also it is not always a good choice to force semantic versioning.
 
 https://semver.org/
 
-
 ### Philosophy on Alerting by a Site Reliability Engineer at Google
 
-https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/mobilebasic
+[My Philosophy on Alerting based my observations while I was a Site Reliability Engineer at Google](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/)
 
 ### Reactive Manifesto
 
@@ -74,6 +74,7 @@ https://landscape.cncf.io/
 
 [How to Write a Git Commit Message
 ](https://chris.beams.io/posts/git-commit/)
+
 ## Random
 
 Placeholder for random stuff.

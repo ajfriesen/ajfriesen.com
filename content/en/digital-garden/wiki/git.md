@@ -16,7 +16,9 @@ weight: 2
 
 ## Github FLow
 
-https://guides.github.com/introduction/flow/
+A little easier version of Git Flow.
+
+(https://guides.github.com/introduction/flow/)
 
 ## Git FLow
 

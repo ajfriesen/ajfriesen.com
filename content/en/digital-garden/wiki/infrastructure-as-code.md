@@ -39,8 +39,9 @@ Out of these blog post Yevgeniy Brikman has created the book "[Terraform Up & Ru
 
 HashiCorp offers a free remote state for small teams and personal projects.
 
-https://www.hashicorp.com/products/terraform/pricing
+[Terraform Cloud plans](https://www.hashicorp.com/products/terraform/pricing)
 
+[Login to Terraform cloud for your remote state](https://app.terraform.io/)
 
 ## Infrastructure as Code in one video
 
@@ -53,22 +54,22 @@ Damn good talk about Infrastructure as Code and the state of it.
 When using multiple states you can create the remote backend dynamically with this tool.
 Less copy paste for remote backend setup.
 
-https://terragrunt.gruntwork.io/
+[Terragrunt Website](https://terragrunt.gruntwork.io/)
 
-https://github.com/gruntwork-io/terragrunt
+[Terragrunt git repo](https://github.com/gruntwork-io/terragrunt)
 
 ## Using multiple terraform version on your machine
 
-https://github.com/tfutils/tfenv
+[tfenv](https://github.com/tfutils/tfenv)
 
 ## How to test terraform modules
 
-https://github.com/gruntwork-io/terratest
+[terratest](https://github.com/gruntwork-io/terratest)
 
 
-## Devops Checklist - Everything you need to do to go live
+## Production Readiness Checklist - Everything you need to do to go live
 
-A really good list from grundwork.
-Check it out and show this to your manager:
+Production Readiness Checklist
+It is not to specific to AWS
 
-https://gruntwork.io/devops-checklist/
+[Production Readiness Checklist](https://gruntwork.io/devops-checklist/)
