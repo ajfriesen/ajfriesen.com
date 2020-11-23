@@ -1,47 +1,165 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Overview | Andrej Friesen</title><link>https://www.ajfriesen.com/digital-garden/wiki/</link><atom:link href="https://www.ajfriesen.com/digital-garden/wiki/index.xml" rel="self" type="application/rss+xml"/><description>Overview</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Overview</title><link>https://www.ajfriesen.com/digital-garden/wiki/</link></image><item><title>Good Reads</title><link>https://www.ajfriesen.com/digital-garden/wiki/good-reads/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/good-reads/</guid><description>&lt;p>Here is a list of handy links I often share at work or whereever:&lt;/p>
-&lt;h2 id="terraform-blog-posts-by-grundwork">Terraform Blog Posts by Grundwork&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wiki | Andrej Friesen</title><link>https://www.ajfriesen.com/digital-garden/wiki/</link><atom:link href="https://www.ajfriesen.com/digital-garden/wiki/index.xml" rel="self" type="application/rss+xml"/><description>Wiki</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Wiki</title><link>https://www.ajfriesen.com/digital-garden/wiki/</link></image><item><title>Git</title><link>https://www.ajfriesen.com/digital-garden/wiki/git/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/git/</guid><description>&lt;h2 id="github-flow">Github FLow&lt;/h2>
+&lt;p>A little easier version of Git Flow.&lt;/p>
+&lt;p>(&lt;a href="https://guides.github.com/introduction/flow/">https://guides.github.com/introduction/flow/&lt;/a>)&lt;/p>
+&lt;h2 id="git-flow">Git FLow&lt;/h2>
+&lt;p>A relative complex process to use git with multiple teams.&lt;/p>
+&lt;p>
+&lt;a href="https://danielkummer.github.io/git-flow-cheatsheet/" target="_blank" rel="noopener">git flow cheat sheet&lt;/a>&lt;/p>
+&lt;h2 id="update-your-development-branch-from-another-branch-main">Update your development branch from another branch (main)&lt;/h2>
+&lt;p>&lt;code>git pull --rebase origin main&lt;/code>&lt;/p></description></item><item><title>Infrastructure as Code</title><link>https://www.ajfriesen.com/digital-garden/wiki/infrastructure-as-code/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/infrastructure-as-code/</guid><description>&lt;h2 id="blog-posts-by-gruntwork-about-terraform">Blog Posts by Gruntwork about terraform&lt;/h2>
+&lt;p>If you just start using terraform these are really handy resources written in the grundwork blog:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;a href="https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca" target="_blank" rel="noopener">A Comprehensive Guide to Terraform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c" target="_blank" rel="noopener">Why we use Terraform and not Chef, Puppet, Ansible, SaltStack, or CloudFormation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180" target="_blank" rel="noopener">An Introduction to Terraform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.gruntwork.io/how-to-manage-terraform-state-28f5697e68fa" target="_blank" rel="noopener">How to manage Terraform state&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d" target="_blank" rel="noopener">How to create reusable infrastructure with Terraform modules&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9" target="_blank" rel="noopener">Terraform tips &amp;amp; tricks: loops, if-statements, and gotchas&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973" target="_blank" rel="noopener">How to use Terraform as a team&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;h2 id="terraform-book">Terraform Book&lt;/h2>
+&lt;p>If you do terraform, read it.
+It is a quick and good read and you will save a lot of time doing common mistakes.&lt;/p>
+&lt;p>Out of these blog post Yevgeniy Brikman has created the book &amp;ldquo;
+&lt;a href="https://www.terraformupandrunning.com/" target="_blank" rel="noopener">Terraform Up &amp;amp; Running&lt;/a>&amp;quot;.&lt;/p>
 &lt;h2 id="terraform-remote-state">Terraform Remote State&lt;/h2>
 &lt;p>HashiCorp offers a free remote state for small teams and personal projects.&lt;/p>
-&lt;p>&lt;a href="https://www.hashicorp.com/products/terraform/pricing">https://www.hashicorp.com/products/terraform/pricing&lt;/a>&lt;/p>
-&lt;h2 id="12-factor-app">12 Factor App&lt;/h2>
-&lt;h2 id="command-not-found">Command not found&lt;/h2>
-&lt;h2 id="changelog-format">Changelog format&lt;/h2>
-&lt;p>&lt;a href="https://keepachangelog.com/en/1.0.0/">https://keepachangelog.com/en/1.0.0/&lt;/a>&lt;/p>
-&lt;h2 id="readme-driven-development">Readme driven development&lt;/h2>
-&lt;p>&lt;a href="https://tom.preston-werner.com/2010/08/23/readme-driven-development.html">https://tom.preston-werner.com/2010/08/23/readme-driven-development.html&lt;/a>&lt;/p>
-&lt;h2 id="free-books-by-google-for-site-reliability">Free Books by Google for Site Reliability&lt;/h2>
 &lt;p>
-&lt;a href="https://landing.google.com/sre/books/" target="_blank" rel="noopener">SRE Books&lt;/a>&lt;/p>
-&lt;h2 id="commniuty-about-documentation">Commniuty about Documentation&lt;/h2>
-&lt;p>&lt;a href="https://www.writethedocs.org/">https://www.writethedocs.org/&lt;/a>&lt;/p>
-&lt;h2 id="semantic-versioning">Semantic Versioning&lt;/h2>
-&lt;p>I think most people know that and still everybody does it different.
-Also it is not always a good choice to force semantic versioning.&lt;/p>
-&lt;p>&lt;a href="https://semver.org/">https://semver.org/&lt;/a>&lt;/p>
-&lt;h2 id="philosophy-on-alerting-by-a-site-reliability-engineer-at-google">Philosophy on Alerting by a Site Reliability Engineer at Google&lt;/h2>
-&lt;p>&lt;a href="https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/mobilebasic">https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/mobilebasic&lt;/a>&lt;/p>
-&lt;h2 id="reactive-manifesto">Reactive Manifesto&lt;/h2>
-&lt;p>&lt;a href="https://www.reactivemanifesto.org/">https://www.reactivemanifesto.org/&lt;/a>&lt;/p>
-&lt;h2 id="cloud-computing-patterns">Cloud Computing Patterns&lt;/h2>
-&lt;p>&lt;a href="https://www.cloudcomputingpatterns.org/">https://www.cloudcomputingpatterns.org/&lt;/a>&lt;/p>
-&lt;h2 id="landscape-for-cloud-native-applications">Landscape for Cloud Native Applications&lt;/h2>
-&lt;p>&lt;a href="https://landscape.cncf.io/">https://landscape.cncf.io/&lt;/a>&lt;/p></description></item><item><title>Linux</title><link>https://www.ajfriesen.com/digital-garden/wiki/linux/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/linux/</guid><description>&lt;p>Here is a list of handy links I often share at work or whereever:&lt;/p>
+&lt;a href="https://www.hashicorp.com/products/terraform/pricing" target="_blank" rel="noopener">Terraform Cloud plans&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://app.terraform.io/" target="_blank" rel="noopener">Login to Terraform cloud for your remote state&lt;/a>&lt;/p>
+&lt;h2 id="infrastructure-as-code-in-one-video">Infrastructure as Code in one video&lt;/h2>
+&lt;p>Damn good talk about Infrastructure as Code and the state of it.&lt;/p>
+&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=RTEgE2lcyk4" target="_blank" rel="noopener">5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code&lt;/a>&lt;/p>
+&lt;h2 id="keep-your-terraform-configuration-dry">Keep your terraform configuration DRY&lt;/h2>
+&lt;p>When using multiple states you can create the remote backend dynamically with this tool.
+Less copy paste for remote backend setup.&lt;/p>
+&lt;p>
+&lt;a href="https://terragrunt.gruntwork.io/" target="_blank" rel="noopener">Terragrunt Website&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/gruntwork-io/terragrunt" target="_blank" rel="noopener">Terragrunt git repo&lt;/a>&lt;/p>
+&lt;h2 id="using-multiple-terraform-version-on-your-machine">Using multiple terraform version on your machine&lt;/h2>
+&lt;p>
+&lt;a href="https://github.com/tfutils/tfenv" target="_blank" rel="noopener">tfenv&lt;/a>&lt;/p>
+&lt;h2 id="how-to-test-terraform-modules">How to test terraform modules&lt;/h2>
+&lt;p>
+&lt;a href="https://github.com/gruntwork-io/terratest" target="_blank" rel="noopener">terratest&lt;/a>&lt;/p>
+&lt;h2 id="production-readiness-checklist---everything-you-need-to-do-to-go-live">Production Readiness Checklist - Everything you need to do to go live&lt;/h2>
+&lt;p>Production Readiness Checklist
+It is not to specific to AWS&lt;/p>
+&lt;p>
+&lt;a href="https://gruntwork.io/devops-checklist/" target="_blank" rel="noopener">Production Readiness Checklist&lt;/a>&lt;/p></description></item><item><title>Kubernetes</title><link>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</guid><description>&lt;p>All stuff related to Kubernetes.
+The stuff thing everybody wants to run but a few people know about what it actually does.
+It is a damn complex thing.
+Heard it be called the operating system for the cloud.&lt;/p>
+&lt;h2 id="find-kubernetes-resources-that-have-been-deprecated">Find Kubernetes resources that have been deprecated&lt;/h2>
+&lt;p>This is a very simple utility to help users find deprecated Kubernetes apiVersions in their code repositories and their helm releases.&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/FairwindsOps/pluto/" target="_blank" rel="noopener">pluto&lt;/a>&lt;/p>
+&lt;h2 id="installing-kubernetes">Installing Kubernetes&lt;/h2>
+&lt;ul>
+&lt;li>kubeadm&lt;/li>
+&lt;/ul>
+&lt;h2 id="monitoring">Monitoring&lt;/h2>
+&lt;p>Typical monitoring stack&lt;/p>
+&lt;ul>
+&lt;li>Prometheus&lt;/li>
+&lt;li>Grafana&lt;/li>
+&lt;li>alertmanager&lt;/li>
+&lt;/ul>
+&lt;h3 id="prometheus-am-executor">prometheus-am-executor&lt;/h3>
+&lt;p>A small binary which will let you run scripts on alerts by alertmanager&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/imgix/prometheus-am-executor" target="_blank" rel="noopener">prometheus-am-executor&lt;/a>&lt;/p>
+&lt;h2 id="ingress-controller">Ingress Controller&lt;/h2>
+&lt;h3 id="nginx-ingress-controller">nginx-ingress-controller&lt;/h3>
+&lt;p>There are 2 NGINX Ingress Controllers which do not share the same features and config!&lt;/p>
+&lt;h4 id="nginx-ingress-controller-by-the-kubernetes-community">NGINX Ingress Controller by the Kubernetes community&lt;/h4>
+&lt;ul>
+&lt;li>Repo&lt;/li>
+&lt;li>Helm-Chart&lt;/li>
+&lt;li>Docs&lt;/li>
+&lt;/ul>
+&lt;h4 id="nginx-ingress-controller-by-nginx-inc">NGINX Ingress Controller by NGINX INC&lt;/h4>
+&lt;ul>
+&lt;li>Repo&lt;/li>
+&lt;li>Helm-Chart&lt;/li>
+&lt;li>Docs&lt;/li>
+&lt;/ul>
+&lt;h2 id="kubernetes-package-and-resource-management">Kubernetes Package and Resource management&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://helm.sh/" target="_blank" rel="noopener">Helm - The package manager for Kubernetes&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://artifacthub.io/" target="_blank" rel="noopener">Artifact Hub&lt;/a> Former Helm Hub which is deprecated&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/helm/chartmuseum" target="_blank" rel="noopener">chartmuseum git repo&lt;/a> Hosting your own helm-repos&lt;/li>
+&lt;/ul>
+&lt;h2 id="learning-resources">learning Resources&lt;/h2>
+&lt;ul>
+&lt;li>Kubernetes edx course&lt;/li>
+&lt;li>Kubernetes course udemy&lt;/li>
+&lt;/ul>
+&lt;h2 id="useful-tools-for-daly-operation">Useful Tools for daly operation&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/ahmetb/kubectx" target="_blank" rel="noopener">kubectx &amp;amp; kubens&lt;/a> easy cluster and namespace context switching with shell promt support&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/wercker/stern" target="_blank" rel="noopener">stern&lt;/a> Tail and follow multiple pods on Kubernetes and multiple containers within the pod&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/johanhaleby/kubetail" target="_blank" rel="noopener">kubetail&lt;/a> Bash script that enables you to aggregate (tail/follow) logs from multiple pods into one stream. This is the same as running &amp;ldquo;kubectl logs -f &amp;quot; but for multiple pods.&lt;/li>
+&lt;/ul>
+&lt;h2 id="certifcate-management">Certifcate management&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://cert-manager.io/" target="_blank" rel="noopener">cert-manager website&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jetstack/cert-manager" target="_blank" rel="noopener">cert-manager git repo&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://artifacthub.io/packages/helm/jetstack/cert-manager" target="_blank" rel="noopener">cert-manager helm chart&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Linux</title><link>https://www.ajfriesen.com/digital-garden/wiki/linux/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/linux/</guid><description>&lt;h2 id="memory-management">Memory Management&lt;/h2>
+&lt;p>A really good talk about Memory Management in Linux
+&amp;ldquo;
+&lt;a href="https://www.youtube.com/watch?v=beefUhRH5lU&amp;amp;feature=youtu.be" target="_blank" rel="noopener">SREcon19 Asia/Pacific - Linux Memory Management at Scale: Under the Hood&lt;/a>&amp;quot;:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/beefUhRH5lU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;p>Learned a lot:&lt;/p>
+&lt;ul>
+&lt;li>RSS is only measured because it is easy&lt;/li>
+&lt;li>It is not easy to check if your memory is overalocated. It could also be just used very efficiently&lt;/li>
+&lt;li>cgroupsv1 vs cgroupv2&lt;/li>
+&lt;li>SWAP is good to free up memory which is not backed up by anything on the disk. (anon memory)&lt;/li>
+&lt;li>
+&lt;a href="https://chrisdown.name/2018/01/02/in-defence-of-swap.html" target="_blank" rel="noopener">In defence of swap: common misconceptions&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linuxatemyram.com/" target="_blank" rel="noopener">Linux ate my ram! Don&amp;rsquo;t Panic! Your ram is fine!&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="userspace-oom-software">Userspace oom software&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/facebookincubator/oomd" target="_blank" rel="noopener">oomd by facebook&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/rfjakob/earlyoom" target="_blank" rel="noopener">earlyoom&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="finding-a-package-for-every-distribution">Finding a package for every distribution&lt;/h2>
+&lt;p>Ever wanted to know how to install &lt;code>telet&lt;/code> in alpine but forgot the package name for that distribution?
+This website can help!&lt;/p>
+&lt;p>
+&lt;a href="https://command-not-found.com/" target="_blank" rel="noopener">Command not found&lt;/a>&lt;/p>
 &lt;h2 id="a-really-nice-shell">A really nice shell&lt;/h2>
-&lt;p>&lt;a href="https://ohmyz.sh/">https://ohmyz.sh/&lt;/a>&lt;/p></description></item><item><title>Git</title><link>https://www.ajfriesen.com/digital-garden/wiki/git/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/git/</guid><description>&lt;p>Everything around git, because I keep googling the same stuff again and again:&lt;/p>
-&lt;h2 id="git-commit-messages">Git commit messages&lt;/h2>
 &lt;p>
-&lt;a href="https://chris.beams.io/posts/git-commit/" target="_blank" rel="noopener">How to Write a Git Commit Message
-&lt;/a>&lt;/p></description></item><item><title>Kubernetes</title><link>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</guid><description>&lt;p>Everything around Kubernetes and its ecosystem, because it is damn complex:&lt;/p>
-&lt;h2 id="kubeadm">kubeadm&lt;/h2>
-&lt;h2 id="prometheus">Prometheus&lt;/h2>
-&lt;h2 id="grafana">Grafana&lt;/h2>
-&lt;h2 id="prometheus-am-executor">prometheus-am-executor&lt;/h2>
-&lt;h2 id="nginx-ingress-controller">nginx-ingress-controller&lt;/h2>
-&lt;h2 id="helm-hub">Helm Hub&lt;/h2>
-&lt;h2 id="kubernetes-edx-course">Kubernetes edx course&lt;/h2>
-&lt;h2 id="kubernetes-course-udemy">Kubernetes course udemy&lt;/h2>
-&lt;h2 id="kubectx--kubens">kubectx &amp;amp; kubens&lt;/h2>
-&lt;h2 id="stern--kubetail">stern &amp;amp; kubetail&lt;/h2>
-&lt;h2 id="alertmanager">alertmanager&lt;/h2>
-&lt;h2 id="cert-manager">cert-manager&lt;/h2>
-&lt;h2 id="chartmuseum">Chartmuseum&lt;/h2></description></item></channel></rss>
+&lt;a href="https://ohmyz.sh/" target="_blank" rel="noopener">Oh My Zsh&lt;/a>&lt;/p>
+&lt;p>I use this with the
+&lt;a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener">Powerlevel10k Theme&lt;/a>&lt;/p>
+&lt;h2 id="poor-mans-monitoring">Poor man&amp;rsquo;s monitoring&lt;/h2>
+&lt;p>
+&lt;a href="https://www.atoptool.nl/" target="_blank" rel="noopener">atop&lt;/a>&lt;/p></description></item></channel></rss>
