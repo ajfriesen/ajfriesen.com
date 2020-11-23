@@ -18,7 +18,7 @@ jobs:
         git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.4.11
+      uses: peaceiris/actions-hugo@v2.4.13
       with:
         hugo-version: '0.66.0'
         extended: true
