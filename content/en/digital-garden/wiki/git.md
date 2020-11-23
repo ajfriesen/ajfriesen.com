@@ -7,17 +7,23 @@ date: "2019-05-05T00:00:00+01:00"
 draft: false
 menu:
   example:
-    parent: Overview
+    parent: 
     weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
 
-Everything around git, because I keep googling the same stuff again and again:
+## Github FLow
 
-## Git commit messages
+https://guides.github.com/introduction/flow/
 
-[How to Write a Git Commit Message
-](https://chris.beams.io/posts/git-commit/)
+## Git FLow
 
+A relative complex process to use git with multiple teams.
+
+[git flow cheat sheet](https://danielkummer.github.io/git-flow-cheatsheet/)
+
+## Update your development branch from another branch (main)
+
+`git pull --rebase origin main`

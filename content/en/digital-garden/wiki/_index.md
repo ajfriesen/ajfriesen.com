@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
 linktitle: My digital Garden
-summary: Some notes I want to lookup myself later.
+summary: Some notes, links and stuff I want to write down without creating a full blown blog article.
 weight: 1
 
 # Page metadata.
-title: Overview
+title: Wiki
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -17,46 +17,69 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   example:
-    name: Overview
+    name: Wiki
     weight: 1
 ---
 
-## Flexibility
+Personal Wiki and notes which I am to lazy to write a blog article about.
+## Handy Links and Resources
 
-This feature can be used for publishing content such as:
+Just a bunch of handy links I often share or refer to.
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+### 12 Factor App
 
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+https://12factor.net/
 
-## Delete tutorials
+### Changelog format
 
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+https://keepachangelog.com/en/1.0.0/
 
-## Update site menu
+### Readme driven development
 
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+https://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
-For example, if you delete this folder, you can remove the following from your menu configuration:
+### Free Books by Google for Site Reliability
 
-```toml
-[[main]]
-  name = "Courses"
-  url = "/"
-  weight = 50
-```
+[SRE Books](https://landing.google.com/sre/books/)
 
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+### Commniuty about Documentation
 
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
+https://www.writethedocs.org/
 
-## Update the docs menu
+### Semantic Versioning
 
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+I think most people know that and still everybody does it different.
+Also it is not always a good choice to force semantic versioning.
+
+https://semver.org/
+
+
+### Philosophy on Alerting by a Site Reliability Engineer at Google
+
+https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/mobilebasic
+
+### Reactive Manifesto
+
+https://www.reactivemanifesto.org/
+
+### Cloud Computing Patterns
+
+https://www.cloudcomputingpatterns.org/
+
+### Landscape for Cloud Native Applications
+
+https://landscape.cncf.io/
+
+### Writing good Git commit messages
+
+[How to Write a Git Commit Message
+](https://chris.beams.io/posts/git-commit/)
+## Random
+
+Placeholder for random stuff.
+
+### A nice Documentation Theme for hugo
+
+Docs Theme used by big sites as Kubernetes
+
+https://www.docsy.dev/
