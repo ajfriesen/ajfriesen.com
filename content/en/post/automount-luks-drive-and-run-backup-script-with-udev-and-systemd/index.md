@@ -215,7 +215,7 @@ So with that I did write the follwing udev rule:
 
 This will start the configured systemd service when the drive with that specific attributes is added to the system.
 
-{{% alert note %}}
+{{% callout note %}}
 When testing udev rule start as simple as possible.
 Something like this:
 ```
@@ -224,9 +224,9 @@ KERNEL=="sd*", ACTION=="add", SUBSYSTEM=="block", ENV{SYSTEMD_WANTS}="backup-dec
 So that you know something will happen.  
 Going further only change one thing at a time.
 Otherwise you will go nuts on the debugging process.
-{{% /alert %}}
+{{% /callout %}}
 
-{{% alert warning %}}
+{{% callout warning %}}
 systemd version!
 
 My version:
@@ -239,7 +239,7 @@ Sometimes a option has just changed by name.
 The systemd documentation is really bad at giving you a specific version.
 I believe it is always showing you the latest release.  
 You can always use `man systemd` on your host to check what is valid for your system.
-{{% /alert %}}
+{{% /callout %}}
 
 So let´s move to systemd then.
 

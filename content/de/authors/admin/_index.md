@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Andrej Friesen
+title: Andrej Friesen
 
 # Username (this should match the folder name)
 authors:
@@ -84,9 +84,5 @@ email: ""
 Ich lebe und arbeite in Köln.
 
 Ich habe gerade einen neuen Job und dort die Möglichkeit mich in die Software Entwicklung einzuarbeiten. Natürlich bleiben Server und Infrastrutkur nicht auf der Strecke, dafür mag ich das zu sehr! :smiley:
-
-Momentan interessiere ich mich auch für kleinere nebenberufliche Tätigkeiten.
-Schaut euch bei Interesse die [Erfahrung]({{< ref "experience" >}}), [Freelance]({{< ref "freelance" >}}) und [Projekt]({{< ref "my_projects" >}}) Seiten an.  
-**Eventuell wollt ihr mich beim nächsten Projekt dabei haben.**
 
 Außerdem schreibe ich ab und zu etwas in meinem [Blog]({{< ref "blog" >}}) zu Themen die mich interessieren.

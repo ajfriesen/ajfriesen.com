@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Andrej Friesen
+title: Andrej Friesen
 
 # Username (this should match the folder name)
 authors:
@@ -83,9 +83,5 @@ email: ""
 I am living and working in Cologne (Germany).
 
 I just got a new job in which I get the opportunity to get into software development and of course, server and infrastructure stuff, which I just love :smiley:
-
-I am also interested in some side business freelance work.
-Check out my [experience]({{< ref "experience" >}}), the [freelance]({{< ref "freelance" >}}) and [projects]({{< ref "my_projects" >}}) section.  
-**Maybe you want me in your next project.**
 
 Also, I like to write occasionally about things which interest me [writing]({{< ref "blog" >}}).
