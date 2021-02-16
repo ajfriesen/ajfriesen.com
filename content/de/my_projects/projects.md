@@ -29,10 +29,6 @@ subtitle = "Einige Nebenprojekte"
     name = "Webseiten"
     tag = "Webseite"
   
-  [[content.filter_button]]
-    name = "Schreiben"
-    tag = "Schreiben"
-  
   # [[content.filter_button]]
   #   name = "Other"
   #   tag = "Demo"
