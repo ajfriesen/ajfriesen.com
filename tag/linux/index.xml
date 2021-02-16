@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linux | Andrej Friesen</title><link>https://www.ajfriesen.com/tag/linux/</link><atom:link href="https://www.ajfriesen.com/tag/linux/index.xml" rel="self" type="application/rss+xml"/><description>linux</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Wed, 20 May 2020 08:30:00 +0200</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>linux</title><link>https://www.ajfriesen.com/tag/linux/</link></image><item><title>Netstat shows tcp6 on ipv4 only host</title><link>https://www.ajfriesen.com/post/netstat-shows-tcp6/</link><pubDate>Wed, 20 May 2020 08:30:00 +0200</pubDate><guid>https://www.ajfriesen.com/post/netstat-shows-tcp6/</guid><description>&lt;p>Why netstat shows tcp6 sockets even though you only have ipv4 configured.&lt;/p>
+&lt;p>The other day I was building an AWS AMI (Amazon Machine Image) with packer which should run some java software.
+The software itself does not matter.&lt;/p>
+&lt;p>While testing something I just wanted to check for the ports with netstat.
+I got this output and was wondering why the ports where of type tcp6.
+This was in AWS within a VPC which did not have ipv6 enabled.&lt;/p>
+&lt;pre>&lt;code class="language-bash">[ec2-user@ip-172-17-9-250 ~]$ sudo netstat -natp
+tcp6 0 0 :::8080 :::* LISTEN 3861/java
+tcp6 0 0 :::8082 :::* LISTEN 3860/java
+tcp6 0 0 127.0.0.1:1527 :::* LISTEN 3859/java
+tcp6 0 0 :::2181 :::* LISTEN 3858/java
+&lt;/code>&lt;/pre>
+&lt;p>I was also able to get a curl running against some web interface from anther machine with curl which only had ipv4 enabled as well.
+That means die application itself was answering on ipv4.
+Also, I know that ipv4 and ipv6 are not campatible at all.
+If you wanted ipv4 server to speak with ipv6 and vice versa you need NAT64&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>, which translates ipv4 and ipv6 traffic.&lt;/p>
+&lt;p>I was confused&amp;hellip;&lt;/p>
+&lt;p>It turns out the socket itself is an ipv6 socket.
+I also did not know that there is a special ipv6 address range which maps to ipv4 addresses.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>
+That means all ipv4 adresses are also ipv6 adresses.&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>So these sockets work with ipv4 but since they are really ipv6 sockets they are listed as tcp6 in netstat.&lt;/p>
+&lt;p>The more you know.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/NAT64" target="_blank" rel="noopener">Wikipedia - NAT64&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2" role="doc-endnote">
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/IPv6#IPv4-mapped_IPv6_addresses" target="_blank" rel="noopener">Wikipedia - IPv4-mapped IPv6 addresses&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3" role="doc-endnote">
+&lt;p>&lt;a href="https://unix.stackexchange.com/questions/152612/netstat-why-are-ipv4-daemons-listening-to-ports-listed-only-in-a-inet6" target="_blank" rel="noopener">StackExchange - netstat — why are IPv4 daemons listening to ports listed only in -A inet6?&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Decrypt and mount LUKS volume in GRUB rescue mode</title><link>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</link><pubDate>Mon, 13 Apr 2020 01:26:15 +0200</pubDate><guid>https://www.ajfriesen.com/post/decrypt-and-mount-luks-volume-in-grub-rescue-mode/</guid><description>&lt;p>I am running arch Linux on my server with LUKS disc encryption.
+I do need to type in my password every time I reboot the machine.
+Sometimes I have a typo and this happens:&lt;/p>
+&lt;pre>&lt;code>Welcome to GRUB!
+Attempting to decrypt master key...
+Enter passphrase for hd1,gpt2 (&amp;lt;disk uuid&amp;gt;):
+error: access denied
+error: no such cryptodisk found.
+error: disk `cryptouuid/&amp;lt;disk uuid&amp;gt;` not found.
+Entering rescue mode...
+&lt;/code>&lt;/pre>
+&lt;p>Since with IPMI I do not need to attach a VGA cable and keyboard to my server but still the grub rescue console is something I am not familiar with and need to deal with.&lt;/p>
+&lt;p>You can mount the partition with &lt;code>cryptomount&lt;/code>:&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;pre>&lt;code>cryptomount (hd1,gpt2)
+&lt;/code>&lt;/pre>
+&lt;p>Enter your password.&lt;/p>
+&lt;p>Then load the module for a normal boot&lt;/p>
+&lt;pre>&lt;code>insmod normal
+&lt;/code>&lt;/pre>
+&lt;p>Boot:&lt;/p>
+&lt;pre>&lt;code>normal
+&lt;/code>&lt;/pre>
+&lt;p>Now you should get forwarded to the grub boot manager as you typed the password correct the first time.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>&lt;a href="https://www.gnu.org/software/grub/manual/grub/html_node/cryptomount.html#cryptomount" target="_blank" rel="noopener">cryptomount&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github Actions | Andrej Friesen</title><link>https://www.ajfriesen.com/de/tag/github-actions/</link><atom:link href="https://www.ajfriesen.com/de/tag/github-actions/index.xml" rel="self" type="application/rss+xml"/><description>Github Actions</description><generator>Wowchemy (https://wowchemy.com)</generator><language>de</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Github Actions</title><link>https://www.ajfriesen.com/de/tag/github-actions/</link></image><item><title>EliOra Tanzania - Hand in Hand e.V.</title><link>https://www.ajfriesen.com/de/project/elimu-bora/</link><pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/de/project/elimu-bora/</guid><description>&lt;p>Der Verein kümmert sich um Hilfsprojekte in Tanzania.
+Das funktionert durch spenden, Mitgliedsbeiträgen und ehrenamtliche Arbeit, also Zeit.&lt;/p>
+&lt;p>Ich finde, dass so viel Zeit und Geld für das eigentliche Projekt genutzt werden soll.
+Daher helfe ich ehrenamtlich mit bei Gestaltung und Hosting der Webseite.&lt;/p>
+&lt;p>Mit hugo und dem hugo Academic Theme liegen die kosten nur bei der Domain die sehr gering sind.&lt;/p>
+&lt;h2 id="techstack">Techstack&lt;/h2>
+&lt;ul>
+&lt;li>Die Webseite wird mit dem statischem Webseiten Generator &lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> gebaut&lt;/li>
+&lt;li>Ich nutze das Hugo &lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">academic theme&lt;/a>&lt;/li>
+&lt;li>Für das Hosting nutze ich &lt;a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages&lt;/a>&lt;/li>
+&lt;li>Mit Github Actions habe ich das Deployment der Webseite komplett automatisiert&lt;/li>
+&lt;/ul>
+&lt;p>Schaut gerne mal vorbei: &lt;a href="https://www.technik-tip.de/">https://www.technik-tip.de/&lt;/a>&lt;/p></description></item></channel></rss>

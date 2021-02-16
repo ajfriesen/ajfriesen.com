@@ -1,69 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link><atom:link href="https://www.ajfriesen.com/index.xml" rel="self" type="application/rss+xml"/><description>Andrej Friesen</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Sat, 06 Jun 2020 00:00:00 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link></image><item><title>Git</title><link>https://www.ajfriesen.com/digital-garden/wiki/git/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/git/</guid><description>&lt;h2 id="github-flow">Github FLow&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link><atom:link href="https://www.ajfriesen.com/index.xml" rel="self" type="application/rss+xml"/><description>Andrej Friesen</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Tue, 10 Nov 2020 21:00:08 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Andrej Friesen</title><link>https://www.ajfriesen.com/</link></image><item><title>Git</title><link>https://www.ajfriesen.com/digital-garden/wiki/git/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/git/</guid><description>&lt;h2 id="github-flow">Github FLow&lt;/h2>
 &lt;p>A little easier version of Git Flow.&lt;/p>
 &lt;p>(&lt;a href="https://guides.github.com/introduction/flow/">https://guides.github.com/introduction/flow/&lt;/a>)&lt;/p>
 &lt;h2 id="git-flow">Git FLow&lt;/h2>
 &lt;p>A relative complex process to use git with multiple teams.&lt;/p>
-&lt;p>
-&lt;a href="https://danielkummer.github.io/git-flow-cheatsheet/" target="_blank" rel="noopener">git flow cheat sheet&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://danielkummer.github.io/git-flow-cheatsheet/" target="_blank" rel="noopener">git flow cheat sheet&lt;/a>&lt;/p>
 &lt;h2 id="update-your-development-branch-from-another-branch-main">Update your development branch from another branch (main)&lt;/h2>
 &lt;p>&lt;code>git pull --rebase origin main&lt;/code>&lt;/p></description></item><item><title>Infrastructure as Code</title><link>https://www.ajfriesen.com/digital-garden/wiki/infrastructure-as-code/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/infrastructure-as-code/</guid><description>&lt;h2 id="blog-posts-by-gruntwork-about-terraform">Blog Posts by Gruntwork about terraform&lt;/h2>
 &lt;p>If you just start using terraform these are really handy resources written in the grundwork blog:&lt;/p>
 &lt;ol>
-&lt;li>
-&lt;a href="https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca" target="_blank" rel="noopener">A Comprehensive Guide to Terraform&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c" target="_blank" rel="noopener">Why we use Terraform and not Chef, Puppet, Ansible, SaltStack, or CloudFormation&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180" target="_blank" rel="noopener">An Introduction to Terraform&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://blog.gruntwork.io/how-to-manage-terraform-state-28f5697e68fa" target="_blank" rel="noopener">How to manage Terraform state&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d" target="_blank" rel="noopener">How to create reusable infrastructure with Terraform modules&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9" target="_blank" rel="noopener">Terraform tips &amp;amp; tricks: loops, if-statements, and gotchas&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973" target="_blank" rel="noopener">How to use Terraform as a team&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.gruntwork.io/a-comprehensive-guide-to-terraform-b3d32832baca" target="_blank" rel="noopener">A Comprehensive Guide to Terraform&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c" target="_blank" rel="noopener">Why we use Terraform and not Chef, Puppet, Ansible, SaltStack, or CloudFormation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180" target="_blank" rel="noopener">An Introduction to Terraform&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.gruntwork.io/how-to-manage-terraform-state-28f5697e68fa" target="_blank" rel="noopener">How to manage Terraform state&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d" target="_blank" rel="noopener">How to create reusable infrastructure with Terraform modules&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9" target="_blank" rel="noopener">Terraform tips &amp;amp; tricks: loops, if-statements, and gotchas&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973" target="_blank" rel="noopener">How to use Terraform as a team&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;h2 id="terraform-book">Terraform Book&lt;/h2>
 &lt;p>If you do terraform, read it.
 It is a quick and good read and you will save a lot of time doing common mistakes.&lt;/p>
-&lt;p>Out of these blog post Yevgeniy Brikman has created the book &amp;ldquo;
-&lt;a href="https://www.terraformupandrunning.com/" target="_blank" rel="noopener">Terraform Up &amp;amp; Running&lt;/a>&amp;quot;.&lt;/p>
+&lt;p>Out of these blog post Yevgeniy Brikman has created the book &amp;ldquo;&lt;a href="https://www.terraformupandrunning.com/" target="_blank" rel="noopener">Terraform Up &amp;amp; Running&lt;/a>&amp;rdquo;.&lt;/p>
 &lt;h2 id="terraform-remote-state">Terraform Remote State&lt;/h2>
 &lt;p>HashiCorp offers a free remote state for small teams and personal projects.&lt;/p>
-&lt;p>
-&lt;a href="https://www.hashicorp.com/products/terraform/pricing" target="_blank" rel="noopener">Terraform Cloud plans&lt;/a>&lt;/p>
-&lt;p>
-&lt;a href="https://app.terraform.io/" target="_blank" rel="noopener">Login to Terraform cloud for your remote state&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.hashicorp.com/products/terraform/pricing" target="_blank" rel="noopener">Terraform Cloud plans&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://app.terraform.io/" target="_blank" rel="noopener">Login to Terraform cloud for your remote state&lt;/a>&lt;/p>
 &lt;h2 id="infrastructure-as-code-in-one-video">Infrastructure as Code in one video&lt;/h2>
 &lt;p>Damn good talk about Infrastructure as Code and the state of it.&lt;/p>
-&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=RTEgE2lcyk4" target="_blank" rel="noopener">5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=RTEgE2lcyk4" target="_blank" rel="noopener">5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code&lt;/a>&lt;/p>
 &lt;h2 id="keep-your-terraform-configuration-dry">Keep your terraform configuration DRY&lt;/h2>
 &lt;p>When using multiple states you can create the remote backend dynamically with this tool.
 Less copy paste for remote backend setup.&lt;/p>
-&lt;p>
-&lt;a href="https://terragrunt.gruntwork.io/" target="_blank" rel="noopener">Terragrunt Website&lt;/a>&lt;/p>
-&lt;p>
-&lt;a href="https://github.com/gruntwork-io/terragrunt" target="_blank" rel="noopener">Terragrunt git repo&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://terragrunt.gruntwork.io/" target="_blank" rel="noopener">Terragrunt Website&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/gruntwork-io/terragrunt" target="_blank" rel="noopener">Terragrunt git repo&lt;/a>&lt;/p>
 &lt;h2 id="using-multiple-terraform-version-on-your-machine">Using multiple terraform version on your machine&lt;/h2>
-&lt;p>
-&lt;a href="https://github.com/tfutils/tfenv" target="_blank" rel="noopener">tfenv&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/tfutils/tfenv" target="_blank" rel="noopener">tfenv&lt;/a>&lt;/p>
 &lt;h2 id="how-to-test-terraform-modules">How to test terraform modules&lt;/h2>
-&lt;p>
-&lt;a href="https://github.com/gruntwork-io/terratest" target="_blank" rel="noopener">terratest&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/gruntwork-io/terratest" target="_blank" rel="noopener">terratest&lt;/a>&lt;/p>
 &lt;h2 id="production-readiness-checklist---everything-you-need-to-do-to-go-live">Production Readiness Checklist - Everything you need to do to go live&lt;/h2>
 &lt;p>Production Readiness Checklist
 It is not to specific to AWS&lt;/p>
-&lt;p>
-&lt;a href="https://gruntwork.io/devops-checklist/" target="_blank" rel="noopener">Production Readiness Checklist&lt;/a>&lt;/p></description></item><item><title>Kubernetes</title><link>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</guid><description>&lt;p>All stuff related to Kubernetes.
+&lt;p>&lt;a href="https://gruntwork.io/devops-checklist/" target="_blank" rel="noopener">Production Readiness Checklist&lt;/a>&lt;/p></description></item><item><title>Kubernetes</title><link>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/kubernetes/</guid><description>&lt;p>All stuff related to Kubernetes.
 The stuff thing everybody wants to run but a few people know about what it actually does.
 It is a damn complex thing.
 Heard it be called the operating system for the cloud.&lt;/p>
 &lt;h2 id="find-kubernetes-resources-that-have-been-deprecated">Find Kubernetes resources that have been deprecated&lt;/h2>
 &lt;p>This is a very simple utility to help users find deprecated Kubernetes apiVersions in their code repositories and their helm releases.&lt;/p>
-&lt;p>
-&lt;a href="https://github.com/FairwindsOps/pluto/" target="_blank" rel="noopener">pluto&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/FairwindsOps/pluto/" target="_blank" rel="noopener">pluto&lt;/a>&lt;/p>
 &lt;h2 id="installing-kubernetes">Installing Kubernetes&lt;/h2>
 &lt;ul>
 &lt;li>kubeadm&lt;/li>
@@ -77,8 +59,7 @@ Heard it be called the operating system for the cloud.&lt;/p>
 &lt;/ul>
 &lt;h3 id="prometheus-am-executor">prometheus-am-executor&lt;/h3>
 &lt;p>A small binary which will let you run scripts on alerts by alertmanager&lt;/p>
-&lt;p>
-&lt;a href="https://github.com/imgix/prometheus-am-executor" target="_blank" rel="noopener">prometheus-am-executor&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/imgix/prometheus-am-executor" target="_blank" rel="noopener">prometheus-am-executor&lt;/a>&lt;/p>
 &lt;h2 id="ingress-controller">Ingress Controller&lt;/h2>
 &lt;h3 id="nginx-ingress-controller">nginx-ingress-controller&lt;/h3>
 &lt;p>There are 2 NGINX Ingress Controllers which do not share the same features and config!&lt;/p>
@@ -96,12 +77,9 @@ Heard it be called the operating system for the cloud.&lt;/p>
 &lt;/ul>
 &lt;h2 id="kubernetes-package-and-resource-management">Kubernetes Package and Resource management&lt;/h2>
 &lt;ul>
-&lt;li>
-&lt;a href="https://helm.sh/" target="_blank" rel="noopener">Helm - The package manager for Kubernetes&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://artifacthub.io/" target="_blank" rel="noopener">Artifact Hub&lt;/a> Former Helm Hub which is deprecated&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/helm/chartmuseum" target="_blank" rel="noopener">chartmuseum git repo&lt;/a> Hosting your own helm-repos&lt;/li>
+&lt;li>&lt;a href="https://helm.sh/" target="_blank" rel="noopener">Helm - The package manager for Kubernetes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://artifacthub.io/" target="_blank" rel="noopener">Artifact Hub&lt;/a> Former Helm Hub which is deprecated&lt;/li>
+&lt;li>&lt;a href="https://github.com/helm/chartmuseum" target="_blank" rel="noopener">chartmuseum git repo&lt;/a> Hosting your own helm-repos&lt;/li>
 &lt;/ul>
 &lt;h2 id="learning-resources">learning Resources&lt;/h2>
 &lt;ul>
@@ -110,25 +88,18 @@ Heard it be called the operating system for the cloud.&lt;/p>
 &lt;/ul>
 &lt;h2 id="useful-tools-for-daly-operation">Useful Tools for daly operation&lt;/h2>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/ahmetb/kubectx" target="_blank" rel="noopener">kubectx &amp;amp; kubens&lt;/a> easy cluster and namespace context switching with shell promt support&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/wercker/stern" target="_blank" rel="noopener">stern&lt;/a> Tail and follow multiple pods on Kubernetes and multiple containers within the pod&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/johanhaleby/kubetail" target="_blank" rel="noopener">kubetail&lt;/a> Bash script that enables you to aggregate (tail/follow) logs from multiple pods into one stream. This is the same as running &amp;ldquo;kubectl logs -f &amp;quot; but for multiple pods.&lt;/li>
+&lt;li>&lt;a href="https://github.com/ahmetb/kubectx" target="_blank" rel="noopener">kubectx &amp;amp; kubens&lt;/a> easy cluster and namespace context switching with shell promt support&lt;/li>
+&lt;li>&lt;a href="https://github.com/wercker/stern" target="_blank" rel="noopener">stern&lt;/a> Tail and follow multiple pods on Kubernetes and multiple containers within the pod&lt;/li>
+&lt;li>&lt;a href="https://github.com/johanhaleby/kubetail" target="_blank" rel="noopener">kubetail&lt;/a> Bash script that enables you to aggregate (tail/follow) logs from multiple pods into one stream. This is the same as running &amp;ldquo;kubectl logs -f &amp;quot; but for multiple pods.&lt;/li>
 &lt;/ul>
 &lt;h2 id="certifcate-management">Certifcate management&lt;/h2>
 &lt;ul>
-&lt;li>
-&lt;a href="https://cert-manager.io/" target="_blank" rel="noopener">cert-manager website&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/jetstack/cert-manager" target="_blank" rel="noopener">cert-manager git repo&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://artifacthub.io/packages/helm/jetstack/cert-manager" target="_blank" rel="noopener">cert-manager helm chart&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cert-manager.io/" target="_blank" rel="noopener">cert-manager website&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jetstack/cert-manager" target="_blank" rel="noopener">cert-manager git repo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://artifacthub.io/packages/helm/jetstack/cert-manager" target="_blank" rel="noopener">cert-manager helm chart&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Linux</title><link>https://www.ajfriesen.com/digital-garden/wiki/linux/</link><pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/digital-garden/wiki/linux/</guid><description>&lt;h2 id="memory-management">Memory Management&lt;/h2>
 &lt;p>A really good talk about Memory Management in Linux
-&amp;ldquo;
-&lt;a href="https://www.youtube.com/watch?v=beefUhRH5lU&amp;amp;feature=youtu.be" target="_blank" rel="noopener">SREcon19 Asia/Pacific - Linux Memory Management at Scale: Under the Hood&lt;/a>&amp;quot;:&lt;/p>
+&amp;ldquo;&lt;a href="https://www.youtube.com/watch?v=beefUhRH5lU&amp;amp;feature=youtu.be" target="_blank" rel="noopener">SREcon19 Asia/Pacific - Linux Memory Management at Scale: Under the Hood&lt;/a>&amp;quot;:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/beefUhRH5lU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -138,31 +109,23 @@ Heard it be called the operating system for the cloud.&lt;/p>
 &lt;li>It is not easy to check if your memory is overalocated. It could also be just used very efficiently&lt;/li>
 &lt;li>cgroupsv1 vs cgroupv2&lt;/li>
 &lt;li>SWAP is good to free up memory which is not backed up by anything on the disk. (anon memory)&lt;/li>
-&lt;li>
-&lt;a href="https://chrisdown.name/2018/01/02/in-defence-of-swap.html" target="_blank" rel="noopener">In defence of swap: common misconceptions&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://www.linuxatemyram.com/" target="_blank" rel="noopener">Linux ate my ram! Don&amp;rsquo;t Panic! Your ram is fine!&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://chrisdown.name/2018/01/02/in-defence-of-swap.html" target="_blank" rel="noopener">In defence of swap: common misconceptions&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linuxatemyram.com/" target="_blank" rel="noopener">Linux ate my ram! Don&amp;rsquo;t Panic! Your ram is fine!&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="userspace-oom-software">Userspace oom software&lt;/h3>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/facebookincubator/oomd" target="_blank" rel="noopener">oomd by facebook&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/rfjakob/earlyoom" target="_blank" rel="noopener">earlyoom&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/facebookincubator/oomd" target="_blank" rel="noopener">oomd by facebook&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rfjakob/earlyoom" target="_blank" rel="noopener">earlyoom&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="finding-a-package-for-every-distribution">Finding a package for every distribution&lt;/h2>
 &lt;p>Ever wanted to know how to install &lt;code>telet&lt;/code> in alpine but forgot the package name for that distribution?
 This website can help!&lt;/p>
-&lt;p>
-&lt;a href="https://command-not-found.com/" target="_blank" rel="noopener">Command not found&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://command-not-found.com/" target="_blank" rel="noopener">Command not found&lt;/a>&lt;/p>
 &lt;h2 id="a-really-nice-shell">A really nice shell&lt;/h2>
-&lt;p>
-&lt;a href="https://ohmyz.sh/" target="_blank" rel="noopener">Oh My Zsh&lt;/a>&lt;/p>
-&lt;p>I use this with the
-&lt;a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener">Powerlevel10k Theme&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://ohmyz.sh/" target="_blank" rel="noopener">Oh My Zsh&lt;/a>&lt;/p>
+&lt;p>I use this with the &lt;a href="https://github.com/romkatv/powerlevel10k" target="_blank" rel="noopener">Powerlevel10k Theme&lt;/a>&lt;/p>
 &lt;h2 id="poor-mans-monitoring">Poor man&amp;rsquo;s monitoring&lt;/h2>
-&lt;p>
-&lt;a href="https://www.atoptool.nl/" target="_blank" rel="noopener">atop&lt;/a>&lt;/p></description></item><item><title>Custom ear-buds for headphones</title><link>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</link><pubDate>Tue, 10 Nov 2020 21:00:08 +0100</pubDate><guid>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</guid><description>&lt;p>A story of buying headphones and custom ear-buds for sports while over thinking every aspect 🧐&lt;/p>
+&lt;p>&lt;a href="https://www.atoptool.nl/" target="_blank" rel="noopener">atop&lt;/a>&lt;/p></description></item><item><title>Custom ear-buds for headphones</title><link>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</link><pubDate>Tue, 10 Nov 2020 21:00:08 +0100</pubDate><guid>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</guid><description>&lt;p>A story of buying headphones and custom ear-buds for sports while over thinking every aspect 🧐&lt;/p>
 &lt;h2 id="some-context">Some context&lt;/h2>
 &lt;p>Headphones are a really personal and subjective thing.
 Audio in general is but I do not want to go the route of audio or Hi-Fi here.
@@ -182,20 +145,26 @@ That was not possible with my over-ears at all.&lt;/p>
 &lt;p>Okay, then I did a little research and found this not quite in-ears but in ears with wings on them.
 I decided on the Bose SoundSport.&lt;/p>
 &lt;figure id="figure-bose-soundsport">
-&lt;a data-fancybox="" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_2000x2000_fit_q90_lanczos.jpg" data-caption="Bose SoundSport">
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="4608" height="3456">
-&lt;/a>
+&lt;img alt="Bose SoundSport" srcset="
+/post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_5013f130c7d3dec7f7e189ac10bbb3b8.jpg 400w,
+/post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_898ae26b6c0b76d6457ac0da3b874764.jpg 760w,
+/post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_1200x1200_fit_q90_lanczos.jpg 1200w"
+src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_5013f130c7d3dec7f7e189ac10bbb3b8.jpg"
+width="760"
+height="570"
+loading="lazy"
+data-zoomable />
 &lt;figcaption>
 Bose SoundSport
 &lt;/figcaption>
 &lt;/figure>
 &lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">Water resistance&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">sweat resistance&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">light&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">no pain&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">Good sound (for me)&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Perfect fit (😒)&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Water resistance&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> sweat resistance&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> light&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> no pain&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Good sound (for me)&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Perfect fit (😒)&lt;/li>
 &lt;/ul>
 &lt;p>I thought &amp;ldquo;one of these silicone buds should work&amp;rdquo;.
 Unfortunately not.
@@ -225,9 +194,15 @@ Here is also a site I did found during my research listing some examples: &lt;a 
 &lt;h3 id="why-could-i-never-use-in-ears">Why could I never use in-ears?&lt;/h3>
 &lt;p>What do you see in this picture?&lt;/p>
 &lt;figure id="figure-normal-ear-buds-left-vs-custom-ear-buds-right">
-&lt;a data-fancybox="" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_2000x2000_fit_q90_lanczos.jpg" data-caption="normal ear-buds (left) vs. custom ear-buds (right)">
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="4608" height="3456">
-&lt;/a>
+&lt;img alt="normal ear-buds (left) vs. custom ear-buds (right)" srcset="
+/post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_930428fa092b930ea3bd85d91d9d5bb5.jpg 400w,
+/post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_b1501183a75b1c9329b6472cd6a417ab.jpg 760w,
+/post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_1200x1200_fit_q90_lanczos.jpg 1200w"
+src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_930428fa092b930ea3bd85d91d9d5bb5.jpg"
+width="760"
+height="570"
+loading="lazy"
+data-zoomable />
 &lt;figcaption>
 normal ear-buds (left) vs. custom ear-buds (right)
 &lt;/figcaption>
@@ -239,10 +214,10 @@ No wonder in-ears never did fit or caused pain.
 It is physically impossible for me to use them 😀&lt;/p>
 &lt;div class="gallery">
 &lt;a data-fancybox="gallery-comparison-in-ears-vs-custom-ear-buds" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184350.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184350_hu9d89fc45d1ad7e4b39916dce2180beae_3400870_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184350_hu9d89fc45d1ad7e4b39916dce2180beae_3400870_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20200522_184350.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-comparison-in-ears-vs-custom-ear-buds" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184410.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184410_hu7a968893d16f58b9bf6d2e9c87c2b062_3536044_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184410_hu7a968893d16f58b9bf6d2e9c87c2b062_3536044_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20200522_184410.jpg" width="253" height="190">
 &lt;/a>
 &lt;/div>
 &lt;p>And here you can see the side by side comparison.
@@ -284,34 +259,34 @@ It will be different and you have to decided if it is better or worse than befor
 &lt;p>Here is the result:&lt;/p>
 &lt;div class="gallery">
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160253.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160253_hueb4ffb99096f6e2737358d784fe21436_1707561_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160253_hueb4ffb99096f6e2737358d784fe21436_1707561_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_160253.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160259.jpg" data-caption="Bose SoundSPort wireless free open with custom ear-buds (does not fit)">
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160259_hud152f5f6d0373ef08b8bfa35f4244e9a_932808_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160259_hud152f5f6d0373ef08b8bfa35f4244e9a_932808_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="Bose SoundSPort wireless free open with custom ear-buds (does not fit)" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_162411.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_162411_hud400a3db18b11b51a00ee248202974eb_1418780_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_162411_hud400a3db18b11b51a00ee248202974eb_1418780_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_162411.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224114.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224114_hu2fc42862c7d2d767d6fdea5bf123baef_1217414_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224114_hu2fc42862c7d2d767d6fdea5bf123baef_1217414_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224114.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224233.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224233_hu3adbd0a23dcb2e6255ad14e3e449b6ed_382843_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224233_hu3adbd0a23dcb2e6255ad14e3e449b6ed_382843_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224233.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224248.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224248_huacaa865d109d469cc5f76b8266032c8e_395775_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224248_huacaa865d109d469cc5f76b8266032c8e_395775_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224248.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224342.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224342_hu8e01b119c16cd2b031f281f9161be26e_444458_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224342_hu8e01b119c16cd2b031f281f9161be26e_444458_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224342.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224400.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224400_hu85e59f12bc46a129dcd83fed37d3fa2c_282210_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224400_hu85e59f12bc46a129dcd83fed37d3fa2c_282210_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224400.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224411.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224411_hud5365613c90bbeb72a4444697a177192_428730_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224411_hud5365613c90bbeb72a4444697a177192_428730_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224411.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224434.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224434_hu6a62a58c0190292f43a559627159c1a5_408604_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="" width="253" height="190">
+&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224434_hu6a62a58c0190292f43a559627159c1a5_408604_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224434.jpg" width="253" height="190">
 &lt;/a>
 &lt;/div>
 &lt;p>As you can see there is not enough space for the custom ear-buds in my case (pun intended).
@@ -327,9 +302,15 @@ Unfortunately these cases do not have any unused space anywhere.&lt;/p>
 &lt;p>Why would they break you ask?&lt;/p>
 &lt;p>Have a look at this:&lt;/p>
 &lt;figure id="figure-example-rancher-vpc-setup">
-&lt;a data-fancybox="" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_2000x2000_fit_q90_lanczos.jpg" data-caption="Example Rancher VPC Setup">
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_2000x2000_fit_q90_lanczos.jpg" class="lazyload" alt="" width="4608" height="3456">
-&lt;/a>
+&lt;img alt="Example Rancher VPC Setup" srcset="
+/post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_33f1cd6633eebdee5033d55b35487fe2.jpg 400w,
+/post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_62d8639dc4e60d917e7ad3a1c885992e.jpg 760w,
+/post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_1200x1200_fit_q90_lanczos.jpg 1200w"
+src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_33f1cd6633eebdee5033d55b35487fe2.jpg"
+width="760"
+height="570"
+loading="lazy"
+data-zoomable />
 &lt;figcaption>
 Example Rancher VPC Setup
 &lt;/figcaption>
@@ -351,33 +332,28 @@ The project is based on donations and volunters.&lt;/p>
 With the static website I build with hugo and the academic theme the only cost are the domain itself.&lt;/p>
 &lt;h2 id="techstack">Techstack&lt;/h2>
 &lt;ul>
-&lt;li>The website is build with the static site generator
-&lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> and the
-&lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">academic theme&lt;/a>&lt;/li>
-&lt;li>I am using
-&lt;a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages&lt;/a> to host the site and Github Actions to fully automate the process.&lt;/li>
+&lt;li>The website is build with the static site generator &lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> and the &lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">academic theme&lt;/a>&lt;/li>
+&lt;li>I am using &lt;a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages&lt;/a> to host the site and Github Actions to fully automate the process.&lt;/li>
 &lt;/ul>
 &lt;p>Have a look here: &lt;a href="https://www.technik-tip.de/">https://www.technik-tip.de/&lt;/a>&lt;/p></description></item><item><title>Hosting a local piano teacher business website</title><link>https://www.ajfriesen.com/project/klavierschule-friesen/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/project/klavierschule-friesen/</guid><description>&lt;p>Simple website for my mothers local business in German.
-I am not a web developer therefore I am using a
-&lt;a href="https://startbootstrap.com/themes/creative" target="_blank" rel="noopener">simple onepage theme&lt;/a>.
+I am not a web developer therefore I am using a &lt;a href="https://startbootstrap.com/themes/creative" target="_blank" rel="noopener">simple onepage theme&lt;/a>.
 With just a few changes the website was done.&lt;/p>
 &lt;p>I also adminstrate the google maps entry which helps for google searches as well.&lt;/p>
 &lt;p>Since the website and google maps entry she get´s more potential students interested in piaono lessons.&lt;/p>
 &lt;p>Have a look here: &lt;a href="https://www.klavierschule-friesen.de/">https://www.klavierschule-friesen.de/&lt;/a>&lt;/p>
 &lt;h2 id="next-steps">Next steps&lt;/h2>
 &lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox">Migrate to a hugo hosted side.
+&lt;li>&lt;input disabled="" type="checkbox"> Migrate to a hugo hosted side.
 &lt;ul>
 &lt;li>Better SEO (Search Engine Optimization)&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Enable Netlify CMS
+&lt;li>&lt;input disabled="" type="checkbox"> Enable Netlify CMS
 &lt;ul>
 &lt;li>Enable editing the content by the client itself.&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>Terms</title><link>https://www.ajfriesen.com/terms/</link><pubDate>Sat, 06 Jun 2020 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/terms/</guid><description>&lt;p>Please check the
-&lt;a href="https://www.ajfriesen.com/de/terms">German version&lt;/a>&lt;/p></description></item><item><title>Netstat shows tcp6 on ipv4 only host</title><link>https://www.ajfriesen.com/post/netstat-shows-tcp6/</link><pubDate>Wed, 20 May 2020 08:30:00 +0200</pubDate><guid>https://www.ajfriesen.com/post/netstat-shows-tcp6/</guid><description>&lt;p>Why netstat shows tcp6 sockets even though you only have ipv4 configured.&lt;/p>
+&lt;/ul></description></item><item><title>Terms</title><link>https://www.ajfriesen.com/terms/</link><pubDate>Sat, 06 Jun 2020 00:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/terms/</guid><description>&lt;p>Please check the &lt;a href="https://www.ajfriesen.com/de/terms">German version&lt;/a>&lt;/p></description></item><item><title>Netstat shows tcp6 on ipv4 only host</title><link>https://www.ajfriesen.com/post/netstat-shows-tcp6/</link><pubDate>Wed, 20 May 2020 08:30:00 +0200</pubDate><guid>https://www.ajfriesen.com/post/netstat-shows-tcp6/</guid><description>&lt;p>Why netstat shows tcp6 sockets even though you only have ipv4 configured.&lt;/p>
 &lt;p>The other day I was building an AWS AMI (Amazon Machine Image) with packer which should run some java software.
 The software itself does not matter.&lt;/p>
 &lt;p>While testing something I just wanted to check for the ports with netstat.
@@ -403,19 +379,17 @@ That means all ipv4 adresses are also ipv6 adresses.&lt;sup id="fnref:3">&lt;a h
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
-&lt;p>
-&lt;a href="https://en.wikipedia.org/wiki/NAT64" target="_blank" rel="noopener">Wikipedia - NAT64&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/NAT64" target="_blank" rel="noopener">Wikipedia - NAT64&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2" role="doc-endnote">
-&lt;p>
-&lt;a href="https://en.wikipedia.org/wiki/IPv6#IPv4-mapped_IPv6_addresses" target="_blank" rel="noopener">Wikipedia - IPv4-mapped IPv6 addresses&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/IPv6#IPv4-mapped_IPv6_addresses" target="_blank" rel="noopener">Wikipedia - IPv4-mapped IPv6 addresses&lt;/a> &lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3" role="doc-endnote">
-&lt;p>
-&lt;a href="https://unix.stackexchange.com/questions/152612/netstat-why-are-ipv4-daemons-listening-to-ports-listed-only-in-a-inet6" target="_blank" rel="noopener">StackExchange - netstat — why are IPv4 daemons listening to ports listed only in -A inet6?&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://unix.stackexchange.com/questions/152612/netstat-why-are-ipv4-daemons-listening-to-ports-listed-only-in-a-inet6" target="_blank" rel="noopener">StackExchange - netstat — why are IPv4 daemons listening to ports listed only in -A inet6?&lt;/a> &lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;h2>Table of Contents&lt;/h2>
+&lt;/section></description></item><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;details class="toc-inpage d-print-none " open>
+&lt;summary class="font-weight-bold">Table of Contents&lt;/summary>
 &lt;nav id="TableOfContents">
 &lt;ul>
 &lt;li>&lt;a href="#rancher">Rancher&lt;/a>&lt;/li>
@@ -434,6 +408,7 @@ That means all ipv4 adresses are also ipv6 adresses.&lt;sup id="fnref:3">&lt;a h
 &lt;li>&lt;a href="#final-words">Final words&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/nav>
+&lt;/details>
 &lt;h2 id="rancher">Rancher&lt;/h2>
 &lt;p>Rancher is a Kubernetes distribution build by Rancher Labs.
 There are some others like OpenShift from Red Hat with different features.&lt;/p>
@@ -465,43 +440,31 @@ rke is the Kubernetes installer which you used to create Kubernetes clusters wit
 Rancher is packed with a certain version of rke.
 If you just want a Kubernetes Cluster to play with you can use several tools like:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/kubernetes/kops" target="_blank" rel="noopener">kops&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/" target="_blank" rel="noopener">kubeadm&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kubicorn/kubicorn" target="_blank" rel="noopener">kubicorn&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kubernetes/minikube" target="_blank" rel="noopener">minikube&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/rancher/rke" target="_blank" rel="noopener">rke (Rancher Kubernetes Engine)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kubernetes/kops" target="_blank" rel="noopener">kops&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/" target="_blank" rel="noopener">kubeadm&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kubicorn/kubicorn" target="_blank" rel="noopener">kubicorn&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kubernetes/minikube" target="_blank" rel="noopener">minikube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rancher/rke" target="_blank" rel="noopener">rke (Rancher Kubernetes Engine)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>rke is just another method to install and maintain your Kubernetes clusters in the Rancher opinionated way.
 There are a lot of configuration options.
-Check the
-&lt;a href="https://rancher.com/docs/rke/latest/en/" target="_blank" rel="noopener">rke docs&lt;/a> for more information.&lt;/p>
+Check the &lt;a href="https://rancher.com/docs/rke/latest/en/" target="_blank" rel="noopener">rke docs&lt;/a> for more information.&lt;/p>
 &lt;p>rke will give you a Kubernetes cluster to work with but not the Rancher web interface!
 This is somewhat confusing, when you just start.&lt;/p>
-&lt;p>You can always see which Rancher version uses which rke version and therefore the support of the Kubernetes version in the
-&lt;a href="https://github.com/rancher/rancher/releases/" target="_blank" rel="noopener">rancher/rancher repository&lt;/a>&lt;/p>
+&lt;p>You can always see which Rancher version uses which rke version and therefore the support of the Kubernetes version in the &lt;a href="https://github.com/rancher/rancher/releases/" target="_blank" rel="noopener">rancher/rancher repository&lt;/a>&lt;/p>
 &lt;p>&lt;img src="rancher-release.png" alt="Rancher release page">&lt;/p>
-&lt;p>Here you can see that
-&lt;a href="https://github.com/rancher/rancher/releases/tag/v2.2.11" target="_blank" rel="noopener">rancher v2.2.11&lt;/a> uses
-&lt;a href="https://github.com/rancher/rke/releases/tag/v0.2.10" target="_blank" rel="noopener">rke v0.2.10&lt;/a> and supports up to these Kubernetes version:&lt;/p>
+&lt;p>Here you can see that &lt;a href="https://github.com/rancher/rancher/releases/tag/v2.2.11" target="_blank" rel="noopener">rancher v2.2.11&lt;/a> uses &lt;a href="https://github.com/rancher/rke/releases/tag/v0.2.10" target="_blank" rel="noopener">rke v0.2.10&lt;/a> and supports up to these Kubernetes version:&lt;/p>
 &lt;ul>
 &lt;li>1.13.12&lt;/li>
 &lt;li>1.14.10&lt;/li>
 &lt;li>1.15.11&lt;/li>
 &lt;/ul>
-&lt;p>A good overview for support and all the versions about Rancher can be found in their docs:
-&lt;a href="https://rancher.com/support-maintenance-terms/all-supported-versions/rancher-v2.3.2/" target="_blank" rel="noopener">Rancher Support Matrix&lt;/a>&lt;/p>
+&lt;p>A good overview for support and all the versions about Rancher can be found in their docs: &lt;a href="https://rancher.com/support-maintenance-terms/all-supported-versions/rancher-v2.3.2/" target="_blank" rel="noopener">Rancher Support Matrix&lt;/a>&lt;/p>
 &lt;h2 id="rancher2">Rancher2&lt;/h2>
 &lt;p>Rancher itself is the Rancher API and web interface which you often see on the internet when someone is referring to Rancher.&lt;/p>
 &lt;p>Rancher will run on top of your Kubernetes cluster created by rke.
 You can deploy Rancher via helm to that first rke cluster you created.&lt;/p>
-&lt;p>Here is the
-&lt;a href="https://github.com/rancher/rancher/tree/master/chart" target="_blank" rel="noopener">Rancher Helm Chart&lt;/a> and the according documentation on the Rancher website
-&lt;a href="https://rancher.com/docs/rancher/v2.x/en/installation/k8s-install/helm-rancher/" target="_blank" rel="noopener">Install Rancher on the Kubernetes Cluster&lt;/a>&lt;/p>
+&lt;p>Here is the &lt;a href="https://github.com/rancher/rancher/tree/master/chart" target="_blank" rel="noopener">Rancher Helm Chart&lt;/a> and the according documentation on the Rancher website &lt;a href="https://rancher.com/docs/rancher/v2.x/en/installation/k8s-install/helm-rancher/" target="_blank" rel="noopener">Install Rancher on the Kubernetes Cluster&lt;/a>&lt;/p>
 &lt;p>So now you have a Kubernetes cluster with the Rancher 2 helm chart deployed on to.
 This Cluster should not be used as a Cluster for workloads.
 Since Rancher comes with rke you can now deploy as many clusters as you like to what location you like.&lt;/p>
@@ -512,10 +475,16 @@ I would recommend going with Terraform but AWS Cloudformation and the AWS Consol
 &lt;p>The first thing you need is a network and nodes to install a Kubernetes cluster with rke.
 It would look like Figure 1:&lt;/p>
 &lt;figure id="figure-example-rancher-vpc-setup">
-&lt;a data-fancybox="" href="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_2000x2000_fit_lanczos_2.png" data-caption="Example Rancher VPC Setup">
-&lt;img data-src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="683" height="732">
-&lt;/a>
-&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;img alt="Example Rancher VPC Setup" srcset="
+/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_eccaa4a9a1944ce38947e2b66eef435c.png 400w,
+/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_ef3b4452931c8d2765579f379c427bd1.png 760w,
+/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_1200x1200_fit_lanczos_2.png 1200w"
+src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_eccaa4a9a1944ce38947e2b66eef435c.png"
+width="683"
+height="732"
+loading="lazy"
+data-zoomable />
+&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
 Example Rancher VPC Setup
 &lt;/figcaption>
 &lt;/figure>
@@ -533,10 +502,16 @@ So let´s go on.&lt;/p>
 It is mostly the same setup as before but you need a VPC Perring (VPC Gateway is also possible) and you do not need to place EC2 nodes into the cluster.
 That will be taken care of Rancher.&lt;/p>
 &lt;figure id="figure-example-rancher-vpc-setup-with-user-cluster">
-&lt;a data-fancybox="" href="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_2000x2000_fit_lanczos_2.png" data-caption="Example Rancher VPC Setup with User Cluster">
-&lt;img data-src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1362" height="731">
-&lt;/a>
-&lt;figcaption data-pre="Figure " data-post=":" class="numbered">
+&lt;img alt="Example Rancher VPC Setup with User Cluster" srcset="
+/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_1674615f3e4857ea8d6f5cf1e9bd3fb8.png 400w,
+/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_0b16d09e908503bd4fa4d692b0b65d3c.png 760w,
+/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_1200x1200_fit_lanczos_2.png 1200w"
+src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_1674615f3e4857ea8d6f5cf1e9bd3fb8.png"
+width="760"
+height="408"
+loading="lazy"
+data-zoomable />
+&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
 Example Rancher VPC Setup with User Cluster
 &lt;/figcaption>
 &lt;/figure>
@@ -634,18 +609,13 @@ From creating the network in AWS up to the cluster in Rancher.&lt;/p>
 &lt;p>Rancher2 Terraform Provider source at GitHub :&lt;br>
 &lt;a href="https://github.com/terraform-providers/terraform-provider-rancher2" target="_blank" rel="noopener">https://github.com/terraform-providers/terraform-provider-rancher2&lt;/a>&lt;/p>
 &lt;h2 id="rke-terraform-provider">rke Terraform Provider&lt;/h2>
-&lt;p>There was a Terraform provider made by
-&lt;a href="https://github.com/yamamoto-febc" target="_blank" rel="noopener">Kazumichi Yamamoto&lt;/a> which I have used in version v0.14.1 to automate the creation of the Rancher management cluster.
+&lt;p>There was a Terraform provider made by &lt;a href="https://github.com/yamamoto-febc" target="_blank" rel="noopener">Kazumichi Yamamoto&lt;/a> which I have used in version v0.14.1 to automate the creation of the Rancher management cluster.
 But I think Rancher has taken over the development of that project and the repository moved to the rancher organization.&lt;/p>
-&lt;p>
-&lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">https://github.com/rancher/terraform-provider-rke&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">https://github.com/rancher/terraform-provider-rke&lt;/a>&lt;/p>
 &lt;p>Rancher Labs is pretty fast in developing these tools.
 It will take some time and then the Terraform rke provider will move to the official Terraform providers organization.&lt;/p>
-&lt;p>Until then, you have to download the provider by yourself at
-&lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">rancher-terraform-provider-rke&lt;/a>.
-Only official HashiCorp providers listed
-&lt;a href="https://www.terraform.io/docs/providers/index.html" target="_blank" rel="noopener">here&lt;/a> in the
-&lt;a href="https://github.com/terraform-providers" target="_blank" rel="noopener">terraform-providers GitHub organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p>
+&lt;p>Until then, you have to download the provider by yourself at &lt;a href="https://github.com/rancher/terraform-provider-rke" target="_blank" rel="noopener">rancher-terraform-provider-rke&lt;/a>.
+Only official HashiCorp providers listed &lt;a href="https://www.terraform.io/docs/providers/index.html" target="_blank" rel="noopener">here&lt;/a> in the &lt;a href="https://github.com/terraform-providers" target="_blank" rel="noopener">terraform-providers GitHub organization&lt;/a> will be downloaded for you when running &lt;code>terraform init&lt;/code>.&lt;/p>
 &lt;h2 id="final-words">Final words&lt;/h2>
 &lt;p>Kubernetes itself already is a lot to learn.
 Put Rancher specific terms to that pile you have even more material to go through.
@@ -678,20 +648,7 @@ Entering rescue mode...
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1" role="doc-endnote">
-&lt;p>
-&lt;a href="https://www.gnu.org/software/grub/manual/grub/html_node/cryptomount.html#cryptomount" target="_blank" rel="noopener">cryptomount&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.gnu.org/software/grub/manual/grub/html_node/cryptomount.html#cryptomount" target="_blank" rel="noopener">cryptomount&lt;/a> &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Blog</title><link>https://www.ajfriesen.com/blog/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/blog/</guid><description/></item><item><title>Freelance</title><link>https://www.ajfriesen.com/freelance/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/freelance/</guid><description/></item><item><title>Landing Page</title><link>https://www.ajfriesen.com/my_projects/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/my_projects/</guid><description/></item><item><title/><link>https://www.ajfriesen.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/contact/</guid><description/></item><item><title/><link>https://www.ajfriesen.com/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/experience/</guid><description/></item><item><title>Writing content for Technik-Tip</title><link>https://www.ajfriesen.com/project/technik-tip/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/project/technik-tip/</guid><description>&lt;p>Simple website for my small passion project.&lt;/p>
-&lt;p>The main goal is to write content about daily IT problems and explain them for everybody.
-The project is inpired by the German project
-&lt;a href="https://www.finanztip.de/" target="_blank" rel="noopener">www.finanztip.de&lt;/a> which explains every financial topic for the normal consumer.&lt;/p>
-&lt;h2 id="techstack">Techstack&lt;/h2>
-&lt;ul>
-&lt;li>The website is build with the static site generator
-&lt;a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo&lt;/a> and the
-&lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">academic theme&lt;/a>&lt;/li>
-&lt;li>I am using
-&lt;a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages&lt;/a> to host the site and Github Actions to fully automate the process.&lt;/li>
-&lt;/ul>
-&lt;p>Have a look here: &lt;a href="https://www.technik-tip.de/">https://www.technik-tip.de/&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;/section></description></item><item><title>Blog</title><link>https://www.ajfriesen.com/blog/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/blog/</guid><description/></item><item><title>Landing Page</title><link>https://www.ajfriesen.com/my_projects/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/my_projects/</guid><description/></item><item><title/><link>https://www.ajfriesen.com/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/admin/config.yml</guid><description/></item><item><title/><link>https://www.ajfriesen.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/contact/</guid><description/></item><item><title/><link>https://www.ajfriesen.com/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.ajfriesen.com/experience/</guid><description/></item></channel></rss>
