@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Neuste Beiträge"
-subtitle = "Blog Posts übersetzte ich nicht.[Hier sind die englischen zu finden](/post)"
+subtitle = "Dinge über die ich Schreibe. [Hier auch auf Englisch](/)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

@@ -15,7 +15,7 @@ role: Software & Systems Engineer
 # Organizations/Affiliations
 organizations:
 - name: gridscale GmbH
-  url: "https://gridscale.io/"
+  url: "https://gridscale.io"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Andrej Friesen ist ein mehr oder weniger klassischer Ingenieur der seinen Weg in die IT, seiner Leidenschaft, gegangen ist.
@@ -48,7 +48,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fa
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:andre.friesen@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/mr_ajfriesen
@@ -84,5 +84,3 @@ email: ""
 Ich lebe und arbeite in Köln.
 
 Ich habe gerade einen neuen Job und dort die Möglichkeit mich in die Software Entwicklung einzuarbeiten. Natürlich bleiben Server und Infrastrutkur nicht auf der Strecke, dafür mag ich das zu sehr! :smiley:
-
-Außerdem schreibe ich ab und zu etwas in meinem [Blog]({{< ref "blog" >}}) zu Themen die mich interessieren.
