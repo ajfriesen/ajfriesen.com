@@ -5,7 +5,7 @@ title: "Netstat shows tcp6 on ipv4 only host"
 subtitle: ""
 summary: ""
 authors: [admin]
-tags: [networking,netstat, tcp6, ipv6,linux]
+tags: ["networking","netstat", "ipv6","linux"]
 categories: []
 date: 2020-05-20T08:30:00+02:00
 lastmod: 2020-05-20T08:30:00+02:00
@@ -49,14 +49,14 @@ tcp6       0      0 :::2181                 :::*                    LISTEN      
 
 I was also able to get a curl running against some web interface from anther machine with curl which only had ipv4 enabled as well.
 That means die application itself was answering on ipv4.
-Also, I know that ipv4 and ipv6 are not campatible at all.
+Also, I know that ipv4 and ipv6 are not compatible at all.
 If you wanted ipv4 server to speak with ipv6 and vice versa you need NAT64[^1], which translates ipv4 and ipv6 traffic.
 
 I was confused...
 
 It turns out the socket itself is an ipv6 socket.
 I also did not know that there is a special ipv6 address range which maps to ipv4 addresses.[^2]
-That means all ipv4 adresses are also ipv6 adresses.[^3]
+That means all ipv4 addresses are also ipv6 addresses.[^3]
 
 So these sockets work with ipv4 but since they are really ipv6 sockets they are listed as tcp6 in netstat.
 
