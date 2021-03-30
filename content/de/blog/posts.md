@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Neuste Beiträge"
-subtitle = "Blog Posts übersetzte ich nicht.[Hier sind ide englischen zu finden](/post)"
+subtitle = "Blog Posts übersetzte ich nicht.[Hier sind die englischen zu finden](/post)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -36,7 +36,7 @@ subtitle = "Blog Posts übersetzte ich nicht.[Hier sind ide englischen zu finden
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.
