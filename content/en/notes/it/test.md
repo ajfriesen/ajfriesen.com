@@ -1,24 +1,15 @@
 ---
-# Course title, summary, and position.
-linktitle: My digital Garden
-summary: Some notes, links and stuff I want to write down without creating a full blown blog article.
+# Title, summary, and page position.
+linktitle: Reading List
+summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
 weight: 1
+icon: book
+icon_pack: fas
 
 # Page metadata.
-title: Wiki
+title: Chapter 1
 date: "2018-09-09T00:00:00Z"
-lastmod: "2018-09-09T00:00:00Z"
-draft: false  # Is this a draft? true/false
-toc: true  # Show table of contents? true/false
-type: docs  # Do not modify.
-
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  example:
-    name: Wiki
-    weight: 1
+type: book  # Do not modify.
 ---
 
 Personal Wiki and notes which I am to lazy to write a blog article about.
@@ -72,8 +63,7 @@ https://landscape.cncf.io/
 
 ### Writing good Git commit messages
 
-[How to Write a Git Commit Message
-](https://chris.beams.io/posts/git-commit/)
+[How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
 
 ## Random
 
@@ -84,3 +74,10 @@ Placeholder for random stuff.
 Docs Theme used by big sites as Kubernetes
 
 https://www.docsy.dev/
+
+### Learn about User Interfaces and User Experience
+
+This is a game which will show you how much you can do wrong in a user interface.
+Never made it because of rage quit.
+
+(User Inyerface)(https://userinyerface.com/)

@@ -2,15 +2,7 @@
 title: Kubernetes
 linktitle: Kubernetes
 toc: true
-type: docs
-date: "2019-05-05T00:00:00+01:00"
-draft: false
-menu:
-  example:
-    parent: 
-    weight: 2
-
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+type: book
 weight: 2
 ---
 
@@ -83,3 +75,23 @@ There are 2 NGINX Ingress Controllers which do not share the same features and c
 - [cert-manager website](https://cert-manager.io/)
 - [cert-manager git repo](https://github.com/jetstack/cert-manager)
 - [cert-manager helm chart](https://artifacthub.io/packages/helm/jetstack/cert-manager)
+
+
+## Running kubernetes
+
+[Reserve Compute Resources for System Daemons](https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources)
+
+[Node Allocatable Resources](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/node-allocatable.md)
+
+[Configure Out of Resource Handling](https://kubernetes.io/docs/tasks/administer-cluster/out-of-resource/)
+
+[Container runtimes](https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
+
+https://github.com/kubernetes/kubeadm/issues/1394
+https://github.com/systemd/systemd/issues/8645
+
+
+cgroup list:
+
+`systemctl status`
+`systemd-cgls`

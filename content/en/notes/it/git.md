@@ -1,14 +1,7 @@
 ---
 title: Git
-linktitle: Git
-toc: true
-type: docs
-date: "2019-05-05T00:00:00+01:00"
-draft: false
-menu:
-  example:
-    parent: 
-    weight: 2
+linktitle: git
+type: book
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
@@ -29,3 +22,13 @@ A relative complex process to use git with multiple teams.
 ## Update your development branch from another branch (main)
 
 `git pull --rebase origin main`
+
+## Undo changes from from commit X and keep Theme
+
+`git reset --soft COMMIT-ID`
+
+https://git-scm.com/docs/git-reset#Documentation/git-reset.txt---soft
+
+## Undo last commit and keep changes
+
+`git reset --soft HEAD^1`

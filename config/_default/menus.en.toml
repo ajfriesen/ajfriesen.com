@@ -34,8 +34,8 @@
   weight = 20
 
 [[main]]
-  name = "Digital Garden"
-  url = "digital-garden"
+  name = "Notes"
+  url = "notes"
   weight = 25
 
 [[main]]
