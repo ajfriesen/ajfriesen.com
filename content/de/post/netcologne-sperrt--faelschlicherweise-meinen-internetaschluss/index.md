@@ -7,8 +7,8 @@ summary: ""
 authors: [admin]
 tags: ["NetCologne","Internet"]
 categories: []
-date: 2021-03-30T18:00:00+02:00
-lastmod: 2021-03-30T18:00:00+02:00
+date: 2021-04-07T19:00:00+01:00
+lastmod: 2021-04-07T19:00:00+01:00
 featured: false
 draft: false
 
@@ -17,7 +17,7 @@ draft: false
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: "[Photo by Stephen Phillips - Hostreviews.co.uk on Unsplash](https://unsplash.com/photos/tN344soypQM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
-  focal_point: "Left"
+  focal_point: "cete"
   preview_only: false
 
 # Projects (optional).
