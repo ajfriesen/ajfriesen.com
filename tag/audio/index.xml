@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>audio | Andrej Friesen</title><link>https://www.ajfriesen.com/tag/audio/</link><atom:link href="https://www.ajfriesen.com/tag/audio/index.xml" rel="self" type="application/rss+xml"/><description>audio</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Tue, 10 Nov 2020 21:00:08 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>audio</title><link>https://www.ajfriesen.com/tag/audio/</link></image><item><title>Custom ear-buds for headphones</title><link>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</link><pubDate>Tue, 10 Nov 2020 21:00:08 +0100</pubDate><guid>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</guid><description>&lt;p>A story of buying headphones and custom ear-buds for sports while over thinking every aspect 🧐&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>audio | Andrej Friesen</title><link>https://www.ajfriesen.com/tag/audio/</link><atom:link href="https://www.ajfriesen.com/tag/audio/index.xml" rel="self" type="application/rss+xml"/><description>audio</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Tue, 10 Nov 2020 21:00:08 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/media/icon_hu0c4f12d5bbb08dd9ffdb9a508a785d15_266606_512x512_fill_lanczos_center_2.png</url><title>audio</title><link>https://www.ajfriesen.com/tag/audio/</link></image><item><title>Custom ear-buds for headphones</title><link>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</link><pubDate>Tue, 10 Nov 2020 21:00:08 +0100</pubDate><guid>https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/</guid><description>&lt;p>A story of buying headphones and custom ear-buds for sports while over thinking every aspect 🧐&lt;/p>
 &lt;h2 id="some-context">Some context&lt;/h2>
 &lt;p>Headphones are a really personal and subjective thing.
 Audio in general is but I do not want to go the route of audio or Hi-Fi here.
@@ -18,6 +18,8 @@ That was not possible with my over-ears at all.&lt;/p>
 &lt;p>Okay, then I did a little research and found this not quite in-ears but in ears with wings on them.
 I decided on the Bose SoundSport.&lt;/p>
 &lt;figure id="figure-bose-soundsport">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
 &lt;img alt="Bose SoundSport" srcset="
 /post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_5013f130c7d3dec7f7e189ac10bbb3b8.jpg 400w,
 /post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_898ae26b6c0b76d6457ac0da3b874764.jpg 760w,
@@ -25,12 +27,10 @@ I decided on the Bose SoundSport.&lt;/p>
 src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/bose-soundsport-wireless_hu617a0331a0c532b08774c015385c25ee_5662024_5013f130c7d3dec7f7e189ac10bbb3b8.jpg"
 width="760"
 height="570"
-loading="lazy"
-data-zoomable />
-&lt;figcaption>
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 Bose SoundSport
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;ul>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> Water resistance&lt;/li>
 &lt;li>&lt;input checked="" disabled="" type="checkbox"> sweat resistance&lt;/li>
@@ -67,6 +67,8 @@ Here is also a site I did found during my research listing some examples: &lt;a 
 &lt;h3 id="why-could-i-never-use-in-ears">Why could I never use in-ears?&lt;/h3>
 &lt;p>What do you see in this picture?&lt;/p>
 &lt;figure id="figure-normal-ear-buds-left-vs-custom-ear-buds-right">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
 &lt;img alt="normal ear-buds (left) vs. custom ear-buds (right)" srcset="
 /post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_930428fa092b930ea3bd85d91d9d5bb5.jpg 400w,
 /post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_b1501183a75b1c9329b6472cd6a417ab.jpg 760w,
@@ -74,12 +76,10 @@ Here is also a site I did found during my research listing some examples: &lt;a 
 src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/featured%20copy_huc19a7f3a685bbb746aef5fb1e055c676_1286294_930428fa092b930ea3bd85d91d9d5bb5.jpg"
 width="760"
 height="570"
-loading="lazy"
-data-zoomable />
-&lt;figcaption>
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 normal ear-buds (left) vs. custom ear-buds (right)
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;p>In this image you can see the &lt;em>normal&lt;/em> direction for in-ears in general with the green line.
 The red line is the direction of my ear canal.
 It is the complete opposite.
@@ -87,10 +87,10 @@ No wonder in-ears never did fit or caused pain.
 It is physically impossible for me to use them 😀&lt;/p>
 &lt;div class="gallery">
 &lt;a data-fancybox="gallery-comparison-in-ears-vs-custom-ear-buds" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184350.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184350_hu9d89fc45d1ad7e4b39916dce2180beae_3400870_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20200522_184350.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184350_hu9d89fc45d1ad7e4b39916dce2180beae_3400870_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20200522_184350.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-comparison-in-ears-vs-custom-ear-buds" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184410.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184410_hu7a968893d16f58b9bf6d2e9c87c2b062_3536044_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20200522_184410.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/comparison-in-ears-vs-custom-ear-buds/IMG_20200522_184410_hu7a968893d16f58b9bf6d2e9c87c2b062_3536044_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20200522_184410.jpg" width="253" height="190">
 &lt;/a>
 &lt;/div>
 &lt;p>And here you can see the side by side comparison.
@@ -132,34 +132,34 @@ It will be different and you have to decided if it is better or worse than befor
 &lt;p>Here is the result:&lt;/p>
 &lt;div class="gallery">
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160253.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160253_hueb4ffb99096f6e2737358d784fe21436_1707561_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_160253.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160253_hueb4ffb99096f6e2737358d784fe21436_1707561_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_160253.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160259.jpg" data-caption="Bose SoundSPort wireless free open with custom ear-buds (does not fit)">
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160259_hud152f5f6d0373ef08b8bfa35f4244e9a_932808_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="Bose SoundSPort wireless free open with custom ear-buds (does not fit)" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_160259_hud152f5f6d0373ef08b8bfa35f4244e9a_932808_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="Bose SoundSPort wireless free open with custom ear-buds (does not fit)" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_162411.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_162411_hud400a3db18b11b51a00ee248202974eb_1418780_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_162411.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_162411_hud400a3db18b11b51a00ee248202974eb_1418780_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_162411.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224114.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224114_hu2fc42862c7d2d767d6fdea5bf123baef_1217414_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224114.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224114_hu2fc42862c7d2d767d6fdea5bf123baef_1217414_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_224114.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224233.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224233_hu3adbd0a23dcb2e6255ad14e3e449b6ed_382843_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224233.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224233_hu3adbd0a23dcb2e6255ad14e3e449b6ed_382843_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_224233.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224248.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224248_huacaa865d109d469cc5f76b8266032c8e_395775_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224248.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224248_huacaa865d109d469cc5f76b8266032c8e_395775_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_224248.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224342.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224342_hu8e01b119c16cd2b031f281f9161be26e_444458_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224342.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224342_hu8e01b119c16cd2b031f281f9161be26e_444458_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_224342.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224400.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224400_hu85e59f12bc46a129dcd83fed37d3fa2c_282210_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224400.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224400_hu85e59f12bc46a129dcd83fed37d3fa2c_282210_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_224400.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224411.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224411_hud5365613c90bbeb72a4444697a177192_428730_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224411.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224411_hud5365613c90bbeb72a4444697a177192_428730_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_224411.jpg" width="253" height="190">
 &lt;/a>
 &lt;a data-fancybox="gallery-charging-case" href="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224434.jpg" >
-&lt;img data-src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224434_hu6a62a58c0190292f43a559627159c1a5_408604_0x190_resize_q90_lanczos.jpg" class="lazyload" alt="IMG_20190605_224434.jpg" width="253" height="190">
+&lt;img src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/charging-case/IMG_20190605_224434_hu6a62a58c0190292f43a559627159c1a5_408604_0x190_resize_q90_lanczos.jpg" loading="lazy" alt="IMG_20190605_224434.jpg" width="253" height="190">
 &lt;/a>
 &lt;/div>
 &lt;p>As you can see there is not enough space for the custom ear-buds in my case (pun intended).
@@ -175,6 +175,8 @@ Unfortunately these cases do not have any unused space anywhere.&lt;/p>
 &lt;p>Why would they break you ask?&lt;/p>
 &lt;p>Have a look at this:&lt;/p>
 &lt;figure id="figure-example-rancher-vpc-setup">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
 &lt;img alt="Example Rancher VPC Setup" srcset="
 /post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_33f1cd6633eebdee5033d55b35487fe2.jpg 400w,
 /post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_62d8639dc4e60d917e7ad3a1c885992e.jpg 760w,
@@ -182,12 +184,10 @@ Unfortunately these cases do not have any unused space anywhere.&lt;/p>
 src="https://www.ajfriesen.com/post/custom-ears-buds-for-headphones/ripping-of-material_hufdb47781b5be6dfdaccbbdf60ffa6a80_1868715_33f1cd6633eebdee5033d55b35487fe2.jpg"
 width="760"
 height="570"
-loading="lazy"
-data-zoomable />
-&lt;figcaption>
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
 Example Rancher VPC Setup
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;p>The two little edges on the headphone hold the ear-buds.
 Problem here: The material of that ear-buds is not strong enough to handle this amount of disassamly.
 You already can see they are wearing off.&lt;/p>

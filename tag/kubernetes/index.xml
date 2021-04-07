@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubernetes | Andrej Friesen</title><link>https://www.ajfriesen.com/tag/kubernetes/</link><atom:link href="https://www.ajfriesen.com/tag/kubernetes/index.xml" rel="self" type="application/rss+xml"/><description>Kubernetes</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Mon, 13 Apr 2020 12:46:44 +0200</lastBuildDate><image><url>https://www.ajfriesen.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url><title>Kubernetes</title><link>https://www.ajfriesen.com/tag/kubernetes/</link></image><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;details class="toc-inpage d-print-none " open>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kubernetes | Andrej Friesen</title><link>https://www.ajfriesen.com/tag/kubernetes/</link><atom:link href="https://www.ajfriesen.com/tag/kubernetes/index.xml" rel="self" type="application/rss+xml"/><description>Kubernetes</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Mon, 13 Apr 2020 12:46:44 +0200</lastBuildDate><image><url>https://www.ajfriesen.com/media/icon_hu0c4f12d5bbb08dd9ffdb9a508a785d15_266606_512x512_fill_lanczos_center_2.png</url><title>Kubernetes</title><link>https://www.ajfriesen.com/tag/kubernetes/</link></image><item><title>Rancher Overview</title><link>https://www.ajfriesen.com/post/rancher-overview/</link><pubDate>Mon, 13 Apr 2020 12:46:44 +0200</pubDate><guid>https://www.ajfriesen.com/post/rancher-overview/</guid><description>&lt;details class="toc-inpage d-print-none " open>
 &lt;summary class="font-weight-bold">Table of Contents&lt;/summary>
 &lt;nav id="TableOfContents">
 &lt;ul>
@@ -85,6 +85,8 @@ I would recommend going with Terraform but AWS Cloudformation and the AWS Consol
 &lt;p>The first thing you need is a network and nodes to install a Kubernetes cluster with rke.
 It would look like Figure 1:&lt;/p>
 &lt;figure id="figure-example-rancher-vpc-setup">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
 &lt;img alt="Example Rancher VPC Setup" srcset="
 /post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_eccaa4a9a1944ce38947e2b66eef435c.png 400w,
 /post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_ef3b4452931c8d2765579f379c427bd1.png 760w,
@@ -92,12 +94,10 @@ It would look like Figure 1:&lt;/p>
 src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup_hu46800aa06a60e12b81a9f4eb7111923c_50966_eccaa4a9a1944ce38947e2b66eef435c.png"
 width="683"
 height="732"
-loading="lazy"
-data-zoomable />
-&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
 Example Rancher VPC Setup
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;p>There is a lot missing like Internet Gateways, NAT Gatways, routing tables, routes and you could use an Application Load Balancer instead the Network Load Balancer.
 But you get the idea.&lt;/p>
 &lt;p>Next you would need to install Rancher to that Kubernetes cluster which is running on the 3 Rancher nodes.
@@ -112,6 +112,8 @@ So let´s go on.&lt;/p>
 It is mostly the same setup as before but you need a VPC Perring (VPC Gateway is also possible) and you do not need to place EC2 nodes into the cluster.
 That will be taken care of Rancher.&lt;/p>
 &lt;figure id="figure-example-rancher-vpc-setup-with-user-cluster">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
 &lt;img alt="Example Rancher VPC Setup with User Cluster" srcset="
 /post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_1674615f3e4857ea8d6f5cf1e9bd3fb8.png 400w,
 /post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_0b16d09e908503bd4fa4d692b0b65d3c.png 760w,
@@ -119,12 +121,10 @@ That will be taken care of Rancher.&lt;/p>
 src="https://www.ajfriesen.com/post/rancher-overview/rancher-vpc-setup-with-user-cluster_hue005e98fc18280de5d8cdf1cc3b1a37c_83055_1674615f3e4857ea8d6f5cf1e9bd3fb8.png"
 width="760"
 height="408"
-loading="lazy"
-data-zoomable />
-&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption data-pre="Figure&amp;nbsp;" data-post=":&amp;nbsp;" class="numbered">
 Example Rancher VPC Setup with User Cluster
-&lt;/figcaption>
-&lt;/figure>
+&lt;/figcaption>&lt;/figure>
 &lt;p>Why do you need the peering?
 Rancher will ssh into each node and will do the provisioning for each Kubernetes node.
 Also the created Kubernetes cluster will ping back to Rancher for health checks.&lt;/p>

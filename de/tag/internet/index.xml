@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Internet | Andrej Friesen</title><link>https://www.ajfriesen.com/de/tag/internet/</link><atom:link href="https://www.ajfriesen.com/de/tag/internet/index.xml" rel="self" type="application/rss+xml"/><description>Internet</description><generator>Wowchemy (https://wowchemy.com)</generator><language>de</language><copyright>Andrej Friesen</copyright><lastBuildDate>Wed, 07 Apr 2021 19:00:00 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/media/icon_hu0c4f12d5bbb08dd9ffdb9a508a785d15_266606_512x512_fill_lanczos_center_2.png</url><title>Internet</title><link>https://www.ajfriesen.com/de/tag/internet/</link></image><item><title>NetCologne sperrt über ein Jahr lang unregelmäßig meinen Internetanschluss und ich bin nichtmal Schuld</title><link>https://www.ajfriesen.com/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/</link><pubDate>Wed, 07 Apr 2021 19:00:00 +0100</pubDate><guid>https://www.ajfriesen.com/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/</guid><description>&lt;p>In diesem Blogpost geht es um &amp;ldquo;Fest und Flauschig&amp;rdquo;, den Podcast von Jan Böhmermann &amp;amp; Olli Schultz, den AZOrult Trojaner, NetCologne, Kontakt zum BSI und einigen Internetsperrungen.
+Das scheint im Zusammenhang keinen Sinn zu ergeben, wird es aber nach dem Lesen.&lt;/p>
+&lt;p>Über ein Jahr lang hat NetCologne mir meinen Internetzugang abgedreht.
+Manchmal wenige Stunden, manchmal auch mehrere Tage.
+Auch gerne mal übers Wochenende.
+In total unregelmäßigen Abständen.
+Mal war Monate alles okay, mal direkt ein paar Tage hintereinander.
+Das macht dann auch besonders Spaß, da ja mittlerweile alles übers Internet geht.
+Selbst das Radio über den Smart Speaker.&lt;/p>
+&lt;p>Hier erfahrt ihr, wie ich mich gegen den Provider wehren musste, um meinen Internetzugang doch zu entsperren und warum ich am Ende noch nicht einmal der Verursacher war.&lt;/p>
+&lt;hr>
+&lt;p>An folgenden Tagen bekam ich eine SMS mit der Info, dass mein Internetanschluss gesperrt wurde.&lt;/p>
+&lt;ul>
+&lt;li>Freitag, 24.05.2019 um 10:20&lt;/li>
+&lt;li>Montag, 17.06.2019 um 12:18&lt;/li>
+&lt;li>Montag, 22.07.2019 um 12:34&lt;/li>
+&lt;li>Montag, 09.09.2019 um 12:48&lt;/li>
+&lt;li>Freitag, 28.02.2020 um 12:34&lt;/li>
+&lt;li>Freitag, 20.03.2010 um 13:40&lt;/li>
+&lt;/ul>
+&lt;p>Die SMS Nachricht war immer gleich:&lt;/p>
+&lt;blockquote>
+&lt;p>NetColgone informiert: Ihr Internet-Anschluss ****** musste leider gesperrt werden.
+Bitte rufen Sie fuer weitere Informationen und zur Entsperrung das Portal &lt;a href="http://schutz.netcologne.de">http://schutz.netcologne.de&lt;/a> auf. Ihr &amp;gt; Freischaltcode lautet *****&lt;/p>
+&lt;/blockquote>
+&lt;p>Ich habe mir beim ersten Mal nichts gedacht und habe einfach mal meinen Gaming PC zurückgesetzt.
+Da ist wirklich nur Steam, Epic und Co drauf installiert.
+Ging alles ganz fix.
+Maleware, Viren und so kann man sich mit Windows halt schnell einfangen, auch wenn man Ahnung hat.
+Ich schließe mich da definitiv nicht aus.&lt;/p>
+&lt;p>Als ich die gleiche SMS wieder bekam, wurde ich ein bisschen stutzig und habe mal den NetCologne Support angerufen.&lt;/p>
+&lt;p>Herauszufinden, was der Grund der Sperrung ist, war schonmal nicht so einfach.
+Angeblich ein Virus oder Trojaner in meinem Netz.
+Oft hieß es &amp;ldquo;AZORult&amp;rdquo; sei auf meinem System.&lt;/p>
+&lt;p>Mal sollte der AZORult auf der FritzBox sein, dann auf dem Handy, mein PC oder man könne das ja gar nicht sagen.
+Es wurde auch gefragt, ob ich eine TV Box aus dem Osten gekauft habe.
+Das gab es wohl schon mal, dass der AZORult vorinstalliert war.
+Aber das war natürlich bei mir nicht der Fall.&lt;/p>
+&lt;p>Der Support konnte mir mit seinen vielen gegensätzlichen Aussagen nicht gerade helfen und sorgte eher für Verwirrung.
+Die meisten hatten leider überhaupt keine Ahnung von Technik und haben nur das Supportskript durchgespielt.&lt;/p>
+&lt;p>Ich hab nichts dagegen, wenn jemand etwas nicht weiß.
+Hey, das Internet und alles drumherum ist kompliziert.
+Allerdings zu Lügen oder sich Dinge auszudenken, um sich die Blöße nicht zu geben, dass man etwas nicht weiß, geht gar nicht.
+Vor allem hat es mir die Arbeit erschwert herauszufinden, was das eigentliche Problem war.&lt;/p>
+&lt;p>NetColgone hat mich dann darauf hingewiesen, dass Sie selbst bei Virenbefall nicht helfen können.
+Sie müssen nur den Anschluss sperren von dem aus der &amp;ldquo;böse Traffic&amp;rdquo; kommt.
+Sie haben mich auf einen Dienstleister verwiesen, der sich auf das Thema spezialisiert hat.&lt;/p>
+&lt;h2 id="gespräch-mit-antiviren-spezialisten">Gespräch mit Antiviren Spezialisten&lt;/h2>
+&lt;p>Nachdem ich sehr viel selbst zum &amp;ldquo;AZORult&amp;rdquo; Trojaner Virus recherchiert hatte und nicht viel finden konnte, habe ich die Antiviren Spezialfirma angerufen, die NetCologne für solche Fälle wohl nennt.&lt;/p>
+&lt;p>Der Herr am Telefon war super drauf und ich hab ihm meine Situation geschildert:
+Angeblich AZORult, Windows Rechner schon platt gemacht.
+Ich wollte wissen, was der Spezialist denn machen würden, um den Trojaner/Virus zu finden.&lt;/p>
+&lt;p>Sie würden das Gleiche machen!&lt;/p>
+&lt;p>&lt;img src="it-crowd-brilliant.gif" alt="IT Crowd - Brillant" title="IT Crowd - Brillant">&lt;/p>
+&lt;p>Sie setzen einfach jedes Gerät auf den Werkszustand zurück und/oder installieren Windows neu.
+Das kann ich auch nachvollziehen, denn wie soll man sicherstellen, dass der Trojaner wirklich weg ist aus dem System?
+Vor allem können die diesen Trojaner laut Aussage gar nicht finden.
+Pro Gerät kostet das dann einen pauschalen Betrag.&lt;/p>
+&lt;p>Das wären bei mir über 1000 € für mehrere Rechner, Server, Raspberry Pis, Heimautomatisierungszeug, 2 Handys, etc. (Wobei ich kaum glaube, dass die meine Server und selbst geflashten IoT Geräte anfassen würden)&lt;/p>
+&lt;p>Das war mir wirklich zu blöd so viel Geld auszugeben, wenn ich das auch selbst sehr schnell machen kann.&lt;/p>
+&lt;p>Ich will die Dienstleistung nicht kleinreden.
+Die macht sicherlich in vielen Fällen absolut Sinn, allerdings konnte mir bis zu dem Zeitpunkt noch niemand definitiv sagen, wie ich diesen Trojaner nur identifizieren kann.
+Da diese Sperrungen auch sehr sporadisch auftraten, war ich mir sehr sicher, dass NetCologne mir das Internet fälschlicherweise sperrt.
+Vor allem je länger sich diese Geschichte zog.&lt;/p>
+&lt;p>Am 04.03.2020 bekam ich dann auch einen Brief von NetCologne, der das ganze Thema nochmal zusammenfasste.&lt;/p>
+&lt;h2 id="brief-von-netcologne---den-virus-kann-man-nicht-mit-gängigen-mitteln-finden-bitte-beweisen-sie-das">Brief von NetCologne - Den Virus kann man nicht mit gängigen Mitteln finden, bitte beweisen Sie das&lt;/h2>
+&lt;p>Ich zitiere mal die interessanten Passagen:&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;In Ihrem Fall handelt es sich um den &amp;ldquo;azorult&amp;rdquo; Viruls.
+Dieser lässt sich von gänigngen Antivirus Programmen &lt;strong>NICHT&lt;/strong> finden.&lt;/p>
+&lt;p>[&amp;hellip;]&lt;/p>
+&lt;p>Bitte beachten Sie, dass die wiederholte Sperre des Internetzugangs die Entsperrung &lt;strong>nur mittels Nachweis &amp;gt;eines Logfiles einer geeigneten Reinigungssoftware&lt;/strong> vorgenommen werden kann, aus dem die Bereinigung &amp;gt;hervorgeht.
+Eine telefonische Bestätigung können wir nicht mehr akzeptieren.&amp;rdquo;&lt;/p>
+&lt;/blockquote>
+&lt;figure id="figure-brief-zur-sperrung-des-internets-vom-04032020">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Brief zur Sperrung des Internets vom 04.03.2020" srcset="
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/netcologne-internetsperre_hu53fbdad4d8cffba3adf06a53a36015b6_3937923_b244b56fb69d15f82b604bc8b199bb8e.jpg 400w,
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/netcologne-internetsperre_hu53fbdad4d8cffba3adf06a53a36015b6_3937923_84aa6baecc0e47586326dbf42cb15282.jpg 760w,
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/netcologne-internetsperre_hu53fbdad4d8cffba3adf06a53a36015b6_3937923_1200x1200_fit_q90_lanczos.jpg 1200w"
+src="https://www.ajfriesen.com/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/netcologne-internetsperre_hu53fbdad4d8cffba3adf06a53a36015b6_3937923_b244b56fb69d15f82b604bc8b199bb8e.jpg"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Brief zur Sperrung des Internets vom 04.03.2020
+&lt;/figcaption>&lt;/figure>
+&lt;p>Moment mal.
+Erst steht dort, dass man diesen Trojaner nicht aufspüren kann und dann soll ich noch beweisen, dass ich diesen entfernt habe?
+Selbst die Firma spezialisiert auf Virenentfernung würde den PC nur plattmachen und hätte nichts finden können.
+Das &amp;ldquo;plattmachen&amp;rdquo; hatte ich zu dem Zeitpunkt allerdings schon mehrmals gemacht.&lt;/p>
+&lt;p>Mir wurde das Internet ja mehrfach über das ganze Wochenende gesperrt.
+Da hab ich mir auch am Anfang die Zeit genommen, mit der &lt;a href="https://www.heise.de/download/product/desinfect-71642" target="_blank" rel="noopener">Desinfec&amp;rsquo;t vom Heise Verlag&lt;/a> jeden PC (Windows, Mac und Linux) mal zu prüfen.
+Natürlich habe ich nichts gefunden.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+Zudem ging es auch irgendwann 2020 mit Corona los.
+Mein damaliger Arbeitgeber hat sehr gut reagiert und es sollten möglichst viele Leute von zu Hause aus arbeiten.
+Das geht auch super in der IT Branche, nur braucht man halt Internet.
+&lt;/div>
+&lt;/div>
+&lt;p>Aber mit dem Schreiben was mir per Post zugesendet wurde, hatte sich NetCologne schön aus der Verantwortung gestohlen und wollte anscheinend auch keinerlei Beteiligung am Problem.&lt;/p>
+&lt;p>Am Telefon haben dann auch einige Support Mitarbeiter gesagt, dass ich auf jeden Fall eine Rechnung von einem Antivirenspezialisten vorlegen muss, um das Internet wieder freizuschalten, falls das nochmal passieren sollte.&lt;/p>
+&lt;p>Ich habe versucht dem Support klarzumachen, dass diese Spezialfirma den AZORult auch nichts finden kann und ich in meinem Fall ~1000 € bezahlen müsste.
+Das sei dann aber einfach mein Problem und NetColgone könne dafür ja nichts.&lt;/p>
+&lt;p>Wahnsinn, wie viel Hilfe NetCologne einem Kunden anbietet, der hartnäckig versucht das Problem zu lösen.
+Keine.
+Sie behaupten einfach, dass der Virus nicht erkannt werden kann, aber verlangen dann, dass man ein Logfile als Beweis braucht, um den Zugang wieder freizuschalten.&lt;/p>
+&lt;h2 id="wer-hat-denn-schuld-und-wie-finde-ich-das-raus">Wer hat denn Schuld und wie finde ich das raus?&lt;/h2>
+&lt;p>Die Situation im Allgemeinen ist für den Kunden schlichtweg eine Karre Mist.
+NetCologne als Provider ist verpflichtet Anschlüsse zu sperren, die unerwünschte Aktivitäten nachgehen.
+Kann einem aber selbst nicht sagen, was genau das Problem ist und als Kunde sitzt man in der Mitte.&lt;/p>
+&lt;p>Wer bestimmt, dass es sich bei diesem Traffic um &amp;ldquo;bösen&amp;rdquo; Traffic handelt?
+Zum einen das BSI.
+Denn die prüfen, ob man von zu Hause aus zum Beispiel Spam verschickt, wenn man einen schlecht konfigurierten Server bei sich stehen hat.
+Oder ob man bestimmte Command and Control Server anspricht.
+Aber es gibt auch Dritte, also irgendwelche Firmen, die diese Aktivitäten prüfen und dann die Info an die Provider weitergeben.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>Kleiner Exkurs zu Command and Control Server:&lt;/p>
+&lt;p>Command and Control Server werden in Botnetzen genutzt.
+Zum Beispiel kann eine Schadsoftware von einem PC diesen dann ansprechen und der C&amp;amp;C Server sorgt dann für nähere Instruktionen, wie das Herunterladen und Installieren von Trojaner Software.
+Wer diese Server anspricht (das können BSI und andere Firmen messen) ist mit hoher Wahrscheinlichkeit mit dem jeweiligen Virus/Trojaner infiziert.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>Der Provider sperrt dann einfach, bei Erhalt der Info.&lt;/p>
+&lt;p>Ein Problem war auch, dass ich nicht wusste, wann denn die angeblich &amp;ldquo;böse&amp;rdquo; Aktivität in meinem Netz passiert.
+Bisher hatte der Telefonsupport immer gemischte Aussagen darüber, ob die &amp;ldquo;böse&amp;rdquo; Aktivität zum Zeitpunkt der SMS passiert ist oder ob diese etwas Zeitversetzt sei.&lt;/p>
+&lt;p>Das war interessant und ich hab schon vor dem Brief (ich weiß nicht mehr genau wann) mit einem NetCologne Support Kontakt gehabt, der etwas technisch versierter war.
+Dort sagte mir man, dass die SMS viel später bei mir ankommt, als der eigentliche Fall mit dem AZORult erkannt wird.
+Wir reden hier von bis zu einer Woche (da bin ich mir nicht mehr sicher, es waren aber definitiv mehrere Tage).&lt;/p>
+&lt;p>Gut, die SMS an sich hilft dann gar nicht, allerdings hab ich ein Log bekommen, zu welchem Zeitpunkt genau die &amp;ldquo;bösen&amp;rdquo; Aktivitäten stattfanden und zu welcher Ziel IP die gingen:&lt;/p>
+&lt;p>Das Logfile sah ungefähr so aus und mit UTC als Zeitzone:&lt;/p>
+&lt;pre>&lt;code class="language-shell">timestamp ip_addr asn port proto confidence cc notes category family
+2020-03-19 05:58:14 ***.***.***.*** 8422 41003 6 50 DE destaddr: ***.***.***.***/32; destport: 80 bot AZORult
+&lt;/code>&lt;/pre>
+&lt;p>NetColgone konnte mir also nur sagen, dass der Traffic von meinem Anschluss kam und wohin dieser ging.
+Leider konnten sie nicht sagen, welches meiner Geräte diesen Traffic erzeugt hat.
+Zumindest ist das bei IPv4 so wegen NAT, bei IPv6 wäre das vielleicht ein wenig einfacher, da kein NAT gemacht wird.
+Allerdings gibt es da auch die temporären Adressen und &amp;hellip;naja egal, hier war es halt IPv4.&lt;/p>
+&lt;h2 id="die-beweislast-umkehren">Die Beweislast umkehren&lt;/h2>
+&lt;p>Da NetCologne alles andere als eine Hilfe war und das Support-Personal leider zu 90 % technisch keine Ahnung hatte/hat, musste ich mir überlegen, wie ich das Problem selbst löse.&lt;/p>
+&lt;p>Selbst mit meinen Arbeitskollegen waren wir mittlerweile ratlos, was der Auslöser sein könnte.
+Wir haben einige Mittagspausen mit dem Thema füllen können 😄&lt;/p>
+&lt;p>Ich entschied mich dazu, irgendwie etwas zu bauen, welches meinen GESAMTEN Traffic mitschneidet.&lt;/p>
+&lt;p>Erst wollte ich mir ein Gerät kaufen, welches den Traffic an der FritzBox spiegelt oder einfach nen Gerät zwischen FritzBox und allen meinen Geräten per Kabel schalten.
+Nachteil dabei, WLAN wäre außen vor.&lt;/p>
+&lt;p>Dann hab ich aber herausgefunden, dass man den Traffic an der FritzBox direkt tcpdumpen kann!
+Und natürlich hatte das jemand schonmal gemacht.
+Super, ein wenig Arbeit gespart.&lt;/p>
+&lt;p>Also ein Raspberry Pi rausgekramt und eine alte 500 GB Festplatte angeklemmt.&lt;/p>
+&lt;figure id="figure-raspberry-pi-mit-festplatte">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Raspberry Pi mit Festplatte" srcset="
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/raspberry-pi-mit-festplatte_hue4f2b5faf50f267e7457a34008fb940f_3816299_a61980d0f47559486183d35ff7309fdb.jpg 400w,
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/raspberry-pi-mit-festplatte_hue4f2b5faf50f267e7457a34008fb940f_3816299_bc0b699d78043556161dc1e2de0c5327.jpg 760w,
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/raspberry-pi-mit-festplatte_hue4f2b5faf50f267e7457a34008fb940f_3816299_1200x1200_fit_q90_lanczos.jpg 1200w"
+src="https://www.ajfriesen.com/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/raspberry-pi-mit-festplatte_hue4f2b5faf50f267e7457a34008fb940f_3816299_a61980d0f47559486183d35ff7309fdb.jpg"
+width="760"
+height="570"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Raspberry Pi mit Festplatte
+&lt;/figcaption>&lt;/figure>
+&lt;p>Dann hab ich stündlich das Script aller Daten der FritzBox dumpen lassen.
+Zum Test hab ich mir diese dann mal mit Wireshark am Rechner angeschaut und ich konnte somit auch die Source IP sehen.
+Cool.&lt;/p>
+&lt;p>Das bedeutete, wenn ich das nächste Mal von NetCologne gesperrt werden würde, könnte ich nach der Ziel IP fragen, die mein Anschluss angesprochen hat.
+NetCologne nennt mir dazu dann auch den Zeitraum im Log.
+Mit dem Zeitraum finde ich die richtige Datei und mit der Ziel IP kann ich herausfinden, von welchem Gerät den der Traffic gesendet wurde.&lt;/p>
+&lt;p>Wer Interesse hat, findet hier das Gist dazu auf Github, ich hab leider vergessen, von wem ich das kopiert und angepasst habe.&lt;/p>
+&lt;p>&lt;a href="https://gist.github.com/ajfriesen/784ec148e26d2d20f73888d0fe054e80">https://gist.github.com/ajfriesen/784ec148e26d2d20f73888d0fe054e80&lt;/a>&lt;/p>
+&lt;script type="application/javascript" src="https://gist.github.com/ajfriesen/784ec148e26d2d20f73888d0fe054e80.js">&lt;/script>
+&lt;h2 id="erwischt">Erwischt&lt;/h2>
+&lt;p>Am 20.03.2020 sitze ich im Home-Officeund halte gerade eine kleine Team interne Schulung.
+Plötzlich flieg ich aus Microsoft Teams raus.
+Dachte mir nichts.
+Der Linux Client ist alles andere als knorke und hab gewartet.
+Bis ich dann verstanden hab, dass mir NetCologne schon wieder das Internet abgedreht hat!
+Die Sperr SMS kam dann auch um 13:40.&lt;/p>
+&lt;p>Ich habe sofort die IP bei &lt;a href="mailto:abuse@netcologne.de">abuse@netcologne.de&lt;/a> angefragt.&lt;/p>
+&lt;p>Die IP-Adresse mit dem Timestamp kam sofort.&lt;/p>
+&lt;blockquote>
+&lt;p>Hallo Herr Friesen,&lt;/p>
+&lt;p>Im folgenden senden wir Ihnen den aktuellen Log zu der Vireninfektion.&lt;/p>
+&lt;p>Der Zeitstempel im Log ist in UTC angegeben.&lt;/p>
+&lt;p>Log:&lt;/p>
+&lt;p>timestamp ip_addr asn port proto confidence cc notes category family
+2020-03-19 05:58:14 89.0.116.134 8422 41003 6 50 DE destaddr: 145.14.144.114/32; destport: 80 bot AZORult&lt;/p>
+&lt;p>Mit freundlichen Gruessen,&lt;/p>
+&lt;p>NetCologne Abuse Team &lt;a href="mailto:abuse@netcologne.de">abuse@netcologne.de&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>Durch den Zeitstempel und der Destination IP konnte ich mit Wireshark dann das Gerät ausfindig machen.&lt;/p>
+&lt;p>Es handelt sich um das Nokia 6.1 meiner Freundin.
+Aktuelles Android 10 mit aktuellem Patch Level.
+Kein root oder andere Appstores installiert.&lt;/p>
+&lt;p>Daraufhin habe ich NetColgone informiert, dass ich das Gerät identifiziert habe.
+Außerdem versicherte ich, das das Gerät erstmal nicht ins WLAN kommt.
+NetColgone bestätigte mir, dass Sie bald das Internet wieder freischalten würden.&lt;/p>
+&lt;p>Tja&amp;hellip; wieder ein Wochenende ohne Internet.
+Ist ja nicht so, dass ich für die Dienstleistung bezahle.&lt;/p>
+&lt;h2 id="jetzt-kommt-das-bsi">Jetzt kommt das BSI&lt;/h2>
+&lt;p>Das Handy hatte ich mal mit Handy Antiviren Apps gecheckt und da schien auch alles okay zu sein, soweit man das sagen konnte.&lt;/p>
+&lt;p>Dann dachte ich mir: ich frage mal das BSI, was die von dem bösen Traffic halten, da ich nur grundlegende Sachen mit Wireshark hinbekomme.
+Bin halt nicht der Netzwerk- und vor allem nicht Maleware Profi.&lt;/p>
+&lt;blockquote>
+&lt;p>Sehr geehrter Herr Friesen,&lt;/p>
+&lt;p>vielen Dank für Ihre Anfrage.&lt;/p>
+&lt;p>Das Schadprogramm AZORult ist nur auf Windows lauffähig, nicht auf Android.&lt;/p>
+&lt;p>Das BSI informiert Netzbetreiber in Deutschland täglich zu (vermuteten) Schadprogramm-Infektionen in den &amp;gt;jeweiligen Netzen. Provider werden gebeten, Ihre betroffenen Kunden entsprechend zu informieren.&lt;/p>
+&lt;p>Weitere Informationen zu diesem Verfahren finden Sie auf &lt;a href="https://reports.cert-bund.de">https://reports.cert-bund.de&lt;/a> unter Reports / &amp;gt;Schadprogramm-Infektionen.&lt;/p>
+&lt;p>Jeder vom BSI an die Netzbetreiber gemeldete Datensatz enthält die betroffene IP-Adresse, einen Zeitstempel &amp;gt;sowie weitere Informationen wie z.B. den Namen des Schadprogramms.&lt;/p>
+&lt;p>Nur die Provider können zuordnen, welcher Kunde die von uns gemeldete IP-Adresse zu dem angegebenen Zeitpunkt &amp;gt;verwendet hat. Um dem Sachverhalt weiter nachgehen zu können, benötigen wir die genauen IP-Adressen und &amp;gt;Zeitstempel, die Ihnen von NetCologne gemeldet wurden.&lt;/p>
+&lt;p>Bitte senden Sie diese Angaben direkt an &lt;a href="mailto:certbund@bsi.bund.de">certbund@bsi.bund.de&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>Daraufhin habe ich den relvanten Traffic und meine Erklärung zum Fall geschildert.
+Der Mitarbeiter vom BSI hat mir erklärt, wie ich mit Wireshark herausfinde, was wirklich vorgefallen ist und nach ein wenig hin und her gabs dann diese Antwort:&lt;/p>
+&lt;blockquote>
+&lt;p>Hallo Herr Friesen,&lt;/p>
+&lt;p>unter fibu.000webhostapp.com wurde wohl zuvor ein RSS-Feed zum Podcast &amp;ldquo;Fest &amp;amp; Flauschig&amp;rdquo; bereitgestellt.&lt;/p>
+&lt;p>Dieser wurde jedoch inzwischen gelöscht und der Host fibu.000webhostapp.com
+löst vermutlich daher jetzt auch zu einer anderen IP auf.&lt;/p>
+&lt;p>000webhostapp.com bietet freies Webhosting an.
+Dieser Dienst wird von AZORult missbraucht, um dort Konfigurationsdaten für
+das Schadprogramm unter wechselnden Hostnamen zu hinterlegen.
+Durch das Shared-Hosting lösen dann jedoch viele Hostnamen zu identischen IPs auf.&lt;/p>
+&lt;p>Meine Vermutung ist, dass es sich daher hier um einen False Positive handelt:
+Sie haben auf einen Hostnamen unter 000webhostapp.com zugegriffen, unter dem legitime Inhalte angeboten &amp;gt;wurden, ein anderer von AZORult verwendeter Hostname auf 000webhostapp.com löste jedoch zu der identischen IP &amp;gt;145.14.144.114 auf.&lt;/p>
+&lt;p>Ich werde NetCologne bitten, mit der Quelle der dort zugelieferten Daten zu prüfen, wie die Erkennung genau &amp;gt;abläuft und False Positives vermieden werden können.&lt;/p>
+&lt;/blockquote>
+&lt;p>Halten wir fest:&lt;/p>
+&lt;p>&lt;strong>Jan Böhmermann mit seinem Podcast Fest &amp;amp; Flauschig ist schuld, das NetCologne mir seit einem Jahr dauernd das Internet sperrt.&lt;/strong>&lt;/p>
+&lt;p>Spaß beiseite.
+Meine Freundin und ich waren erstmal erleichtert, dass es nicht ihr Handy war.&lt;/p>
+&lt;p>Und ich war erleichtert, dass ich ÜBERHAUPT GAR NICHT SCHULD war.
+So gar nicht.&lt;/p>
+&lt;p>Vor allem: Wer prüft denn heute bitte auf bei sowas auf IPs?
+Es gibt schon so lange so etwas wie Loadbalancer, virtual Hosting, virtual IPs, etc.
+Man kann heutzutage und auch schon seit langer Zeit nicht mehr davon ausgehen, dass eine IP einen Host hat&amp;hellip;&lt;/p>
+&lt;h2 id="aufklärung">Aufklärung&lt;/h2>
+&lt;p>Seit dem Mailverkehr mit dem BSI ist lange nichts passiert.
+NetCologne hat sich bei mir nicht gemeldet, ich hab aber öfter im Support angerufen, da konnte man mir aber nicht helfen.
+Man landet leider immer im Support und das ist halt Hölle, weil man JEDES mal die Story erklären muss und 90 % derjenigen die dort sitzen, haben leider nichts davon verstanden.&lt;/p>
+&lt;p>Ich wollte von NetCologne jetzt einige Dinge:&lt;/p>
+&lt;ul>
+&lt;li>eine Entschuldigung&lt;/li>
+&lt;li>sicherstellen, dass das nicht nochmal passieren würde&lt;/li>
+&lt;li>eine Entschädigung&lt;/li>
+&lt;li>meine Sperrstufe runterstellen&lt;/li>
+&lt;li>Eventuell ein Upgrade meiner Leitung (das war mir ehrlich gesagt nicht so wichtig, da ich zufrieden mit der 100 Down und 50 Up war. Eventuell 200 Down, aber wie gesagt optional)&lt;/li>
+&lt;/ul>
+&lt;h2 id="netcologne-entschuldigt-sich">NetCologne entschuldigt sich&lt;/h2>
+&lt;p>Irgendwann hat sich bei mir das Beschwerdemanagement gemeldet und wir sind diesen Fall durchgegangen.&lt;/p>
+&lt;p>Die Entschuldigung sah so aus:&lt;/p>
+&lt;figure id="figure-entschuldigungsschreiben-von-netcologne-vom-19062020">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >
+&lt;img alt="Entschuldigungsschreiben von NetCologne vom 19.06.2020" srcset="
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/entschuldigung_hue20da55023da0bbba792f8b773e3e1d3_328829_a2b655fb951bb0e259dda5ff0f6bafd9.png 400w,
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/entschuldigung_hue20da55023da0bbba792f8b773e3e1d3_328829_68f76d28c96380ba6a3c8a2d278f5a6e.png 760w,
+/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/entschuldigung_hue20da55023da0bbba792f8b773e3e1d3_328829_1200x1200_fit_lanczos_2.png 1200w"
+src="https://www.ajfriesen.com/de/post/netcologne-sperrt-faelschlicherweise-meinen-internetaschluss/entschuldigung_hue20da55023da0bbba792f8b773e3e1d3_328829_a2b655fb951bb0e259dda5ff0f6bafd9.png"
+width="760"
+height="363"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Entschuldigungsschreiben von NetCologne vom 19.06.2020
+&lt;/figcaption>&lt;/figure>
+&lt;p>Ich nehme mal an das &lt;strong>&amp;ldquo;nicht&amp;rdquo;&lt;/strong> ist ein Fehler, denn sonst hätte NetCologne sich ja nicht bei mir entschuldigen wollen.
+Ich mein wir sind alle Menschen und machen Fehler, aber zu dem Zeitpunkt hat mich dieses Schreiben aufgeregt.
+Mein Gedanke war sofort: &amp;ldquo;Können die nicht einmal etwas richtig machen?&amp;rdquo;.&lt;/p>
+&lt;p>Das ist auch der Grund, warum ich das ganze einige Zeit später zusammenfasse, um ein bisschen nüchterner darüber zu berichten. 😉&lt;/p>
+&lt;p>Auf das Entschuldigungsschreiben hin wollte ich dann wissen, wie sie auf den Betrag von 50 € kommen und ob NetCologne das wirklich ernst meint.
+Die Geschichte war zu dem Zeitpunkt schon über ein ganzes Jahr im Gange.
+Ich weiß echt nicht wie viele Wochenenden und Zeit generell ich damit verschwendet habe.&lt;/p>
+&lt;p>Weiterhin wollte ich sicherstellen, dass mir und vor allem anderen (technisch nicht so versierten) das nicht nochmal passieren kann.
+Ich wollte wissen, was für Maßnahmen ergriffen werden.&lt;/p>
+&lt;p>Man stelle sich nur mal vor das wäre jemanden passiert, der wirklich keine Ahnung hat.
+Im schlimmsten Falle hätte die Person mehrfach die Antiviren Firma bezahlen müssen, den Laptop platt zu machen und dann wäre es trotzdem immer wieder passiert.&lt;/p>
+&lt;p>Zuletzt wollte ich, dass meine Sperrstufe runtergestuft wird.
+Die Sperrstufe (so hab ich das vom Support verstanden) definiert, wer einen Kunden entsperren darf, falls dieser gesperrt war.
+Das System hat mich als hoch eingestuft, sodass ich mich nicht mehr selbst entsperren kann.
+Das geht binnen weniger Minuten und dann hätte ich wieder Internet.
+In meinem Fall ist es aber so, dass nicht ich und auch nicht mehr der normale Support dran dürfen.
+Da war dann zuletzt eine weitere Eskalationsstufe drin und die hat auch dafür gesorgt, dass ich am Freitag mein Internetzugang nicht mehr freigeschaltet bekommen habe, weil dort eben Freitags nicht so lange gearbeitet wird.&lt;/p>
+&lt;p>Aber auf diese Fragen und Forderungen hat NetCologne lange nicht reagiert und ich wusste nicht, ob mir das Internet wieder aufgrund des False positives gesperrt werden kann.&lt;/p>
+&lt;h2 id="vitamin-b---kölsche-klüngel">Vitamin B - kölsche Klüngel&lt;/h2>
+&lt;p>Nach einigen Wochen Stillstand kam dann meine Freundin auf mich zu und meinte, Sie kennt jemanden aus der NetCologne Rechtsabteilung.
+Eventuell könnte der ja intern Prozesse anstoßen, dass wir Gewissheit bekommen, dass auch etwas gemacht wurde.&lt;/p>
+&lt;p>Mit dem direkten Kontakt zur Rechtsabteilung ging dann alles plötzlich ganz schnell.&lt;/p>
+&lt;p>Ich bekam erstmal die Info, dass sich 2 Techniker um das Thema kümmern und definitiv sicherstellen, dass das nicht nochmal passiert.
+Leider bekam ich keine Details über was genau, aber das kann ich auch teilweise verstehen, da es Betriebsinterna sind.
+Haken dran, dass das nicht nochmal passiert.&lt;/p>
+&lt;p>Ich bekam einen Anruf, bei dem es um die Sperrstufe ging.
+Nach Erläuterung des Problems wurde die Sperrstufe dann relativ schnell wieder runtergesetzt.
+Super netter Herr der sich sehr verständlich zeigte und alles unkompliziert organisierte.&lt;/p>
+&lt;p>Zwischenzeitlich meldete sich die Kundenrückgewinnung bei mir.
+Dem Sales-Menschen war das alles herzlich egal und er war auch noch sehr unfreundlich zu mir.
+Er wollte wohl einfach sein Soll schaffen und sich nicht mit so einem Sonderfall abmühen.
+Während der Zeit schrieben die Rechtsabteilung und ich uns hin und her.
+Nachdem ich das dann gemeldet hatte, kam man auf mich mit einem Angebot zu, welches meine Situation berücksichtigte.
+Zu dem Zeitpunkt hatte ich eine 100 Down und 50 Up Leitung über Kabel.
+Ich bekam dann mehrere Optionen mit Rabatt und da ich nicht gleich 1 GBit brauche, kam ich letztendlich auf 250 Down und 50 Up.
+Ich kann hier keinen Vergleich ziehen, da es den Tarif nicht mehr Online gibt.
+Aber ich zahle momentan 36 € pro Monat bekomme auch was drauf steht und bin zufrieden, wie die Jahre davor.
+Bis auf diese kleine Geschichte hier.&lt;/p>
+&lt;p>Weiterhin gab es zu der 50 € Gutschrift noch eine 500 € Gutschrift.
+Ob das jetzt fair ist oder nicht sei mal dahingestellt.
+Für mich war das okay und die Gutschrift reicht für ein bisschen mehr als ein Jahr Internet.
+Das war dann auch ungefähr die Zeit, die ich in diese Thematik reinstecken musste.
+Außerdem wollte ich das Thema für mich endlich abschließen.&lt;/p>
+&lt;p>Ich habe mich dann nochmal bei dem Kontakt aus der internen Rechtsabteilung bedankt und seitdem habe ich auch keine Probleme mit Internetsperren mehr gehabt.
+Ich kann es nicht mehr ganz zuordnen, wann und mit dem ich gesprochen habe, aber von NetCologne Seite hat man sich bei mir auch bedankt, da ich maßgeblich dazu beigetragen habe, dass diese False Positives der Internetsperrungen in diesem konkreten Fall nicht mehr auftauchen.&lt;/p>
+&lt;h2 id="ende-gut-alles-gut">Ende gut alles gut&lt;/h2>
+&lt;p>Das Ganze ist jetzt schon ein wenig her, aber da ich das doch sehr interessant fand, dachte ich, dass ich das mal zusammenschreibe.
+Finde ich das NetColgone ein schlechter Anbieter ist?
+Auf keinen Fall!&lt;/p>
+&lt;p>Ich denke, das Problem liegt in den internen Prozessen für den Support und würde genauso gut auch bei jedem anderem ISP (Internet Service Provider) passieren können.
+Sobald etwas nicht in die Standardfälle passt, ist diese Supportschleife durch den First Level Support für jemanden mit technischer Kompetenz einfach die absolute Hölle.
+Man muss jedes Mal einer neuen Person den Fall schildern und fängt hunderte Male von vorne an.&lt;/p>
+&lt;p>&lt;img src="ron-swanson-i-know-more-than-you.gif" alt="Ron Swanson - I know more than you">&lt;/p>
+&lt;p>Ich hoffe NetCologne hat durch diesen Fall etwas an den internen Prozessen geändert und vor allem hoffe ich, dass ich nicht nochmal zu einem Sonderfall werde.
+Das war echt viel Zeitaufwand und hat mich jede Menge Nerven gekostet.&lt;/p>
+&lt;p>Als ISP kann ich NetCologne trotzdem sehr empfehlen, da der Anschluss echt super ist.
+Trotz Kabel, dass ja ein geteiltes Medium ist, bekomme ich immer das, was ich bezahlt habe (größten Teil der Zeit).
+Selbst seit Corona und meinen Remote Job ist auch alles wirklich super.
+Man bekommt auch brav eine IPv4 und IP6.
+Man kann seinen eigenen Router mitbringen und das einfach über das Webinterface einstellen und die FritzBox lässt sich super einfach in dem Bridge Modus bedienen, sodass man seinen eigenen Router hinter dem Kabel Modem betreiben kann.
+Dazu eventuell in einem anderen Artikel mehr.&lt;/p>
+&lt;p>Vielen Dank an diejenigen, die sich diesen Block wirklich bis zum bitteren Ende durchgelesen haben. 😉&lt;/p>
+&lt;h2 id="tldr">TL;DR&lt;/h2>
+&lt;p>Für die faulen unter uns:&lt;/p>
+&lt;ol>
+&lt;li>NetCologne sperrt über ein Jahr unregelmäßig mein Internetzugang&lt;/li>
+&lt;li>Musste selber beweisen, dass der Traffic aber total okay war (Mehrere Tage Traffic mit einem Raspberry Pi Mitschneiden)&lt;/li>
+&lt;li>Habe das BSI eingeschaltet welche mir Recht gaben&lt;/li>
+&lt;li>Der Traffic war der RSS Feed vom Podcast &amp;ldquo;Fest und Flauschig&amp;rdquo; von Jan Böhmermann &amp;amp; Olli Schultz&lt;/li>
+&lt;li>Durch Vitamin B konnte ich dann alles klären&lt;/li>
+&lt;/ol></description></item></channel></rss>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>systemd | Andrej Friesen</title><link>https://www.ajfriesen.com/tag/systemd/</link><atom:link href="https://www.ajfriesen.com/tag/systemd/index.xml" rel="self" type="application/rss+xml"/><description>systemd</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Andrej Friesen</copyright><lastBuildDate>Thu, 04 Mar 2021 14:56:52 +0100</lastBuildDate><image><url>https://www.ajfriesen.com/media/icon_hu0c4f12d5bbb08dd9ffdb9a508a785d15_266606_512x512_fill_lanczos_center_2.png</url><title>systemd</title><link>https://www.ajfriesen.com/tag/systemd/</link></image><item><title>Show jounrald logs from last service start</title><link>https://www.ajfriesen.com/post/show-journal-logs-from-last-service-start/</link><pubDate>Thu, 04 Mar 2021 14:56:52 +0100</pubDate><guid>https://www.ajfriesen.com/post/show-journal-logs-from-last-service-start/</guid><description>&lt;p>I needed to test something and was only interested in the logs since the last start/restart of a service.
+For this you can use the &lt;strong>systemd invocation id&lt;/strong> from a systemd service.&lt;/p>
+&lt;p>You can check the current systemd invocation id like so:&lt;/p>
+&lt;pre>&lt;code class="language-bash">systemctl show -p InvocationID --value kubelet.service
+&lt;/code>&lt;/pre>
+&lt;p>Then just use the &lt;code>_SYSTEMD_INVOCATION_ID&lt;/code> option in &lt;code>journalctl&lt;/code> to only see logs from the last service start:&lt;/p>
+&lt;pre>&lt;code class="language-bash">journalctl -u kubelet.service _SYSTEMD_INVOCATION_ID=&amp;quot;$(systemctl show -p InvocationID --value kubelet.service)&amp;quot;
+&lt;/code>&lt;/pre>
+&lt;p>Have fun!&lt;/p></description></item></channel></rss>
