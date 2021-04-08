@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Show jounrald logs from last service start"
+title: "Show journald logs from last service start"
 subtitle: ""
 summary: ""
 authors: [admin]
