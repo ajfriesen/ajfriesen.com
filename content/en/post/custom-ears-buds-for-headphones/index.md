@@ -29,11 +29,11 @@ projects: []
 
 gallery_item:
 - album: charging-case
-  image: IMG_20190605_160253.jpg
+  image: IMG_20190605_160253.webp
   caption: Bose SoundSPort wireless free closed
-  image: IMG_20190605_160259.jpg
+  image: IMG_20190605_160259.webp
   caption: Bose SoundSPort wireless free open
-  iamge: IMG_20190605_162411.jpg
+  iamge: IMG_20190605_162411.webp
   caption: Bose SoundSPort wireless free open with custom ear-buds (does not fit)
 
 ---
@@ -67,7 +67,7 @@ That was not possible with my over-ears at all.
 Okay, then I did a little research and found this not quite in-ears but in ears with wings on them.
 I decided on the Bose SoundSport.
 
-{{< figure library="false" src="bose-soundsport-wireless.jpg" numbered="false" title="Bose SoundSport" lightbox="true" >}}
+{{< figure library="false" src="bose-soundsport-wireless.webp" numbered="false" title="Bose SoundSport" lightbox="true" >}}
 
 * [x] Water resistance
 * [x] sweat resistance
@@ -114,7 +114,7 @@ It is a german website but you can just click at the headphones and see the imag
 
 What do you see in this picture?
 
-{{< figure library="false" src="featured copy.jpg" numbered="false" title="normal ear-buds (left) vs. custom ear-buds (right)" lightbox="true" >}}
+{{< figure library="false" src="featured copy.webp" numbered="false" title="normal ear-buds (left) vs. custom ear-buds (right)" lightbox="true" >}}
 
 In this image you can see the _normal_ direction for in-ears in general with the green line.
 The red line is the direction of my ear canal.
@@ -195,7 +195,7 @@ Why would they break you ask?
 
 Have a look at this:
 
-{{< figure library="true" src="ripping-of-material.jpg" numbered="false" title="Example Rancher VPC Setup" lightbox="true" >}}
+{{< figure library="true" src="ripping-of-material.webp" numbered="false" title="Example Rancher VPC Setup" lightbox="true" >}}
 
 The two little edges on the headphone hold the ear-buds.
 Problem here: The material of that ear-buds is not strong enough to handle this amount of disassamly.
