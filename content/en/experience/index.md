@@ -1,5 +1,5 @@
-+++
-# about
-type = "widget_page"
-headless = false  # Homepage is headless, other widget pages are not.
-+++
+---
+type: "widget_page"
+title: "Experience"
+summary: "My work experience"
+---
